@@ -1,0 +1,49 @@
+<!-- navbar = definisce l'elemento come barra di navigazione, 
+ navbar-expand-lg = barra di navigazione che si espande a partire dai dispositivi large, 
+ bg-dark = sfondo scuro, 
+ navbar-dark = testo chiaro, 
+ py-3 = padding verticale (spazio sopra e sotto) di 3 unità -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+	<!-- container fluid = container che si espande a tutta la larghezza dello schermo 
+	bg-dark = sfondo scuro -->
+	<div class="container-fluid bg-dark">
+		<!-- navbar-brand = titolo del sito
+		 href = indirizzo della pagina collegata (pagina home) -->
+  		<a class="navbar-brand" href="index.html">ITALIAN MONUMENTS MEN AND WOMEN</a>
+		<!--navbar-toggler = pulsante per il menu che appare su dispositivo mobile
+		type è un attributo che specifica il tipo di pulsante
+		data-bs-toggle="collapse" indica che il pulsante attiva la funzionalità di collapse 
+		data-bs-target="#collapsibleNavbar" indica l'elemento che verrà collassato-->
+  			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				<!-- navbar-toggler-icon = classe di bootstrap che indica l'icona del pulsante -->
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+			<!-- collapse navbar-collapse = classe di bootstrap che indica che l'elemento è collassabile,
+			id="collapsibleNavbar" = identificatore dell'elemento collassabile -->
+	    		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<!-- ul = elemento di lista non ordinata, li = elemento della lista,
+					 navbar-nav = classe di bootstrap che definisce la struttura della barra di navigazione,
+					 nav-item = classe di bootstrap che definisce un elemento della barra di navigazione,
+					 nav-link = classe di bootstrap che definisce un link nella barra di navigazione,
+					 active = classe di bootstrap che indica l'elemento attivo -->
+	      			<ul class="navbar-nav">
+	        			<li class="nav-item">
+	          				<a class="nav-link active" href="index.html">Home</a>
+	        			</li>
+						<!-- dropdown = elemento del menu a discesa, 
+						 dropdown-toggle = classe di bootstrap che definisce il pulsante del menu a discesa,
+						 data-bs-toggle="dropdown" = attributo che indica che l'elemento è un menu a discesa -->
+	        			<li class="nav-item dropdown">
+			          		<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Esplora</a>
+							<!-- dropdown-menu = classe di bootstrap che definisce il menu a discesa -->
+			          			<ul class="dropdown-menu">
+			            			<li><a class="dropdown-item" href="protagonisti.html">Protagonisti</a></li>
+			            			<li><a class="dropdown-item" href="mappa.html">Mappa</a></li>
+			            			<li><a class="dropdown-item" href="tempo.html">Linea del tempo </a></li>
+									<li><a class="dropdown-item" href="network.html">Network</a></li>
+			          			</ul>
+	        			</li>		        		 
+					</ul>
+	    		</div>
+	</div>
+</nav>

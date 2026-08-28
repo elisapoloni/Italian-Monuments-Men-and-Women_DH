@@ -1,0 +1,243 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"> <!-- dichiaro che sto usando i metadati Dublin Core: standard internazionale per la descrizione di risorse digitali e non digitali-->
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Progetto realizzato per la tesi di laurea magistrale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2026-10-12">
+	<META NAME="DC.Type" CONTENT="Web App">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="#">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--bootstrap 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">	
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body> 
+	<header id="navbar-placeholder"></header>
+	<main>
+		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
+			<div class="container">
+				<h2 class="text-center m-0">Fernanda Wittgens <span class="text-white-50" style="font-size: 1.2rem;"> (Milano, 1903 - 1957)
+					</span></h2>
+			</div>
+		</section>		
+		<section class="container-fluid mt-3">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb" id="breadcrumb-placeholder"></ol>
+			</nav>
+
+			<div class="row">
+                <!-- colonna sx (file XML) -->
+				<aside class="col-12 col-lg-2 sidebar-filtri mb-4">
+					<div class="sticky-lg-top" style="top: 20px;">
+						<a href="xml-tei/xml-tei-wittgens.xml" target="_blank" class="btn btn-dark w-100 py-2 d-block mb-3">
+							<i class="bi bi-filetype-xml"></i> XML-TEI
+						</a>
+						<a href="xml-eac-cpf/xml-eac-cpf-wittgens.xml" target="_blank" class="btn btn-dark w-100 d-block py-2">
+							<i class="bi bi-filetype-xml"></i> XML-EAC-CPF
+						</a>
+					</div>
+				</aside>
+				<!--colonna dx-->
+				<div class="col-12 col-lg-10 px-lg-5">
+					<div class="card border-0 shadow-sm mb-5"> <!--aperta card: attività salvataggio-->
+						<div class="card-body p-4"> <!--body della card attività salvataggio-->
+							<h4 class="card-title mb-4 text-uppercase fw-bold text-center" style="color: #800000;">FERNANDA WITTGENS E LA PINACOTECA DI BRERA</h4>
+							<div class="card-text">
+								<p style="text-align:justify">
+									<b><a class="link" href="http://viaf.org/viaf/8397197" title="Identificativo VIAF di Wittgens, Fernanda" target="_blank">Fernanda Wittgens<sup>VIAF</sup></a></b> divenne direttrice della Pinacoteca di Brera nell’agosto del 1940. Ebbe un ruolo fondamentale nella protezione del patrimonio culturale milanese e lombardo, mettendo in sicurezza non solo le opere poste sotto la sua responsabilità, ma anche quelle provenienti da diversi musei del territorio circostante: tra questi possiamo citare il Museo Poldi Pezzoli, la Pinacoteca Ambrosiana, il Castello Sforzesco, l’Ospedale Maggiore, il Museo Teatrale alla 
+									Scala, l’Accademia Carrara di Bergamo e la Pinacoteca Tosio Martinengo di Brescia<sup><a href="#nota1" class="link-nota">1</a></sup>.
+								</p>
+								<p style="text-align:justify">
+									Le operazioni cominciarono all’indomani dell’entrata in guerra dell’Italia, con lo sgombero delle opere indicate come “illustri” nella documentazione redatta dalla direttrice e il loro trasporto alla Villa Marini – Clarelli, a Montefreddo, nei pressi di Perugia. Le 32 casse arrivarono a destinazione il 18 giugno 1940 e furono consegnate al soprintendente Achille Bertini Calosso. Altri rifugi furono individuati nei sotterranei della Cassa di Risparmio e del Castello Sforzesco, dove le opere rimasero per poco più di un anno: l’eccessiva umidità di questi spazi non permetteva la corretta conservazione dei manufatti, che furono successivamente spostati<sup><a href="#nota2" class="link-nota">2</a></sup>.
+								</p>
+								<p style="text-align:justify">
+									Il 17 settembre 1941 si decise di spostare le opere in nuovi rifugi verso sud e il trasferimento proseguirà fino all’estate del 1943. Alcune opere vennero trasferite da Montefreddo a Villa Il Corniolo, nei pressi di Orvieto, mentre altre al Palazzo dei Principi di Carpegna. Qui arrivarono 87 casse, poste sotto la protezione di Pasquale Rotondi, che da Urbino stava coordinando il salvataggio di opere provenienti da diverse regioni d’Italia. Wittgens viaggiò costantemente, accompagnando di persona i convogli, ma non senza difficoltà: i mezzi scarseggiavano, il personale maschile era chiamato al fronte e la direttrice, in quanto donna, necessitava di speciali autorizzazioni della Prefettura<sup><a href="#nota3" class="link-nota">3</a></sup>. Nel frattempo Milano veniva bombardata e numerosi edifici storici ne subivano le conseguenze: l’8 agosto 1943 Brera venne gravemente danneggiata, 26 delle 34 sale erano distrutte; il 13 agosto dello stesso anno veniva colpita Santa Maria delle Grazie, dove il muro del <em>Cenacolo</em> si salvò grazie a una protezione di armature tubolari e sacchi di sabbia<sup><a href="#nota4" class="link-nota">4</a></sup>. 
+								</p>
+								<p style="text-align:justify">
+									In seguito all’armistizio dell’8 settembre 1943 e all’aggravarsi della situazione, l’Italia centrale, attraversata dalla Linea Gotica, e il territorio bresciano, sede della Repubblica di Salò, diventarono zone troppo pericolose: bisognava trovare altri rifugi e dal 1944 fino alla Liberazione la Soprintendenza milanese si occupò di repentini spostamenti in più di venti ricoveri, alla ricerca di luoghi sempre più sicuri<sup><a href="#nota5" class="link-nota">5</a></sup>.
+								</p>
+								<p style="text-align:justify">
+									L’impegno di Wittgens non si limitò alla tutela dei beni culturali. Era infatti un’antifascista convinta e svolgeva attività clandestina: organizzava espatri di perseguitati ed ebrei, collaborando con associazioni benefiche e gruppi partigiani. Per questo, venne arrestata il 14 luglio 1944 e reclusa nel carcere di San Vittore. Liberata il 24 aprile 1945, nel giugno dello stesso anno fu nominata commissario straordinario dell’Accademia di Belle Arti di Brera dal Comando Alleato. Mantenne la carica fino al 31 marzo dell’anno seguente, quando riottenne il ruolo di direttrice di Brera<sup><a href="#nota6" class="link-nota">6</a></sup>. 
+								</p>
+									<hr class="mt-5">
+										<div class="sezione-note small text-muted">
+											<p id="nota1">1. Arrigoni 2007, p. 651.</p>
+											<p id="nota2">2. Ginex 2023, pp. 214 - 215.</p>
+											<p id="nota3">3. Ivi, pp. 215 - 218.</p>
+											<p id="nota4">4. Ivi, p. 219.</p>
+											<p id="nota5">5. Ginex 2023, p. 222.</p>
+											<p id="nota6">6. Arrigoni 2007, pp. 651 - 652.</p>
+										</div>							
+							</div>
+							<div class="row g-4 mt-4">
+								<div class="col-md-6">
+									<figure><img src="img/Wittgens.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Wittgens, Fernanda"><figcaption class="figure-caption italic"> Fernanda Wittgens (Milano, 1903 – Milano, 1957) © Laboratorio Fotografico della Pinacoteca di Brera.</figcaption></figure>
+								</div>
+								<div class="col-md-6">
+									<figure><img src="img/Palazzo-Brera-Bombardamento.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Bombardamento della Pinacoteca di Brera"><figcaption class="figure-caption"> Ingresso della Pinacoteca di Brera danneggiato dai bombardamenti dell’agosto 1943, Milano © Laboratorio Fotografico della Pinacoteca di Brera.</figcaption></figure>
+								</div>
+								<div class="col-md-6">
+									<figure><img src="img/cenacolo.png" class="figure-img w-100 h-100 d-flex flex-column" alt="Protezione del muro del Cenacolo"><figcaption class="figure-caption">Protezione anti bellica della parete del <em>Cenacolo</em> di Leonardo da Vinci, refettorio del Convento di Santa Maria delle Grazie, Milano © Archivio Fotografico MPI</figcaption></figure>
+								</div>
+							</div> <!--chiusa row immagini-->
+						</div> <!--chiusa body della card attività salvataggio-->
+					</div> <!--chiusa card: attività salvataggio-->
+
+					<!--card: scheda prosopografica (accordion)-->
+					<div class="card border-0 shadow-sm mb-5">
+						<div class="card-header bg-dark text-white p-3">
+							<h4 class="m-0 h5 text-uppercase" style="text-align: center;">Scheda prosopografica</h4>
+						</div>
+						<div class="card-body p-0">
+							<div class="accordion accordion-flush" id="accordionProtagonista"> <!--aperto accordion-->
+								<!--Accordion 1 - Istruzione-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#istruzione">
+										Istruzione
+									</button>
+									</h2>
+									<div id="istruzione" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p>Nel 1922 concluse gli studi liceali. Frequentò l’Accademia Scientifica e Letteraria di Milano e nel 1925 si laureò con Paolo D’Ancona presso la Reale Università di Milano.</p>
+										</div>
+									</div>
+								</div>
+								<!--Accordion 2 - Incarichi-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#incarichi">
+										Incarichi
+									</button>
+									</h2>
+									<div id="incarichi" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p>Nel 1928 fu assunta come salariata temporanea presso l’ufficio della Soprintendenza all’Arte Medievale e Moderna delle Province Lombarde. Nell’agosto del 1933, dopo aver vinto un concorso, fu nominata ispettrice aggiunta. Nel 1940 divenne direttrice della Pinacoteca di Brera. Nel 1950 divenne soprintendente alle Gallerie.</p>
+										</div>
+									</div>
+								</div>
+								<!--Accordion 3 - Monuments man-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#guerra">
+										Contributo come «Monuments woman»
+									</button>
+									</h2>
+									<div id="guerra" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+									<div class="accordion-body">
+										<p>All’inizio della guerra, W. si occupò della raccolta e del trasporto di opere d’arte del territorio lombardo verso diversi rifugi. Inizialmente venne scelta la Villa Marini – Clarelli, a Montefreddo, nei pressi di Perugia e successivamente il Palazzo dei Principi di Carpegna. Dopo l’armistizio e fino alla Liberazione, la Soprintendenza milanese si occupò di repentini spostamenti in più di venti ricoveri, alla ricerca di luoghi sempre più sicuri. Fu obbligata ad iscriversi al partito fascista perché dipendente dello Stato, ma svolgeva attività clandestina: organizzava espatri di perseguitati ed ebrei, collaborando con associazioni benefiche e gruppi partigiani. Quando questa attività fu scoperta, W. venne arrestata e incarcerata con altre quattro donne presso il carcere di San Vittore. Liberata il 24 aprile 1945, nel giugno dello stesso anno fu nominata Commissario straordinario della Accademia di Belle Arti di Brera dal Comando Alleato e fu presidente della Fondazione Poldi Pezzoli fino al 27 marzo 1946.</p>
+									</div>
+									</div>
+								</div>
+								<!--Accordion 4 - Dopoguerra-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#dopoguerra">
+										Contributo alla rinascita e valorizzazione del patrimonio nel dopoguerra
+									</button>
+									</h2>
+									<div id="dopoguerra" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p>Negli anni del dopoguerra si occupò della ricostruzione dei musei milanesi, distrutti durante i bombardamenti del 1943. Per la ricostruzione della Pinacoteca, W. si affidò all’architetto Piero Portalupi, affiancato da Franco Albini. Brera riaprì al pubblico il 9 giugno 1950 e negli anni successivi la direttrice organizzò diverse attività didattiche ed iniziative inedite per un pubblico vasto, in linea con la sua concezione di “museo vivente”. Tra il 1947 e il 1954, W. diresse il restauro del <em>Cenacolo</em> di Leonardo, realizzato da Mauro Pelliccioli. Nel 1952 fu protagonista dell’acquisto della <em>Pietà Rondanini</em>. Negli anni ’50 si occupò di promozione culturale e di rilanciare l’arte italiana a livello internazionale, curando mostre non solo in Italia ma anche in altre città europee. Nel gennaio del 1954 partecipò al Congresso di Museografia, invitata dal Metropolitan Museum of Art di New York per parlare della ricostruzione dei musei italiani nel dopoguerra.</p>
+										</div>
+									</div>
+								</div>
+								<!--Accordion 5 - Onorificenze-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#onorificenze">
+										Onorificenze
+									</button>
+									</h2>
+									<div id="onorificenze" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p>Medaglia d’Oro del Comune di Milano; Medaglia del Presidente della Repubblica per Benemerenze nella Cultura e nell’Arte; Cavaliere Ufficiale della Repubblica Italiana.</p>
+										</div>
+									</div>
+								</div>
+								<!--Accordion 6 - Bibliografia DI-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#biblioDi">
+										Bibliografia di Fernanda Wittgens
+									</button>
+									</h2>
+									<div id="biblioDi" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p>Fernanda Wittgens <em>ad vocem</em> DBSSA 2007 pp. 655 – 656.</p>						     
+										</div>
+									</div>
+								</div>
+								<!--Accordion 7 - Fonti archivistiche-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#archivio">
+										Fonti archivistiche
+									</button>
+									</h2>
+									<div id="archivio" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p>Per un elenco esaustivo degli archivi consultabili si faccia riferimento a Ginex 2018, p. 141</p>
+										</div>
+									</div>
+								</div>
+								<!--Accordion 8 - Bibliografia SU-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#biblioSu">
+										Bibliografia su Fernanda Wittgens
+									</button>
+									</h2>
+									<div id="biblioSu" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+										<div class="accordion-body">
+											<p><b>2007</b>, Luisa Arrigoni, <em>Fernanda Wittgens</em>, in <em>Dizionario biografico dei Soprintendenti Storici dell’Arte</em> (1904-1974), Bononia University Press, Bologna, pp. 647 – 657; <b>2015</b>, Erica Bernardi, «Franco Russoli - Fernanda Wittgens: le prime lettere tra Pisa, Milano e Parigi», <em>Concorso. Arti e lettere</em>, n. VI, 2012/14, pp. 52 – 63; <b>2015</b>, Maria Cecilia Cavallone, «Fernanda Wittgens - Clara Valenti: tra impegno politico e storia dell’arte», <em>Concorso. Arti e lettere</em>, n. VI, 2012/14, pp. 30 – 51; <b>2018</b>, Giovanna Ginex, <em>"Sono Fernanda Wittgens": una vita per Brera</em>, Skira, Milano; <b>2019</b>, Francesco Martelli, «Il falso mito del primo fundraising: l’acquisto della "Pietà Rondanini"», <em>Art e dossier</em>, n. 364, pp. 58 – 61; <b>2020</b>, Giovanna Ginex, Rosangela Percoco, <em>L’allodola</em>, Salani Editore, Firenze; <b>2021</b>, Ilaria De Palma, <em>La parola all’accusato: un nuovo punto di vista sull’epurazione di Giorgio Nicodemi dai Musei Civici di Milano</em>, Area Soprintendenza Castello, Milano; <b>2022</b>, Silvia Cecchini, <em>Sul Cenacolo di Leonardo: il restauro italiano attraverso il confronto Brandi-Wittgens-Pellicioli</em>, in Silvia Cecchini, Maria Beatrice Failla, Federica Giacomini, Chiara Piva (a cura di) <em>Mavro Pellicioli e la cvltvra del restavro nel XX secolo </em>(atti del convegno internazionale di studi: Venezia, Gallerie dell’Accademia, 14 novembre 2018; Venezia, Palazzo Ducale, 15 novembre 2018), Sagep editori, Genova, pp. 91 – 108; <b>2022</b>, Federica Nurchis, <em>Fernanda Wittgens, Guido Gregorietti e il sogno di una scuola del restauro a Milano</em>, in Silvia Cecchini, Maria Beatrice Failla, Federica Giacomini, Chiara Piva (a cura di) <em>Mavro Pellicioli e la cvltvra del restavro nel XX secolo </em> (atti del convegno internazionale di studi: Venezia, Gallerie dell’Accademia, 14 novembre 2018; Venezia, Palazzo Ducale, 15 novembre 2018), Sagep editori, Genova, pp. 269 – 281; <b>2023</b>, Giovanna Ginex, <em>Fernanda Wittgens a Milano</em>, in Luigi Gallo, Raffaella Morselli (a cura di) <em>Arte liberata. Capolavori salvati dalla guerra 1937-1947</em>, catalogo della mostra (Roma, Scuderie del Quirinale, 16 dicembre 2022 – 10 aprile 2023), Electa, Milano, pp. 210 – 225.</p>
+										</div>
+									</div>
+								</div>
+								<!--Accordion 9 - Sitografia-->
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+									<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#sitografia">
+										Sitografia, podcast, video su Fernanda Wittgens
+									</button>
+									</h2>
+									<div id="sitografia" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+									<div class="accordion-body">
+										<p>Chora Media, <em>Paladine. <a class="link" href="https://italia-podcast.it/podcast/paladine/puntata-2-fernanda-wittgens" target="_blank">Puntata 2: Fernanda Wittgens</a></em></p>						       
+									</div>
+									</div>
+								</div>
+							</div><!--chiuso accordion-->					
+						</div> <!--chiuda card body-->					
+					</div> <!--chiusa card-->
+				</div> <!--chiusa colonna dx-->
+		  	</div> <!--chiusa row-->
+		</section>
+	</main>
+	<footer id="footer-placeholder"></footer>
+	<!--js-->
+	<script src="js/main.js"></script> <!-- collegamento al file JavaScript principale -->
+	<!--bootstrap script-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

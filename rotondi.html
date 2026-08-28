@@ -1,0 +1,256 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"> <!-- dichiaro che sto usando i metadati Dublin Core: standard internazionale per la descrizione di risorse digitali e non digitali-->
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Progetto realizzato per la tesi di laurea magistrale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2026-10-12">
+	<META NAME="DC.Type" CONTENT="Web App">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="#">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--bootstrap 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">	
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+	<header id="navbar-placeholder"></header> 
+	<main>
+		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
+			<div class="container">
+				<h2 class="text-center m-0">Pasquale Rotondi <span class="text-white-50" style="font-size: 1.2rem;"> (Arpino, 1909 - Roma, 1991)
+					</span></h2>
+			</div>
+		</section>
+		<section>
+			<div class="container-fluid mt-3">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb" id="breadcrumb-placeholder"></ol>
+				</nav>
+
+                <div class="row">
+                <!-- colonna sx (file XML) -->
+				<aside class="col-12 col-lg-2 sidebar-filtri mb-4">
+					<div class="sticky-lg-top" style="top: 20px;">
+						<a href="#" target="_blank" class="btn btn-dark w-100 py-2 d-block mb-3">
+							<i class="bi bi-filetype-xml"></i> XML-TEI
+						</a>
+						<a href="#" target="_blank" class="btn btn-dark w-100 d-block py-2">
+							<i class="bi bi-filetype-xml"></i> XML-EAC-CPF
+						</a>
+					</div>
+				</aside>
+
+				<!--colonna dx-->
+				<div class="col-12 col-lg-10 px-lg-5">
+					<div class="card border-0 shadow-sm mb-5"> <!--aperta card: attività salvataggio-->
+						<div class="card-body p-4"> <!--body della card attività salvataggio-->
+							<h4 class="card-title mb-4 text-uppercase fw-bold text-center" style="color: #800000;">L'OPERAZIONE SALVATAGGIO</h4>
+							<div class="card-text">
+								<p style="text-align:justify">
+									<b><a class="link" href="http://viaf.org/viaf/24461179" title="Identificativo VIAF di Rotondi, Pasquale" target="_blank">Pasquale Rotondi<sup>VIAF</sup></a></b> divenne soprintendente alle Gallerie e Opere d’Arte delle Marche nell’ottobre del 1939 e negli anni della Seconda Guerra Mondiale si occupò della protezione di beni artistici provenienti da Marche, Veneto, Lombardia, Lazio e dall’isola di Lagosta, organizzando una delle più ingenti campagne di trasferimento interregionale compiute nel territorio italiano: è responsabile del salvataggio di <a class="link" href="https://premiorotondi.it/profile/elenco-opere-salvate/" target="_blank">7.821 opere d’arte</a><sup><a href="#nota1" class="link-nota">1</a></sup>. Il suo operato ci è noto grazie a diari, corrispondenze, resoconti, elenchi di opere custodite nei ricoveri, verbali di consegna e di restituzione redatti da Rotondi e dai suoi collaboratori. Il recupero e lo studio di questa ampia documentazione sono iniziati negli anni Ottanta del secolo scorso, quando vennero rinvenute nella Rocca di Sassocorvaro alcune tracce – un foglio volante e una vecchia fotografia della Tempesta di Giorgione – dell’«operazione salvataggio», fino ad allora sconosciuta. Il materiale documentario è stato donato dalle figlie Paola e Giovanna all’Archivio Centrale dello Stato nel 1995<sup><a href="#nota2" class="link-nota">2</a></sup>.
+								</p>
+								<p style="text-align:justify">
+									A pochi mesi dall’entrata in guerra dell’Italia, la Direzione Generale delle Arti aveva selezionato il Palazzo Ducale di Urbino come rifugio dove raggruppare opere provenienti da gran parte del territorio nazionale. La città era considerata lontana da obiettivi militari a causa della sua posizione, ma presto ci si rese conto che non era un’opzione percorribile: nelle sue vicinanze stava per essere allestito un deposito di materiale bellico dell’Aviazione. Rotondi fu quindi incaricato di individuare un altro rifugio e la sua scelta ricadde sulla Rocca di Sassocorvaro<sup><a href="#nota3" class="link-nota">3</a></sup>. Qui, tra l’8 e il 18 giugno 1940, furono trasportate 90 casse di imballaggio contenenti opere d’arte provenienti dalle Marche e dall’Isola di Lagosta, allora sotto la protezione marchigiana. Il 16 ottobre dello stesso anno arrivarono 56 casse e 16 rulli contenenti beni delle Regie Gallerie di Venezia, della Ca’ d’Oro e del Museo Orientale di Venezia<sup><a href="#nota4" class="link-nota">4</a></sup>.  
+								</p>
+								<p style="text-align:justify">
+									Successivamente, a causa del considerevole numero di opere che necessitavano protezione, fu adibito a ricovero anche il Palazzo dei Principi Falconieri di Carpegna: fra la primavera e l’estate del 1943 arrivarono convogli provenienti da Veneto, Lazio e Lombardia. Il primo convoglio arrivò il 21 aprile, scortato da Fernanda Wittgens e contenente 87 casse con opere provenienti dal Castello Sforzesco. Il 13 maggio Vittorio Moschini spediva da Venezia 70 casse con opere provenienti dalle chiese, dalle gallerie e dalla Ca’ d’Oro di Venezia. Il 15 giugno arrivarono diversi carichi da Roma: 11 casse da Galleria Borghese, 10 casse dalla Regia Galleria Corsini, 4 dalla Collezione Gaulino, 2 contenenti tele di Caravaggio (San Matteo e l’angelo proveniente dalla chiesa di San Luigi dei Francesi, Crocifissione di Pietro e Conversione di Saul dalla chiesa Santa Maria del Popolo). Il 26 giugno arrivarono al ricovero 27 casse spedite da Pacchioni, prima raccolte a Villa Marini – Clarelli<sup><a href="#nota5" class="link-nota">5</a></sup>. 
+								</p>
+								<p style="text-align:justify">
+									Dopo l’armistizio i rifugi di Sassocorvaro e Carpegna non erano più al sicuro. Tra il 19 e 21 ottobre 1943 il Palazzo di Carpegna venne requisito e accasermato dai soldati del Comando Militare Germanico. Per timore che anche Sassocorvaro potesse correre lo stesso rischio, ebbe inizio l’operazione di smobilitazione del ricovero: le opere di particolare interesse culturale e di piccolo formato vennero raggruppate, con l’obiettivo di trasferirle ad Urbino. Una volta arrivato in città, l’opprimente presenza dei tedeschi fece preoccupare il soprintendente che deviò verso Villa “Tortorina”, residenza di famiglia. Qui, sotto la sorveglianza della moglie Zea, le opere trovarono un rifugio temporaneo, in attesa di essere trasferite a Palazzo Ducale al momento più opportuno. Nei giorni seguenti, mentre continuava il trasferimento di opere da Sassocorvaro a Urbino, si cercava una soluzione per sottrarre ai tedeschi le opere costudite a Carpegna: in seguito all’accasermamento infatti i soldati avevano posto il rifugio sotto la temporanea protezione del Reich. Grazie alla mediazione della Chiesa, che reclamò la restituzione dei beni ecclesiastici veneziani costuditi a Carpegna, Rotondi poté approfittare dell’occasione per recuperare quanto più poteva. Tra novembre e dicembre del 1943 le opere vennero trasportate quotidianamente da Carpegna ad Urbino, in parte occultate nella cripta della Cattedrale e in parte murate nei sotterranei del Palazzo Ducale<sup><a href="#nota6" class="link-nota">6</a></sup>. Urbino era solo un rifugio temporaneo, infatti tra il 22 dicembre 1943 e 16 gennaio 1944 i beni vennero trasportati in Vaticano: a questa fase è stato dato l’epiteto «operazione salvataggio»<sup><a href="#nota7" class="link-nota">7</a></sup>. 
+								</p>
+								<p style="text-align:justify">
+									Mentre il rifugio di Carpegna veniva completamente sgomberato, nella Rocca di Sassocorvaro continuavano ad affluire oggetti d’arte provenienti dal Museo e dalla Biblioteca di Pesaro. Dopo la liberazione di Urbino, il 30 agosto 1944 gli alleati arrivarono anche a Sassocorvaro e le opere potevano considerarsi definitivamente fuori pericolo. Il rifugio venne chiuso il 14 settembre 1945 e negli anni successivi si procedette al recupero e alla restituzione del patrimonio artistico<sup><a href="#nota8" class="link-nota">8</a></sup>. 
+								</p>
+								<hr class="mt-5">
+										<div class="sezione-note small text-muted">
+											<p id="nota1">1. Per l’elenco delle opere salvate si veda <a class="link" href="https://premiorotondi.it/profile/elenco-opere-salvate/" target="_blank">Premiorotondi.it</a>.</p>
+											<p id="nota2">2. Rotondi Terminiello 2015, pp. 7 - 8.</p>
+											<p id="nota3">3. Paparello 2023, p. 155.</p>
+											<p id="nota4">4. Ivi, pp. 159 - 160.</p>
+											<p id="nota5">5. Paparello 2023, pp. 160 - 162.</p>
+											<p id="nota6">6. Ivi, pp. 163 - 167.</p>
+											<p id="nota7">7. Ivi, p. 171.</p>
+											<p id="nota8">8. Fraternali 2020.</p>
+										</div>
+							</div> <!--chiusa card-text-->
+							
+							<div class="row g-4 mt-4">
+								<div class="col-md-6">
+									<figure><img src="img/Rotondi2.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Pasquale Rotondi"><figcaption class="figure-caption">Pasquale Rotondi (Arpino, 1909 - Roma, 1991) © Archivio Pro Loco di Sassocorvaro.</figcaption></figure>
+								</div>
+								<div class="col-md-6">
+									<figure><img src="img/trasporto.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Trasporto delle opere da Palazzo Ducale"><figcaption class="figure-caption">Trasporto delle opere d’arte, Palazzo Ducale, Urbino, 1940 © Archivio Fotografico SABAP - Marche.</figcaption></figure>
+								</div>								
+							</div> 
+							<div class="row g-4 mt-4">
+								<div class="col-md-6">
+									<figure><img src="img/Sassocorvaro.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Rocca di Sassocorvaro"><figcaption class="figure-caption">Rocca di Sassocorvaro, 1940 © Archivio Fotografico Pro Loco di Sassocorvaro.</figcaption></figure>
+								</div>
+								<div class="col-md-6">
+									<figure><img src="img/Sassocorvaro2.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Planimetria della Rocca di Sassocorvaro"><figcaption class="figure-caption">Planimetria della Rocca di Sassocorvaro con, tratteggiate, le stanze usate come ricovero © Archivio Fotografico SABAP - Marche.</figcaption></figure>
+								</div>
+							</div><!--chiusa row: immagini-->
+
+						</div> <!--chiusa card-body-->
+					</div> <!--chiusa card operazione salvataggio-->
+
+					<div class="card border-0 shadow-sm mb-5">
+							<div class="card-header bg-dark text-white p-3">
+								<h4 class="m-0 h5 text-uppercase" style="text-align: center;">Scheda prosopografica</h4>
+							</div>
+							<div class="card-body p-0">
+								<div class="accordion accordion-flush" id="accordionProtagonista"> <!--aperto accordion-->
+									<!--Accordion 1 - Istruzione-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#istruzione">
+											Istruzione
+										</button>
+										</h2>
+										<div id="istruzione" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Dopo aver concluso gli studi classici, proseguì la sua formazione presso la Facoltà di Lettere dell’Università di Roma, dove si laureò con Pietro Toesca nel 1932.</p>
+							    			</div>
+										</div>
+									</div>
+									<!--Accordion 2 - Incarichi-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#incarichi">
+											Incarichi
+										</button>
+										</h2>
+										<div id="incarichi" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Nel 1933 divenne ispettore salariato presso la Soprintendenza alle Gallerie e Opere d’Arte delle Marche, con sede ad Ancona. Nel 1938 gli venne affidata la direzione della Galleria Corsini a Roma e il 1 ottobre 1939 divenne soprintendente alle Gallerie e Opere d’Arte delle Marche, con sede nel Palazzo Ducale di Urbino. Il 1 ottobre 1949 assunse il ruolo di soprintendente alle Gallerie della Liguria e la direzione dell’Ufficio Esportazione Oggetti d’Arte, presso l’ufficio di Genova. Il 3 giugno 1961 assunse la direzione dell’Istituto Centrale del Restauro a Roma.</p> 
+											</div>
+										</div>
+									</div>
+									<!--Accordion 3 - Monuments man-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#guerra">
+											Contributo come «Monuments man»
+										</button>
+										</h2>
+										<div id="guerra" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Con l’avvicinarsi del conflitto, il primo incarico affidatogli fu quello di individuare un ricovero per la protezione del patrimonio artistico nazionale: la sua scelta ricadde sulla Rocca di Sassocorvaro, dove confluirono più di settemila opere provenienti da Marche, Veneto e dall’isola di Lagosta. Nel 1943, con l’aggravarsi della situazione, ci fu la necessità di aprire un secondo ricovero: trovarono protezione nel Palazzo dei Principi di Carpegna opere provenienti da Venezia, Milano e Roma. Alla fine della guerra, nel maggio del 1946, riconsegnò le opere affidategli, rimaste incolumi, agli enti proprietari.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 4 - Dopoguerra-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#dopoguerra">
+											Contributo alla rinascita e valorizzazione del patrimonio nel dopoguerra
+										</button>
+										</h2>
+										<div id="dopoguerra" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Rimase ad Urbino fino al 1949 e si occupò del restauro di alcuni saloni del Palazzo Ducale e del riallestimento delle raccolte artistiche della Galleria Nazionale delle Marche. Dopo il trasferimento a Genova, si impegnò per promuovere campagne di restauro dei beni liguri danneggiati durante la guerra, istituendo in Palazzo Reale un laboratorio di restauro. Estese gli interventi di restauro al di fuori del territorio nazionale, collaborando con l’UNESCO e l’ICCROM. Gli interventi più rilevanti sono quelli che riguardarono il Cenacolo di Leonardo e le tavole danneggiate della Limonaia di Boboli. Nel 1971 nacque la Commissione per lo sviluppo tecnologico della conservazione dei Beni Culturali, di cui R. fu il presidente. R. diede il proprio contributo anche nel dibattito sulla Nuova carta internazionale del restauro (Congresso di Venezia, 1964).</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 5 - Onorificenze-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#onorificenze">
+											Onorificenze
+										</button>
+										</h2>
+										<div id="onorificenze" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Commendatore dell’Ordine al Merito della Repubblica Italiana; Commendatore dell’Ordre National du Mérite della Repubblica Francese; Cavaliere Grand’Ufficiale dell’Ordine equestre di Sant’Agata della Repubblica di San Marino; Cavalier Commendatore dell’Ordine di San Giorgio Magno; Accademico d’Onore dell’Accademia Archeologica Italiana; Accademico Nazionale di San Luca; Accademico di Merito dei Virtuosi al Pantheon; Accademico dell’Accademia Raffaello; Medaglia d’oro e d’Argento ai Benemeriti della Scuola, della Cultura e dell’Arte; Medaglia d’Argento per gli interventi a favore del patrimonio artistico nell’alluvione di Firenze; Cittadinanza onoraria di Urbino; Medaglia d’Oro al merito civile.</p>
+												<p>Nel 1997 è stato istituito in sua memoria a Sassocorvaro il Premio Pasquale Rotondi ai Salvatori dell’Arte.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 6 - Bibliografia DI-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#biblioDi">
+											Bibliografia di Pasquale Rotondi
+										</button>
+										</h2>
+										<div id="biblioDi" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Pasquale Rotondi <em>ad vocem</em> in DBSSA 2007 pp. 551 – 554.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 7 - Fonti archivistiche-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#archivio">
+											Fonti archivistiche
+										</button>
+										</h2>
+										<div id="archivio" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Genova, Archivio della famiglia Rotondi Terminello.</p>
+												<p>Ancona, Soprintendenza Archeologia, Belle Arti e Paesaggio delle Marche.</p>
+												<p>Roma, Archivio Centrale dello Stato.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 8 - Bibliografia SU-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#biblioSu">
+											Bibliografia su Pasquale Rotondi
+										</button>
+										</h2>
+										<div id="biblioSu" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p><b>2007</b>, Giovanna Rotondi Terminiello, <em>Pasquale Rotondi</em>, in <em>Dizionario biografico dei Soprintendenti Storici dell’Arte (1904-1974)</em>, Bononia University Press, Bologna, pp. 548 – 554; <b>2009</b>, Giancarlo Di Ludovico, <em>Urbino e Pasquale Rotondi (1939 - 1949)</em>, Quattro Venti, Urbino; <b>2013</b>, Pasquale Rotondi, <em>Firenze 1966: appunti di diario sull’alluvione</em>, Edizioni San Lorenzo, Lugano; <b>2014</b>, Fabio Isman, «I "monuments" di ieri purché siano stranieri», <em>Art e dossier</em>, vol. 29, n. 315, pp. 42 – 45; <b>2015</b>, Caterina Paparello, <em>"Con perfetta efficienza e esemplare organizzazione": Pasquale Rotondi e la protezione antiaerea nelle Marche durante il secondo conflitto mondiale</em>, in P. Dragoni, C. Paparello (a cura di), <em>In difesa dell’arte. La protezione del patrimonio artistico delle Marche e dell’Umbria durante la Seconda guerra mondiale</em>, Edifir, Firenze, pp. 53 – 179; <b>2015</b>, Andrea Paolini, <em>Da Urbino a Campo Tures: osservazioni sulla "protezione del Reich" del patrimonio storico-artistico marchigiano e nazionale italiano</em>, in <em>In difesa dell’arte</em>, pp. 287 – 310; <b>2016</b>, Anna Melograni, «"Per non ricordare invano": il "Diario" di Pasquale Rotondi e la corrispondenza con i colleghi delle Soprintendenze e la Direzione Generale delle Arti (1940-1946)», <em>Bollettino d’arte</em>, a. 100 (2015), n. 27, pp. 115-200; <b>2020</b>, Matteo Procaccini, «Argan e Rotondi: un’intervista sull’"Operazione Salvataggio"», <em>Storia dell’arte</em>, n. 151 – 152, Nuova serie 1/2 (2019), pp. 22 – 45; <b>2023</b>, Caterina Paparello, <em>Rotondi Pasquale e i ricoveri nelle Marche</em>, in Luigi Gallo, Raffaella Morselli (a cura di) <em>Arte liberata. Capolavori salvati dalla guerra 1937-1947</em>, catalogo della mostra (Roma, Scuderie del Quirinale, 16 dicembre 2022 – 10 aprile 2023), Electa, Milano, pp. 154 – 162; <b>2023</b>, Caterina Paparello, <em>Operazione Salvataggio</em>, in Luigi Gallo, Raffaella Morselli (a cura di) <em>Arte liberata. Capolavori salvati dalla guerra 1937-1947</em>, pp. 163 – 171.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 9 - Sitografia-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#sitografia">
+											Sitografia, podcast, video su Pasquale Rotondi
+										</button>
+										</h2>
+										<div id="sitografia" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Chora Media, <em><a class="link" href="https://italia-podcast.it/podcast/a-fari-spenti" target="_blank">A fari spenti</a></em></p>
+											</div>
+										</div>
+									</div>
+								</div><!--chiuso accordion-->					
+							</div> <!--chiuso card body-->					
+					</div> <!--chiusa div card-->				
+				</div> <!--chiusa colonna dx-->
+				</div> <!--chiusa row-->
+			</div> <!--chiuso container-fluid-->
+		</section>
+	</main>	
+	<footer id="footer-placeholder"></footer>
+	<!--js-->
+	<script src="js/main.js"></script> <!-- collegamento al file JavaScript principale -->
+	<!--bootstrap script-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

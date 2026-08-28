@@ -1,0 +1,249 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"> <!-- dichiaro che sto usando i metadati Dublin Core: standard internazionale per la descrizione di risorse digitali e non digitali-->
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Progetto realizzato per la tesi di laurea magistrale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2026-10-12">
+	<META NAME="DC.Type" CONTENT="Web App">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="#">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--bootstrap 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">	
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+	<header id="navbar-placeholder"></header>
+	<main>
+		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
+			<div class="container">
+				<h2 class="text-center m-0">Palma Bucarelli <span class="text-white-50" style="font-size: 1.2rem;"> (Roma, 1910 - 1998)
+					</span></h2>
+			</div>
+		</section>
+		<section>
+			<div class="container-fluid mt-3">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb" id="breadcrumb-placeholder"></ol>
+				</nav>
+
+                <div class="row">
+                <!-- colonna sx (file XML) -->
+				<aside class="col-12 col-lg-2 sidebar-filtri mb-4">
+					<div class="sticky-lg-top" style="top: 20px;">
+						<a href="xml-tei/xml-tei-bucarelli.xml" target="_blank" class="btn btn-dark w-100 py-2 d-block mb-3">
+							<i class="bi bi-filetype-xml"></i> XML-TEI
+						</a>
+						<a href="#" target="_blank" class="btn btn-dark w-100 d-block py-2">
+							<i class="bi bi-filetype-xml"></i> XML-EAC-CPF
+						</a>
+					</div>
+				</aside>
+				<!--colonna dx-->
+				<div class="col-12 col-lg-10 px-lg-5">
+					<div class="card border-0 shadow-sm mb-5"> <!--aperta card: attività salvataggio-->
+						<div class="card-body p-4"> <!--body della card attività salvataggio-->
+							<h4 class="card-title mb-4 text-uppercase fw-bold text-center" style="color: #800000;">LA GALLERIA SONO IO</h4>
+							<div class="card-text">
+								<p class="card-text" style="text-align:justify">
+									<b><a class="link" href="http://viaf.org/viaf/79129998" title="Identificativo VIAF di Bucarelli, Palma" target="_blank">Palma Bucarelli<sup>VIAF</sup></a></b> fu prima ispettrice e poi direttrice della Galleria Nazionale di Arte Moderna di Roma. Il suo operato è conservato presso l’Archivio bioiconografico della GNAM, dove possiamo trovare documentazione riguardante donazioni o acquisti di opere, dossier sulle mostre e ritagli di giornale con le polemiche che suscitavano le sue scelte, ma soprattutto l’elenco delle opere che trasferì a Caprarola, i resoconti sugli spostamenti e le disposizioni per la protezione antiaerea<sup><a href="#nota1" class="link-nota">1</a></sup>. Donò invece all’Archivio Centrale dello Stato documentazione personale, tra cui fotografie di famiglia, pagelle e appunti di scuola, biglietti di ammiratori, lettere del marito Paolo Monelli e di Carlo Argan<sup><a href="#nota2" class="link-nota">2</a></sup>.
+								</p>
+								<p class="card-text" style="text-align:justify">
+									Nell’estate del 1941, quando il direttore Roberto Papini si trasferì a Firenze per insegnare, Bucarelli divenne reggente della Galleria. A causa dell’assenza del direttore e dell’inadeguatezza delle misure che aveva proposto al Ministero, Bucarelli decise di percorrere delle soluzioni alternative, proponendo come rifugio per le opere della Galleria il Palazzo Farnese di Caprarola. Il rifugio, a lei familiare perché meta delle vacanze estive in adolescenza, era abbastanza lontano da obiettivi militari ma allo stesso tempo abbastanza vicino a Roma perché lei potesse effettuare sopralluoghi personalmente e di requente. Il 19 agosto 1941 arrivò l’autorizzazione dal Ministero ed ebbe inizio l’operazione di imballaggio e trasferimento, accompagnata da meticolosi elenchi e documentazione fotografica. Una cartellina conservata nell’Archivio Centrale dello Stato raccoglie l’elenco dei 22 viaggi che dal 13 settembre 1941 al 6 febbraio 1942 portarono 832 opere da Roma a Caprarola, con l’indicazione del numero delle casse trasportate e dei dipinti in esse contenuti. Bucarelli scortava le opere direttamente sui camion o seguendoli con la sua auto personale<sup><a href="#nota3" class="link-nota">3</a></sup>. L’importanza che la direttrice attribuiva al patrimonio artistico si rivelò anche nella decisione di riaprire la Galleria nell’aprile del 1942, mossa dalla necessità di offrire alla popolazione sconvolta dalla guerra qualcosa in cui sperare<sup><a href="#nota4" class="link-nota">4</a></sup>. 
+								</p>
+								<p class="card-text" style="text-align:justify">
+									Dopo l’armistizio il rifugio non era più sicuro: Bucarelli infatti venne informata dal custode del Palazzo che i tedeschi si erano accampati nelle vicinanze e volevano occupare il borgo. Dopo diverse sollecitazioni, nel novembre del 1943 arrivò l’autorizzazione del Ministero a trasferire le opere a Castel Sant’Angelo e tra il 6 febbraio e il 6 marzo 1944, viaggiando prevalentemente di notte, i beni vennero spostati<sup><a href="#nota5" class="link-nota">5</a></sup>.
+								</p>
+								<p class="card-text" style="text-align:justify">
+									Nel giugno del 1944 Roma era finalmente liberata e Bucarelli non perdette tempo: riaprì la Galleria, allestendo nelle poche sale rimaste integre una mostra di artisti contemporanei e procedette al tempestivo rientro delle opere da Castel Sant’Angelo<sup><a href="#nota6" class="link-nota">6</a></sup>. 
+								</p>
+								<hr class="mt-5">
+										<div class="sezione-note small text-muted">
+											<p id="nota1">1. Ferrario 2010, p. 6.</p>
+											<p id="nota2">2. Ivi, p. XI. </p>
+											<p id="nota3">3. Biondi 2023, pp. 267 - 269.</p>
+											<p id="nota4">4. Ivi, pp. 273 - 274.</p>
+											<p id="nota5">5. Ivi, pp. 275 - 278.</p>
+											<p id="nota6">6. <em>Ibid.</em></p>
+										</div>	
+							</div>
+
+							<div class="row g-4 mt-4">
+								<div class="col-md-6">
+									<figure><img src="img/Bucarelli2.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Bucarelli, Palma"><figcaption class="figure-caption"> Palma Bucarelli (Roma, 1910 – Roma, 1998 © Archivio Bioiconografico GNAM)</figcaption></figure>
+								</div>
+								<div class="col-md-6">
+									<figure><img src="img/camion.jpeg" class="figure-img w-100 h-100 d-flex flex-column" alt="Trasporto opere"><figcaption class="figure-caption"> Trasporto delle opere dalla Galleria Nazionale d’Arte Moderna di Roma al rifugio di Caprarola, estate 1941 © Archivio Storico GNAM, tratto da Biondi 2023, p. 276.</figcaption></figure>
+								</div>
+							</div>
+							<div class="row g-4 mt-4">
+								<div class="col-md-6">
+									<figure><img src="img/casseB.jpeg" class="figure-img w-100 h-100 d-flex flex-column" alt="Elenco opere"><figcaption class="figure-caption">Elenco delle opere che dovevano essere trasportate a Castel Sant’Angelo nel 1944, redatto secondo l’ordine di importanza stabilito da Bucarelli © Archivio Storico GNAM, tratto da Biondi 2023, 270.</figcaption></figure>
+								</div>
+								<div class="col-md-6">
+									<figure><img src="img/canova.jpg" class="figure-img w-100 h-100 d-flex flex-column" alt="Protezione antiaerea per la scultura Ercole e Lica"><figcaption class="figure-caption">Fotografia scattata da Bucarelli della protezione antiaerea per la scultura <em>Ercole e Lica</em> di Canova, rimasta nella Galleria Nazionale d’Arte Moderna di Roma, 1940 © Archivio Storico GNAM, tratto da Biondi 2023, 273.</figcaption></figure>
+								</div>
+							</div> <!--chiusa row immagini-->
+						</div> <!--chiusa card-body-->
+					</div> <!--chiusa card: operazione salvataggio-->
+
+					<div class="card border-0 shadow-sm mb-5">
+							<div class="card-header bg-dark text-white p-3">
+								<h4 class="m-0 h5 text-uppercase" style="text-align: center;">Scheda prosopografica</h4>
+							</div>
+							<div class="card-body p-0">
+								<div class="accordion accordion-flush" id="accordionProtagonista"> <!--aperto accordion-->
+									<!--Accordion 1 - Istruzione-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#istruzione">
+											Istruzione
+										</button>
+										</h2>
+										<div id="istruzione" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Frequentò il liceo classico e successivamente si laureò in Lettere presso l’Università di Roma nel 1931. Approfondì gli studi con un Corso di perfezionamento.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 2 - Incarichi-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#incarichi">
+											Incarichi
+										</button>
+										</h2>
+										<div id="incarichi" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Nel 1931 fu designata ispettrice presso la Galleria Borghese, nel 1936 presso la Soprintendenza alle Gallerie di Napoli e nel 1939 presso la Galleria Nazionale di Arte Moderna di Roma. Nel 1942 divenne direttrice della GNAM.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 3 - Monuments man-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#guerra">
+											Contributo come «Monuments woman»
+										</button>
+										</h2>
+										<div id="guerra" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Durante la guerra, si occupò di tutelare il patrimonio artistico di sua competenza. Individuò nel Palazzo Farnese di Caprarola un rifugio sicuro e si occupò del trasferimento di 832 opere dal 13 settembre 1941 al 6 febbraio 1942. Dopo l’8 settembre 1943, con l’aggravarsi della situazione, organizzò il trasferimento delle opere a Castel Sant’Angelo.</p> 
+											</div>
+										</div>
+									</div>
+									<!--Accordion 4 - Dopoguerra-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#dopoguerra">
+											Contributo alla rinascita e valorizzazione del patrimonio nel dopoguerra
+										</button>
+										</h2>
+										<div id="dopoguerra" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>La Galleria riaprì al pubblico nel dicembre del 1944 con una mostra dedicata all’arte contemporanea e alla conclusione del conflitto ottenne lo statuto di Soprintendenza Speciale all’Arte Contemporanea. Grazie al lavoro di B., tra il 1945 e il 1960 la GNAM si affermò come nucleo di elaborazione culturale, riflessione critica e produzione artistica. Tra gli anni ’50 e ‘60 B. portò a Roma l’astrattismo, l’informale e le più importanti correnti internazionali. Organizzò mostre e procurò alla Galleria opere di artisti come Pollock, Picasso, Kandinskij, Mondrian, Foutrier, Modigliani, Rothko. In Italia sostenne gli artisti delle avanguardie che operavano in quel periodo, tra i quali Manzoni e Burri: proprio a causa della scelta di esporre opere di questi artisti dovette affrontare due interrogazioni parlamentari.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 5 - Onorificenze-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#onorificenze">
+											Onorificenze
+										</button>
+										</h2>
+										<div id="onorificenze" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Accademico Cultore di San Luca; Legione d’Onore; Grand’Ufficiale dell’Ordine al Merito della Repubblica.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 6 - Bibliografia DI-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#biblioDi">
+											Bibliografia di Palma Bucarelli
+										</button>
+										</h2>
+										<div id="biblioDi" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Palma Bucarelli <em>ad vocem</em> in DBSSA 2007 pp. 128 – 130.</p>
+												<p><b>2010</b>, Palma Bucarelli, <em>Cronache indipendenti: arte a Roma fra 1945 e 1946</em>, a cura di Lorenzo Cantatore, De Luca Editori d’Arte, Roma.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 7 - Fonti archivistiche-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#archivio">
+											Fonti archivistiche
+										</button>
+										</h2>
+										<div id="archivio" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Roma, Archivio Centrale dello Stato. Roma, Soprintendenza alla Galleria Nazionale d’Arte Moderna, Archivio bioiconografico.</p> 
+											</div>
+										</div>
+									</div>
+									<!--Accordion 8 - Bibliografia SU-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#biblioSu">
+											Bibliografia su Palma Bucarelli
+										</button>
+										</h2>
+										<div id="biblioSu" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p><b>2007</b>, Maura Picciau, <em>Palma Bucarelli</em>, in <em>Dizionario biografico dei Soprintendenti Storici dell’Arte (1904-1974)</em>, Bononia University Press, Bologna, pp. 124 – 130;  <b>2009</b>, Mariastella Margozzi, «Una traccia indelebile: il contemporaneo di Palma Bucarelli», <em>Art e dossier</em>, vol. 24, n. 258, pp. 30 – 35; <b>2009</b>, Mariastella Margozzi (a cura di), <em>Palma Bucarelli. Il museo come avanguardia</em>, catalogo della mostra (Roma, Galleria Nazionale d’Arte Moderna, 26 giugno – 1 novembre 2009), Electa, Milano; <b>2011</b>, Lorenzo Cantatore, <em>Palma Bucarelli: Immagini di una vita</em>, Palombi, Roma; <b>2010</b>, Rachele Ferrario, <em>Regina di quadri. Vita e passioni di Palma Bucarelli</em>, Mondadori, Milano; <b>2011</b>, Lorenzo Cantatore, Giuliana Zagra (a cura di), <em>Palma Bucarelli a cento anni dalla nascita</em> (atti della giornata di studi, Roma, Biblioteca Nazionale Centrale, 25 novembre 2010), BNCR, Roma; <b>2011</b>, Lorenzo Cantatore, <em>Galmoderna, Belle Arti 139. La casa di Palma Bucarelli nella Galleria Nazionale d'Arte Moderna</em>, in Stefania Frezzotti, Patrizia Rosazza Ferraris (a cura di), <em>La Galleria Nazionale d'Arte Moderna. Cronache e storia 1911-2011</em>, Palombi Editori, Roma, pp. 182 – 197; <b>2011</b>, Emanuela Colantonio, <em>Il primo riordinamento delle collezioni Ottocento nel 1948: polemiche e punti di vista</em>, in Stefania Frezzotti, Patrizia Rosazza-Ferraris (a cura di) <em>La Galleria Nazionale d'Arte Moderna. Cronache e storia 1911-2011</em>, Palombi Editori, Roma, pp. 153 – 167; <b>2011</b>, Mariastella Margozzi, <em>Tra poetiche figurative e ricerche astratto-informali: la scelta di Palma Bucarelli per la Galleria nazionale d’arte moderna</em>, in Stefania Frezzotti, Patrizia Rosazza-Ferraris (a cura di) <em>La Galleria Nazionale d'Arte Moderna. Cronache e storia 1911-2011</em>, Palombi Editori, Roma, pp. 169 – 181; <b>2012</b>, Arianna Marullo, «The most beautiful museum director in the world: appunti per una biografia di Palma Bucarelli», <em>I beni culturali</em>, vol. 20, n. 3, pp. 28 – 32; <b>2014</b>, Mariastella Margozzi, <em>Alberto Giacometti e Palma Bucarelli: figure in solitudine che giocano alla palla</em>, in Anna Coliva e Christian Klemm (a cura di), <em>Giacometti: la scultura</em>, catalogo della mostra (Roma, Galleria Borghese, 5 febbraio – 25 maggio 2014), Skira, Milano, pp. 49 – 61; <b>2018</b>, Moira Chiavarini, Angela Madesani, «La grammatica della pittura: tra esposizioni e ricostruzioni», <em>Arte e critica</em>, a. 25, n. 90, pp. 90 – 93; <b>2018</b>, Claudia Palma, <em>Gli archivi della Galleria Nazionale d’Arte Moderna: una storia che continua</em>, in Alessandra Donati, Rachele Ferrario, Silvia Simoncelli (a cura di), <em>Artists’ archives and estates: cultural memory between law and market</em>, Edizioni scientifiche italiane, Napoli, pp. 83 – 87; <b>2018</b>, Simone Zacchini, «"Le courage des Positions Extrêmes": Palma Bucarelli e l’avanguardia romana alla Biennale di Parigi del 1969», <em>Rivista di psicologia dell’arte</em>, Nuova Serie, a. 39, n. 29, pp. 5 – 16; <b>2019</b>, Laura Leuzzi, «Edimburgo - Roma 1967, connessioni italo-scozzesi sulle tracce della mostra "Contemporary Italian Art" alla Richmond Demarco Gallery», <em>Storia dell’arte</em>, Nuova serie 1/2, n. 151 – 152, pp. 204 – 215; <b>2021</b>, Flavia Frigeri, <em>All that Jazz: Rome’s Galleria Nazionale d’Arte Moderna and the rise of abstraction in postwar Italy</em>, in Flavia Frigeri, Kristian Handberg (eds.), <em>New histories of art in the global postwar era</em>, Routledge, Londra, pp. 232 – 243; <b>2021</b>, Irene Quarantini, Ernesto Damiani, «Arte Italiana Contemporanea 1955. Filologia di una mostra itinerante», <em>Saggi e memorie di storia dell'arte</em>, Istituto di Storia dell'Arte, Firenze, vol. 45, pp. 166 – 201; <b>2022</b>, Mariastella Margozzi, <em>Palma Bucarelli: 1961, viaggio in America</em>, De Luca Editori d’Arte, Roma; <b>2023</b>, Antonietta Biondi, <em>Palma Bucarelli: una partigiana dell’arte</em>, in Luigi Gallo, Raffaella Morselli (a cura di), <em>Arte liberata. Capolavori salvati dalla guerra 1937-1947</em>, catalogo della mostra (Roma, Scuderie del Quirinale, 16 dicembre 2022 – 10 aprile 2023), Electa, Milano, pp. 266 – 279.</p>
+											</div>
+										</div>
+									</div>
+									<!--Accordion 9 - Sitografia-->
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#sitografia">
+											Sitografia, podcast, video su Palma Bucarelli
+										</button>
+										</h2>
+										<div id="sitografia" class="accordion-collapse collapse" data-bs-parent="#accordionProtagonista">
+											<div class="accordion-body">
+												<p>Chora Media, <em>Paladine. <a class="link" href="https://italia-podcast.it/podcast/paladine/puntata-4-palma-bucarelli#google_vignette" target="_blank">Puntata 4: Palma Bucarelli</a></em></p>
+												<p>RaiPlay, <em>Illuminate. Protagoniste del nostro tempo. <a class="link" href="https://www.raiplay.it/video/2018/09/Illuminate---Palma-Bucarelli-acd0109f-17e1-4ac0-9604-95ef9046aeb0.html" target="_blank"> Episodio 4: Palma Bucarelli</a></em></p> 
+												<p>RaiPlaySound, <em>Italiane. <a class="link" href="https://www.raiplaysound.it/audio/2022/05/RPS-Italiane-Ep93-Palma-Bucarelli-bf11e9a0-1543-47c7-856f-bc358e179370.html" target="_blank">Episodio 93: Palma Bucarelli</a></em></p>
+											</div>
+										</div>
+									</div>
+								</div><!--chiuso accordion-->					
+							</div> <!--chiuso card body-->					
+					</div> <!--chiusa div card-->				
+				</div> <!--chiusa colonna dx-->
+				</div> <!--chiusa row-->
+			</div> <!--chiuso container-fluid-->
+		</section>
+	</main>	
+	<footer id="footer-placeholder"></footer>
+	<!--js-->
+	<script src="js/main.js"></script> <!-- collegamento al file JavaScript principale -->
+	<!--bootstrap script-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

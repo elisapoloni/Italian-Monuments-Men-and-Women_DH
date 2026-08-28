@@ -1,0 +1,197 @@
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://archivists.org/ns/eac/v2 https://eac.staatsbibliothek-berlin.de/schema/v2/eac.xsd"
+ xmlns="https://archivists.org/ns/eac/v2">
+
+<control maintenanceStatus="new">
+
+    <recordId>xml-eac-cpf-wittgens.xml</recordId> <!-- ID univoco -->
+
+    <maintenanceAgency countryCode="IT"> <!--https://www.iso.org/obp/ui/#search-->
+      <agencyName>Elisa Poloni</agencyName>
+    </maintenanceAgency>
+
+    <maintenanceHistory>
+      <maintenanceEvent maintenanceEventType="created">
+        <agent agentType="human">Elisa Poloni</agent>
+        <eventDateTime standardDateTime="2026-05-08">8 Maggio 2026</eventDateTime>
+      </maintenanceEvent>
+      <maintenanceEvent maintenanceEventType="revised">
+        <agent agentType="human">Elisa Poloni</agent>
+        <eventDateTime standardDateTime="2026-05-14">14 Maggio 2026</eventDateTime>
+      </maintenanceEvent>
+      <maintenanceEvent maintenanceEventType="revised">
+        <agent agentType="human">Elisa Poloni</agent>
+        <eventDateTime standardDateTime="2026-08-09">14 Maggio 2026</eventDateTime>
+      </maintenanceEvent>
+    </maintenanceHistory>
+
+    <conventionDeclaration>
+      <reference href="https://www.ica.org/resource/isaar-cpf-international-standard-archival-authority-record-for-corporate-bodies-persons-and-families-2nd-edition/">Standard Archival Authority Records for Corporate Bodies, Persons and Families</reference>
+      <shortCode>ISAAR(CPF)</shortCode>
+    </conventionDeclaration> 
+
+    <languageDeclaration languageCode="ita" scriptCode="Latn"/>
+
+    <localTypeDeclaration id="JSON">
+            <reference href="json/database.json">JSON</reference>
+            <descriptiveNote>
+              <p>Il mio file JSON contenente tutti i dati raccolti</p>
+            </descriptiveNote>
+    </localTypeDeclaration>
+</control>
+
+  <cpfDescription>
+    <identity>
+      <entityType value="person"/>
+        <nameEntry>
+          <part localType="surname">Wittgens</part>
+          <part localType="forename">Fernanda</part>          
+        </nameEntry>      
+    </identity>
+
+    <description>
+
+      <functions>
+        <function>
+          <term id="direzione-museale">Direzione museale</term>
+          <descriptiveNote>
+            <p>Attività dei direttori delle istituzioni museali nella gestione patrimonio culturale durante la guerra</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="tutela">Tutela</term>
+          <descriptiveNote>
+            <p>Protezione e salvaguardia del patrimonio storico artistico durante la Seconda Guerra mondiale</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="guerra">Guerra</term>
+          <descriptiveNote>
+            <p>Eventi bellici, bombardamenti e danni al patrimonio</p>
+          </descriptiveNote>
+        </function>        
+        <function>
+          <term id="logistica">Logistica</term>
+          <descriptiveNote>
+            <p>Trasporto, imballaggio e gestione dei rifugi</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="archivio">Archivio</term>
+          <descriptiveNote>
+            <p>Documentazione archivistica, dossier, elenchi e fondi documentari</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="rifugio">Rifugio</term>
+          <descriptiveNote>
+            <p>Luogo sicuro individuato per nascondere le opere d'arte</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="resistenza">Resistenza</term>
+          <descriptiveNote>
+            <p>Attività antifascista, clandestina e partigiana</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="liberazione">Liberazione</term>
+          <descriptiveNote>
+            <p>Liberazione dalla dittatura nazi-fascista del territorio italiano</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="comando-alleato">Comando Alleato</term>
+          <descriptiveNote>
+            <p>Attività degli Alleati in seguito all'armistizio dell'8 settembre</p>
+          </descriptiveNote>
+        </function>
+        <function>
+          <term id="valorizzazione">Valorizzazione</term>
+          <descriptiveNote>
+            <p>Attività post-bellica di ricostruzione e riapertura dei musei</p>
+          </descriptiveNote>
+        </function>
+      </functions>     
+    
+    <occupations> 
+        <occupation>
+          <term>Direttrice della Pinacoteca di Brera</term>
+        </occupation>
+    </occupations>
+
+    <places> 
+        <place>
+          <placeName id="MI_loc">Milano</placeName>
+        </place>
+        <place>
+          <placeName id="PB_loc">Pinacoteca di Brera</placeName>
+        </place>
+        <place>
+          <placeName id="SV_loc">Carcere di San Vittore</placeName> 
+        </place>
+    </places>
+
+    <biogHist>
+        <p>Prima donna direttrice della Pinacoteca di Brera (1940), fu protagonista della protezione del patrimonio cuturale milanese durante la seconda guerra mondiale. Organizzò il trasferimento in rifugi sicuri di capolavori provenienti da diversi musei del territorio lombardo. Antifascista, fu arrestata nel 1944 per aver aiutato ebrei e perseguitati a fuggire. Nel dopoguerra si occupò della ricostruzione di Brera.</p>
+    </biogHist>
+
+    <existDates>
+        <dateRange>
+          <fromDate standardDate="1903">1903</fromDate>
+          <toDate standardDate="1957">1957</toDate>
+        </dateRange>
+    </existDates>
+
+    <generalContext>
+        <p>Salvataggio del patrimonio storico-artistico italiano durante la Seconda Guerra Mondiale</p>
+    </generalContext>
+
+  </description>   
+      
+  <relations>
+      <relation>
+        <targetEntity targetType="corporateBody" valueURI="http://viaf.org/viaf/157020123"> 
+          <part id="PB_org">Pinacoteca di Brera</part>
+        </targetEntity>
+        <relationType>Direttrice</relationType>
+      </relation>
+      <relation>
+        <targetEntity targetType="corporateBody"><part>Soprintendenza ai monumenti di Milano</part>
+        </targetEntity>        
+        <relationType>associative</relationType>
+      </relation>
+      <relation>
+        <targetEntity targetType="corporateBody"> 
+          <part id="ComandoAlleato_org">Comando Alleato</part>
+        </targetEntity>
+        <relationType>associative</relationType>
+      </relation>
+      <relation>
+        <targetEntity targetType="corporateBody" valueURI="http://viaf.org/viaf/73144647641989307788"> 
+          <part id="SV_org">Carcere di San Vittore</part>
+        </targetEntity>
+      </relation>
+
+      <relation>
+        <targetEntity targetType="person" valueURI="http://viaf.org/viaf/24461179"> 
+          <part id="PR">Pasquale Rotondi</part>          
+        </targetEntity>
+        <descriptiveNote>
+            <p>Soprintendente alle Gallerie e Opere d’Arte delle Marche</p>
+            <p>Collaborazione nelle operazioni di trasporto delle opere d'arte</p>
+        </descriptiveNote>
+      </relation>
+      <relation>
+        <targetEntity targetType="person" valueURI="http://viaf.org/viaf/23170497"> 
+          <part id="ABC">Achille Bertini Calosso</part>          
+        </targetEntity>
+        <descriptiveNote>
+            <p>Soprintendente ai Monumenti e alle Galleria dell'Umbria</p>
+            <p>Collaborazione nelle operazioni di trasporto delle opere d'arte</p>
+        </descriptiveNote>
+      </relation>
+  </relations>
+
+  </cpfDescription>
+</eac>

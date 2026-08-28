@@ -1,0 +1,589 @@
+/* =============
+   1. GENERALE
+   =============*/
+
+.body { /** Imposta le caratteristiche di base del body della pagina */
+  height: 100%; /** Imposta l'altezza del body al 100% della finestra del browser */
+  font-family: 'Arial', sans-serif; /** Imposta il font del testo */
+  margin: 0; /** Rimuove i margini predefiniti del body */
+  line-height: 1.6; /** Imposta l'altezza della linea del testo, in questo caso aumenta la distanza tra le righe del testo */
+  background-color: #f8f9fa;
+}
+
+/* Imposta il colore e la decorazione dei link */
+.link {
+    color: var(--color-tema); 
+    text-decoration: none;
+} 
+
+/* Imposta il colore e la decorazione dei link al passaggio del mouse */
+.link:hover {
+    color: var(--color-tema); 
+    text-decoration: underline;
+} 
+
+.page-title {
+    text-align: center; /* Centra il titolo della pagina */
+    width: 100%; /* Imposta la larghezza del titolo al 100% del contenitore */
+    margin: 0; /*Rimuove i margini predefiniti del titolo */
+}
+
+.navbar-brand {     
+    font-size: 1.5rem;
+    max-width: 100%;      
+}
+
+/* colore del link attivo nella barra di ricerca (Home o Esplora) */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffffff !important;
+}
+
+/* colore del link attivo dentro il menu a tendina */
+.dropdown-item.active {
+    background-color: var(--color-tema) !important;
+    color: #ffffff !important;
+}
+
+.breadcrumb-item a {
+    color: var(--color-tema) !important;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d !important;
+}
+
+.titolo-intro {
+    color: var(--color-tema);
+    font-weight: bold;
+}
+
+.titolo-analisi {
+    color: var(--color-tema);
+    font-weight: bold;
+}
+
+/* COLORI */
+:root {
+    --color-tema: #800000; 
+    --color-protagonista: #d4a42a;
+    --color-altro: #6c757d;
+    --color-istituzione: #c93e3e;
+    --color-ente-pubblico: #3a3aab;
+    --color-rifugio: #305f57;
+    --color-città: #c2bf16;
+    --color-default: #adb5bd;
+    --color-sbarco: #4682b4; 
+    --color-guerra: #000000;         
+}
+
+/**da 991px in giù, quindi schermi piccoli**/
+@media (max-width: 991px) {
+    .navbar-brand {
+        white-space: normal; /* titolo va a capo se non ci sta */
+        font-size: 1.1rem; /* scritta più piccola su schermi piccoli */
+        max-width: 70%; /* impedisce al titolo di finire sopra il tasto menu */
+    }
+    .page-title {
+        font-size: 1.4rem;
+    }
+    .img-carousel {
+        height: 50vh;
+    }
+    .card-img-top {
+        aspect-ratio: 4 / 3; 
+    }
+    .sidebar-filtri {        
+        border-right: none !important;
+        border-bottom: 1px solid #dee2e6;        
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }    
+    .legenda-container {
+        gap: 1.2rem !important;
+        row-gap: 0.8rem !important;
+    }
+    #map {
+        height: 400px !important;
+    }
+    #network {
+        height: 400px !important;
+        margin-bottom: 20px;
+    }
+    /* bottoni network uno sopra l'altro */
+    .btn-group {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%; /* occupano l'intera larghezza */
+    }
+    .btn-group > .btn {
+        margin-bottom: 5px; /* spazio sotto a ogni bottone */
+        border-radius: 6px !important; /* arrotonda gli angoli dei bottoni */
+        font-size: 0.85rem;
+    }
+    #timeline {
+        margin-bottom: 1rem;
+    }
+    .btn-nav-timeline {
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
+    }
+    /* Descrizione nodi e box eventi */
+    #info-panel {
+        height: auto !important; /* si allunga in base al contenuto */
+        overflow-y: auto; /* scrollbar interna se il testo è troppo lungo */ 
+        min-height: 180px;
+        max-height: 350px;
+        margin-top: 1rem;
+    }
+}
+
+/* ============================
+   2. CARD HOME e PROTAGONISTI
+   ============================*/
+/** Imposta le caratteristiche delle card della sezione "Esplora la raccolta" */
+.card-home, .card-protagonisti {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white; 
+}
+
+.card-home:hover, .card-protagonisti:hover { /** Imposta le caratteristiche delle card della sezione "Esplora la raccolta" al passaggio del mouse */
+  transform: translateY(-5px); /** Sposta la card verso l'alto di 5 pixel al passaggio del mouse */
+  box-shadow: 0 10px 20px black !important;
+}
+
+.card-home .btn-dark:hover,
+.card-protagonisti .btn-dark:hover,
+#info-panel .btn-dark:hover {
+    background-color: var(--color-tema);
+    border-color: var(--color-tema);
+}
+
+/* caratteristiche delle immagini delle card Protagonisti */
+.card-protagonisti .card-img-top {
+    width: 100%;
+    /** crea uno spazio nel quale inserire le immagini indipendentemente dalle dimensioni originali,
+    in modo che tutte le card abbiano la stessa dimensione **/
+    aspect-ratio: 1 / 1; 
+    
+    /* Taglia l'immagine per riempire lo spazio senza deformarla */
+    object-fit: cover; 
+    
+    /* Centra l'immagine sia in orizzontale che in verticale */
+    object-position: center; 
+    
+    border-top-left-radius: calc(0.375rem - 1px); /* Mantiene gli angoli arrotondati di Bootstrap */
+    border-top-right-radius: calc(0.375rem - 1px);
+}
+
+/*CAROSELLO HOME*/
+.img-carousel { /** caratteristiche delle immagini del carosello */
+    width: 100%; /** larghezza dell'immagine al 100% del contenitore */
+    object-fit: cover; /** riempie lo spazio senza deformare le foto */
+    object-position: center; /** imposta la foto in modo che sia centrata */
+    height: 85vh; /** altezza dell'immagine al 85% del contenitore**/
+}
+
+/* ======================
+   4. SCHEDA DETTAGLIATA
+   ====================== */
+
+.card-text p {
+    text-align: justify; 
+    margin-bottom: 1.2rem;
+}
+
+.figure-img {
+    width:100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: cover;
+}
+
+.accordion-body {
+    text-align: justify !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: var(--color-tema);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.link-nota {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-tema);
+    padding: 0 2px;
+}
+
+.link-nota:hover {
+    background-color: #f8f9fa;
+}
+
+.sezione-note p {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+
+/* ==========
+   5. MAPPA
+   ========== */
+#map {
+    height: 800px;
+    width: 100%;
+}
+
+.custom-div-icon {
+    background: none !important;
+    border: none !important;
+}
+
+.marker-pin {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.marker-pin i {
+    color: white !important;
+    font-size: 15px;
+    display: flex !important;
+}
+
+.marker-citta { 
+    background-color: var(--color-città); 
+} 
+.marker-istituzione { 
+    background-color: var(--color-istituzione); 
+}
+.marker-rifugio { 
+    background-color: var(--color-rifugio); 
+}
+.marker-ente-pubblico { 
+    background-color: var(--color-ente-pubblico); 
+}
+.marker-default { 
+    background-color: var(--color-default); 
+}
+.marker-sbarco { 
+    background-color: var(--color-sbarco); 
+}
+.marker-bombardamento { 
+    background-color: var(--color-guerra); 
+}
+
+/* switch Linea Gotica e Sbarchi */
+.switch-mappa {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+
+/* ====================
+   6. LINEA DEL TEMPO
+   ==================== */
+
+/* evento protagonista */
+.ev-protagonista { 
+    background-color: var(--color-protagonista) !important;  /* colore card della timeline */
+    color: black !important;                               /* colore testo card */
+    border-color: var(--color-protagonista) !important;      /* bordo card */
+}
+
+/* evento guerra */
+.ev-guerra { 
+    background-color: var(--color-guerra) !important;
+    color: white !important;
+    border-color: var(--color-guerra) !important;
+}
+
+/* evento ente pubblico */
+.ev-ente { 
+    background-color: var(--color-ente-pubblico) !important;
+    color: white !important;
+    border-color: var(--color-ente-pubblico) !important;
+}
+
+/* card eventi */
+.vis-item {
+    border-radius: 4px !important; /* bordo arrotondato */
+    white-space: normal !important; /* testo a capo */
+    font-size: 0.8rem !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* frecce */
+.btn-nav-timeline {
+    position: absolute; /* sopra il contenitore della timeline */
+    top: 50%; /* centrate verticalmente rispetto alla timeline */
+    transform: translateY(-50%);
+    z-index: 100; /* sopra tutto in modo che siano sempre cliccabili */
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: #333 !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 50% !important; /* forma circolare */
+    display: flex; /* icona centrata */
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease; /* animazione fluida quando si passa sopra con il cursore */
+    cursor: pointer;
+}
+
+.btn-nav-timeline i {
+    font-size: 1.2rem;
+    line-height: 0;
+}
+
+/* animazione quando si passa con cursore sulle frecce */
+.btn-nav-timeline:hover {
+    background-color: var(--color-tema) !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transform: translateY(-50%) scale(1.1); /* si ingrandisce leggermente */
+    border-color: var(--color-tema) !important;
+}
+
+/* ===========
+   7. NETWORK
+   ============ */
+
+#network {
+    width: 100%;
+    height: 600px;
+    background-color: #fff; 
+    border: 1px solid #ddd;
+}
+
+#network:active {
+    cursor: grabbing; /* cambia icona del mouse */
+}
+
+/* ===================
+   8. LEGENDA e BADGE
+   =================== */
+.legenda-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5rem;
+    row-gap: 1rem;
+}
+
+/* legenda timeline */
+.legenda-cerchio {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.legenda-protagonista { background-color: var(--color-protagonista); }
+.legenda-istituzione { background-color: var(--color-istituzione); }
+.legenda-rifugio { background-color: var(--color-rifugio); }
+.legenda-ente-pubblico { background-color: var(--color-ente-pubblico); }
+.legenda-altro { background-color: var(--color-altro); }
+.legenda-organizzazione, 
+.legenda-default { 
+    background-color: var(--color-default); 
+}
+.legenda-linea-gustav {
+    width: 30px;
+    height: 0px;
+    border-top: 3px dashed #4a4a4a;
+    margin-top: 2px;
+}
+.legenda-linea-gotica {
+    width: 30px;
+    height: 0px;
+    border-top: 3px dashed var(--color-tema);
+    margin-top: 2px;
+}
+
+.legenda-bombardamento { 
+    background-color: var(--color-guerra); 
+}
+
+.legenda-guerra { 
+    background-color: var(--color-guerra); 
+}
+
+/* badge network e timeline */
+.badge-protagonista { background-color: var(--color-protagonista) !important; color: #fff; }
+.badge-altro { background-color: var(--color-altro) !important; color: #fff; }
+.badge-istituzione { background-color: var(--color-istituzione) !important; color: #fff; }
+.badge-rifugio { background-color: var(--color-rifugio) !important; color: #fff; }
+.badge-ente-pubblico { background-color: var(--color-ente-pubblico) !important; color: #fff; }
+.badge-organizzazione, .badge-default { 
+    background-color: var(--color-default) !important; 
+    color: #000 !important; 
+}
+.badge-guerra { 
+    background-color: var(--color-guerra) !important; 
+    color: white !important; 
+}
+
+/* =====================
+   9. FILTRI e BOX INFO
+   ===================== */
+
+/* Contenitore della sidebar filtri */
+.sidebar-filtri .sticky-lg-top {
+    border-right: 1px solid #dee2e6;
+    padding-right: 1.5rem;
+    top: 20px;
+}
+
+/* Titolo della sidebar filtri */
+.sidebar-filtri h5 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #333;
+}
+
+.dropdown-menu-filter {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0 !important; 
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* item = etichetta + quadratino */
+.filter-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 0 !important;
+    width: 100%;
+    white-space: normal !important; 
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.filter-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* checkbox */
+.form-check-input[type="checkbox"] {
+    cursor: pointer;
+    margin-top: 0 !important;
+    margin-right: 10px !important;
+    flex-shrink: 0;
+}
+
+/* per bottoni mappa*/
+.form-check.form-switch {
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+    gap: 10px;
+}
+
+.form-check.form-switch .form-check-input {
+    margin-left: 0 !important;
+    float: none !important;
+    cursor: pointer;
+    height: 1.25em;
+}
+
+.form-check.form-switch .form-check-label {
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+/* checkbox e bottoni mappa rossi */
+.form-check-input:checked {
+    background-color: var(--color-tema);
+    border-color: var(--color-tema);
+}
+
+/* Bottone Reset */
+.btn-reset {
+    font-size: 0.8rem;
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.2s;
+    background: none;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#info-panel {  
+    width: 100%;
+    height: 600px;    
+    background-color: #fff;  
+    border: 1px solid #dee2e6;     
+    overflow-y: auto; /* scrollbar interna se il testo è troppo lungo */
+    display: flex; /* allinea gli elementi interni (testo, titolo ecc) */
+    flex-direction: column; /* incolonna gli elementi */
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-bottone-sidebar {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+
+.box-spiegazione-filtri {
+    background-color: #f8f9fa !important; /* bg-light */
+    border: 1px solid #dee2e6 !important; /* border */
+    border-radius: 0.375rem !important;    /* rounded */
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important; /* shadow-sm */
+    padding: 0.5rem !important;            /* p-2 */
+    margin-top: 1.5rem !important;         /* mt-4 */
+    margin-bottom: 0.5rem !important;      /* mb-2 */
+}
+
+.box-spiegazione-filtri h6 {
+    font-size: 0.875em; /* small */
+    font-weight: bold;  /* fw-bold */
+    color: #212529;     /* text-dark */
+}
+
+.box-spiegazione-filtri p {
+    font-size: 0.8rem;         /* style="font-size: 0.8rem" */
+    text-align: justify;       /* style="text-align: justify" */
+    color: #6c757d !important; /* text-muted */
+    margin-bottom: 0;          /* mb-0 */
+}

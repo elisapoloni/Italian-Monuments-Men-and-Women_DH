@@ -1,0 +1,43 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc> <!--info versione digitale dell’item (resp = chi lo ha realizzato) -->
+			<titleStmt>
+				<title>Descrizione</title>
+				<respStmt>
+					<resp>Autore</resp>
+					<name xml:id="EP">Elisa Poloni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><!--note relative alla pubblicazione della versione digitale-->
+				<p>Pubblicato per l'esame di Digital Humanities</p> 
+			</publicationStmt>
+			<sourceDesc> <!--descrizione fonte analogica di riferimento-->
+				<p>Opera "La Tempesta" di Giorgione</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>
+				L’iconografia misteriosa, incentrata su due personaggi di cui non si comprende immediatamente la relazione – un giovane soldato e una madre nuda che allatta il proprio figlio – ha stimolato le interpretazioni più varie, anche in relazione al significato del paesaggio e al cielo squarciato dal fulmine che dà il titolo al dipinto. Ultimamente è stato proposto di leggere l’iconografia del dipinto in relazione a un poemetto encomiastico della 
+				<name type="nome-famiglia">famiglia Vendramin</name> 
+				che identificherebbe il soldato con asta in 
+				<name type="nome-proprio">Silvio</name>
+				, secondogenito di 
+				<name type="nome-proprio">Enea</name>
+				, mentre sullo sfondo la madre 
+				<name type="nome-proprio">Lavinia</name> 
+				al momento di metterlo al mondo nella selva (da cui il nome). Piuttosto varie anche le datazioni proposte, che variano 
+				<date from="1503" to="1509">dal 1503 al 1509</date>
+				. È tuttavia più plausibile pensare la 
+				<name type="opera-arte">Tempesta</name> 
+				commissionata da 
+				<name type="nome-proprio" ref="http://viaf.org/viaf/37792844">Gabriele Vendramin</name> 
+				intorno al <date>1504</date>
+				, anno decisivo per il suo percorso personale, e quindi più lontana cronologicamente dalla pittura “monumentale” di 
+				<name type="pseudonimo" ref="http://viaf.org/viaf/39385864">Giorgione</name> 
+				dei suoi ultimi anni.
+			</p>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,243 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"> <!-- dichiaro che sto usando i metadati Dublin Core: standard internazionale per la descrizione di risorse digitali e non digitali-->
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Progetto realizzato per la tesi di laurea magistrale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2026-10-12">
+	<META NAME="DC.Type" CONTENT="Web App">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="#">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--bootstrap 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+	<header id="navbar-placeholder">
+		<!--barra di navigazione-->		
+	</header>
+	<main>
+		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
+        	<h2 class="page-title text-center m-0">IL NETWORK</h2>
+    	</section>
+		<section>
+			<div class="container-fluid mt-3">
+				<!--breadcrumbs-->
+				<nav aria-label="breadcrumb">
+            		<ol class="breadcrumb" id="breadcrumb-placeholder"></ol>
+        		</nav>
+				<!-- card intro -->
+				<div class="row">
+					<div class="col-12">
+						<div class="card border-0 shadow-sm mb-4">
+							<div class="card-body p-4">
+								<h5 class="card-title titolo-intro">Esplora le relazioni</h5>
+								<p class="card-text" style="text-align: justify;">
+									La visualizzazione permette di analizzare la dimensione relazionale del progetto, integrando i sei protagonisti con <b>figure di corredo</b> (collaboratori, familiari, funzionari). 
+									Il primo grafo mostra i legami sociali e professionali delle persone coinvolte, permettendo di ricostruirne le <b>collaborazioni</b>. 
+									Il secondo definisce le <b>responsabilità</b>, mostrando il collegamento tra le organizzazioni e il protagonista di riferimento. 
+									Il terzo ricostruisce il <b>flusso</b> dei beni culturali dalle istituzioni di origine ai luoghi di ricovero.
+								</p>
+								
+								<hr>
+								
+								<h6 class="fw-bold mb-3">Legenda dei nodi:</h6>
+								<div class="legenda-container">
+									<!-- Protagonista -->
+									<div class="d-flex align-items-center">
+										<div class="me-2 legenda-protagonista" style="width: 18px; height: 18px; border-radius: 50%;"></div>
+										<span class="small">Protagonista</span>
+									</div>
+									<!-- Istituzione -->
+									<div class="d-flex align-items-center">
+										<div class="me-2 legenda-istituzione" style="width: 18px; height: 18px; border-radius: 4px;"></div>
+										<span class="small">Istituzione</span>
+									</div>
+									<!-- Rifugio -->
+									<div class="d-flex align-items-center">
+										<!-- Rombo per il rifugio -->
+										<div class="me-2 legenda-rifugio" style="width: 16px; height: 16px; transform: rotate(45deg); border-radius: 4px;"></div>
+										<span class="small">Rifugio</span>
+									</div>
+									<!-- Ente Pubblico -->
+									<div class="d-flex align-items-center">
+										<div class="me-2 legenda-ente-pubblico" style="width: 18px; height: 18px; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); border-radius: 4px;"></div>
+										<span class="small">Ente Pubblico</span>
+									</div>
+									<!-- Altre persone -->
+									<div class="d-flex align-items-center">
+										<div class="me-2 legenda-altro" style="width: 18px; height: 18px; border-radius: 50%;"></div>
+										<span class="small">Figura di corredo</span>
+									</div>
+								</div>
+								<p class="text-muted small mt-4 mb-0" style="text-align: justify;"><i class="bi bi-mouse me-1"></i>
+									Puoi trascinare i nodi, zoomare con la rotellina e cliccare su ogni elemento per leggere i dettagli nella barra descrittiva.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			        <!-- bottoni per cambiare grafo -->
+                    <div class="row mb-4">
+                        <div class="col-12 text-center">
+                            <div class="btn-group" role="group" aria-label="Filtri del Network">
+                                <button type="button" class="btn btn-outline-dark active" id="btn-collab">
+                                    <i class="bi bi-people-fill me-2"></i>GRAFO DELLE COLLABORAZIONI
+                                </button>
+                                <button type="button" class="btn btn-outline-dark" id="btn-resp">
+                                    <i class="bi bi-bank me-2"></i>GRAFO DELLE RESPONSABILITÀ
+                                </button>
+                                <button type="button" class="btn btn-outline-dark" id="btn-flusso">
+                                    <i class="bi bi-arrow-left-right me-2"></i>FLUSSO DELLE OPERE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- filtri, grafo e info -->
+
+                    <div class="row mb-4">
+						<!-- colonna filtri -->
+						<aside class="col-12 col-lg-2 sidebar-filtri">
+							<div class="sticky-lg-top">
+								<h5 class="mb-3">Filtra per:</h5>
+								<!-- filtro compare solo per il grafo responsabilità (protagonista) -->
+								<div id="filtri-responsabilita" style="display:none;">
+									<div class="dropdown mb-3">
+										<button class="btn btn-secondary dropdown-toggle w-100 btn-sm" type="button" data-bs-toggle="dropdown">
+											Protagonista
+										</button>
+										<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-protagonista-resp"></ul>
+									</div>
+								</div>
+								<!-- filtro compare solo per il grafo flusso (protagonista e rifugio) -->
+								<div id="filtri-flusso" style="display:none;">
+									<div class="dropdown mb-2">
+										<button class="btn btn-secondary dropdown-toggle w-100 btn-sm" type="button" data-bs-toggle="dropdown">
+											Protagonista
+										</button>
+										<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-protagonista-flusso"></ul>
+									</div>
+									<div class="dropdown mb-2">
+										<button class="btn btn-secondary dropdown-toggle w-100 btn-sm" type="button" data-bs-toggle="dropdown">
+											Rifugio
+										</button>
+										<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-rifugio-flusso"></ul>
+									</div>
+								</div>
+								<div id="filtri-collaborazioni">
+									<p class="small text-muted italic">Nessun filtro disponibile per questo grafo.</p>
+								</div>
+								<button class="btn btn-outline-light text-dark btn-link btn-sm text-decoration-none text-muted w-100 mt-2" id="btn-reset-network">
+									<i class="bi bi-arrow-counterclockwise"></i> Mostra tutto
+								</button>
+								<!-- spiegazione filtri -->
+								<div id="spiegazione-filtri" class="box-spiegazione-filtri">
+									<h6 class="small fw-bold text-dark"><i class="bi bi-info-circle-fill me-1"></i> Logica dei filtri:</h6>
+									<p id="testo-spiegazione-filtri" class="small text-muted mb-0" style="font-size: 0.8rem; text-align: justify;">
+										<!-- testo cambia con JS -->
+									</p>
+								</div>								
+							</div>
+						</aside>
+
+                        <!-- colonna centro: grafo -->
+                        <div class="col-lg-7 col-md-12">
+                            <div id="network" class="shadow-sm border rounded bg-white"></div>
+                        </div>
+
+                        <!-- colonna dx: info -->
+                        <div class="col-lg-3 col-md-12 mt-lg-0">
+                            <div id="info-panel" class="card shadow-sm">
+                                <div class="card-header bg-light fw-bold text-secondary">
+                                    <i class="bi bi-info-circle me-2"></i>Descrizione
+                                </div>
+                                <div class="card-body" id="info">
+                                    <div class="text-center py-5">
+                                        <i class="bi bi-diagram-3 text-muted display-4"></i>
+                                        <p class="text-muted mt-3">Clicca su un nodo per visualizzare la descrizione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="row">
+					<div class="col-12">
+						<div class="card border-0 shadow-sm mt-4 mb-4">
+								<div class="card-body p-4">
+									<h5 class="card-title titolo-analisi">Risultati</h5>
+									<p class="card-text" style="text-align: justify; text-indent: 30px;">
+										Nel primo grafo emergono cluster distinti che riflettono le collaborazioni e mostrano 
+										visivamente come alcuni protagonisti fungono da ponte.
+									</p>
+
+									<ul class="card-text" style="text-align: justify;">
+										<li><b>Pasquale Rotondi</b> si conferma il principale nodo delle relazioni interregionali;</li>
+										<li><b>Palma Bucarelli</b> e <b>Noemi Gabrielli</b> emergono invece come nodi di cluster locali, 
+											rispettivamente per la rete romana e quella piemontese.</li>
+									</ul>
+
+									<p class="card-text" style="text-align: justify; text-indent: 30px;">
+										Le <b>figure di corredo</b>, seppur ricoprano un ruolo marginale a livello ministeriale, 
+										sono comunque presenti nel network di conoscenze e sono fondamentali per ricostruire una rete di collaborazione completa.
+									</p>
+
+									<p class="card-text" style="text-align: justify; text-indent: 30px;">
+										Nel secondo grafo la <b>Direzione Generale delle Arti</b>, organo centrale del <b>Ministero 
+										dell’Educazione Nazionale</b> deputato alla tutela del patrimonio artistico del Paese, emerge 
+										come nodo di alta connessione, confermando la sua funzione di coordinamento.
+									
+										L’analisi attraverso i filtri ribadisce graficamente la collaborazione tra Pasquale Rotondi e 
+										Fernanda Wittgens, mentre si confermano isolati e locali i casi di Palma Bucarelli, Noemi Gabrielli e 
+										Jole Bovio Marconi.
+									</p>
+
+									<p class="card-text" style="text-align: justify; text-indent: 30px;">
+										Anche la terza visualizzazione rivela la formazione di alcuni cluster.
+							
+										La densità delle linee verso rifugi come la <b>Rocca di Sassocorvaro</b> e il <b>Palazzo 
+										dei Principi di Carpegna</b> conferma il loro ruolo di depositi interregionali. Altri rifugi 
+										invece mostrano una funzione strettamente locale, come i rifugi romani, piemontesi ed emiliani.
+				
+										Dall’analisi emerge come molte istituzioni siano collegate a diversi ricoveri: questo denota 
+										la difficoltà di individuare un unico luogo sicuro e la necessità di effettuare spostamenti durante 
+										il conflitto. Questa mobilità, già evidenziata nella dimensione temporale della linea del tempo, 
+										trova conferma anche nel network.
+									</p>
+								</div>
+						</div>
+					</div>
+				</div>
+        </section>
+    </main>
+	<!--footer-->
+	<footer id="footer-placeholder"> <!--chiusura del sito-->
+		<!--footer è nella cartella components e viene richiamato con javascript perchè si ripete in tutte le pagine-->
+	</footer>
+	<!--cytoscope-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>	
+	<!-- miei js -->
+	<script src="js/main.js"></script>
+	<script src="js/network.js"></script>
+</body>
+</html>

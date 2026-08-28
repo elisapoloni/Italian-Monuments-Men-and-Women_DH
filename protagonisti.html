@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per aprire la pagina: dichiara il tipo di documento -->
+<html lang = "it"> <!-- attributo lang per specificare la lingua della pagina -->
+<head> <!-- contiene tutte le istruzioni necessarie al browser e ai motori di ricerca per capire cos'è la pagina e come deve apparire-->
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<!-- tag Viewport: influisce sul modo in cui i contenuti vengono visualizzati sui dispositivi mobili. 
+	Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. 
+	initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"> <!-- dichiaro che sto usando i metadati Dublin Core: standard internazionale per la descrizione di risorse digitali e non digitali-->
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Progetto realizzato per la tesi di laurea magistrale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2026-10-12">
+	<META NAME="DC.Type" CONTENT="Web App">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="#">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!-- bootstrap css 5.3, è il framework che regola il layout della pagina, la disposizione dei contenuti, lo stile dei componenti e la responsività della pagina, cioè la capacità di adattarsi a diversi dispositivi e dimensioni dello schermo -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!--icone bootstrap: libreria di icone vettoriali che possono essere utilizzate nelle pagine web per migliorare l'aspetto visivo e l'usabilità -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">	
+	<!--css: file esterno che contiene le regole di stile per la pagina web, come colori, font, layout e altri aspetti visivi --> 
+	<link rel=stylesheet href=style/style.css>
+	<!--favicon: icona che appare nella barra del browser -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+	<header id="navbar-placeholder"></header>
+	<main>
+
+		<section class="container-fluid bg-secondary text-white py-4">
+			<h2 class="page-title">I PROTAGONISTI</h2>
+		</section>
+
+		<section class="container-fluid mt-3">
+
+			<!-- Breadcrumbs -->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb" id="breadcrumb-placeholder"></ol> 
+			</nav>
+
+			<div class="row"> <!-- prima riga = card intro -->
+				<div class="col-12">					
+					<div class="card border-0 shadow-sm mb-4"> <!-- card intro -->
+						<div class="card-body p-4">
+							<h5 class="card-title titolo-intro">Conosci i protagonisti</h5>
+							<p class="card-text" style="text-align: justify;">
+								La pagina costituisce l’<b>indice prosopografico</b> del progetto e raccoglie le figure chiave che operarono 
+								per la salvaguardia del patrimonio artistico italiano durante la Seconda guerra mondiale. La ricerca si concentra su 
+								una selezione di sei protagonisti: <b>Palma Bucarelli</b>, <b>Fernanda Wittgens</b>, <b>Pasquale Rotondi</b>, 
+								<b>Noemi Gabrielli</b>, <b>Jole Bovio Marconi</b> e <b>Armando Ottaviano Quintavalle</b>; ma sono presenti anche 
+								figure di corredo (funzionari, collaboratori e autorità) per restituire una visione più completa.
+							</p>
+
+							<p class="card-text" style="text-align: justify;">
+								In questa fase del progetto, sono state implementate le schede di approfondimento relative a Fernanda Wittgens, 
+								Palma Bucarelli e Pasquale Rotondi, dove è possibile consultare alcune risorse correlate:
+							</p>
+
+							<ul class="card-text" style="text-align: justify;">
+								<li>il <b>racconto</b> delle attività di tutela svolte durante il periodo bellico corredato da immagini;</li>
+								<li>la <b>scheda prosopografica</b> con informazioni biografiche;</li>
+								<li>file di codifica in formato <b>XML-TEI</b> (per la marcatura dei testi) e <b>XML-EAC-CPF</b> (per la descrizione di record d'autorità), volti a garantire l’interoperabilità dei dati.</li>
+							</ul>
+							<p class="text-muted small mt-4 mb-0" style="text-align: justify;"><i class="bi bi-mouse me-1"></i> 
+								Puoi scorrere l'elenco dei protagonisti e cliccare su <strong>"Scheda dettagliata"</strong> per consultare le risorse correlate.
+							</p>
+					</div>
+			</div> <!-- chiusa riga card intro -->
+
+			<div class="row">
+
+				<!-- COLONNA SX: FILTRI -->		
+				<aside class="col-12 col-lg-2 sidebar-filtri">
+					<div class="sticky-lg-top">						
+							<h5 class="mb-3">Filtra per:</h5>
+							<div class="dropdown mb-3">
+								<button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+									Ruolo
+								</button>
+								<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-ruolo"></ul>
+							</div>
+						
+						<!-- box spiegazione filtri -->
+						<div id="spiegazione-filtri" class="box-spiegazione-filtri">
+							<h6><i class="bi bi-info-circle-fill me-1"></i> Logica dei filtri:</h6>
+							<p id="testo-spiegazione-filtri">
+								È possibile filtrare i protagonisti in base alle cariche ricoperte.
+							</p>
+						</div>
+
+						<!-- Bottone Reset -->
+						<button class="btn btn-outline-light text-dark btn-link btn-sm text-decoration-none text-muted w-100 mt-2" id="btn-reset">
+							<i class="bi bi-arrow-counterclockwise"></i> Mostra tutti i protagonisti
+						</button>
+					</div>
+				</aside>
+
+				<!-- COLONNA DX: CARD -->
+				<div class="col-12 col-lg-10">
+					<div id="container-protagonisti" class="row g-4"></div>
+				</div>
+
+			</div> <!-- chiusa row -->
+		</section> <!-- chiuso container-fluid -->
+</main>
+	<!--footer-->
+	<footer id="footer-placeholder"></footer>
+	<!--js-->
+	<script src="js/main.js"></script> <!-- collegamento al file JavaScript principale -->
+	<script src="js/protagonisti.js"></script> <!-- collegamento al file JavaScript per la gestione della pagina dei protagonisti -->
+	<!--collegamento alla libreria di Bootstrap 5.3 per il funzionamento dei componenti interattivi come il carosello e la barra di navigazione -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,447 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+<!--Elemento radice--> <!--xmlns = XML Namespace (spazio dei nomi XML), attributo che serve a spiegare al software che legge il file a quale vocabolario appartengono i tag usati nel documento--> <!--"http://www.tei-c.org/ns/1.0" = identificatore univoco del vocabolario TEI, fa capire al software che i tag usati seguono le regole della TEI-->
+    <teiHeader> <!--Sezione di documento dedicata ai metadati-->
+        <fileDesc> <!--Descrizione del file-->
+            <titleStmt> <!--Titolo del progetto e informazioni sui responsabili-->
+                <title>"Fernanda Wittgens e la Pinacoteca di Brera"</title>
+                <respStmt> <!--Dichiarazione di responsabilità = chi ha fatto cosa-->
+                    <resp>Codifica XML-TEI</resp>
+                    <name xml:id="EP">Elisa Poloni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt> <!--informazioni sulla pubblicazione del file digitale-->
+                <p>Progetto per la tesi magistrale in Digital Humanities conseguita presso l'Università di Bologna</p>
+            </publicationStmt>
+            <sourceDesc> <!--Descrizione della fonte analogica di partenza-->                
+                <listBibl xml:id="bibliografia">  <!--listBibl = contenitore che raccoglie le citaizoni bibliografiche. Bibliografia, elenco delle fonti consultate-->
+                    <!-- Fonte primaria: la mia tesi triennale -->
+                    <bibl xml:id="Poloni2023">
+                        <author>Elisa Poloni</author>
+                        <title type="main">La salvaguardia del patrimonio storico artistico durante la seconda guerra mondiale</title> <!--Titolo-->
+                        <title type="sub">Per un dizionario biografico dei «monuments men» italiani</title> <!--Sottotitolo-->
+                        <note>Tesi di Laurea Triennale</note>
+                        <note>Corso di Laurea Triennale in Beni Artistici e dello Spettacolo</note>
+                        <note>Università degli Studi di Parma (UNIPR)</note>
+                        <date>2023</date>
+                    </bibl>
+                    <!-- Fonte secondaria: i testi citati nella mia tesi -->
+                    <!-- Arrigoni 2007 -->
+                    <bibl xml:id="Arrigoni2007">
+                        <author>Luisa Arrigoni</author>
+                        <title level="a">Fernanda Wittgens</title> <!-- attributo level definisce il tipo di pubblicazione; valore "a" indica un articolo/saggio/capitolo incluso in raccolte, volumi, miscellanee (analytic) -->
+                        <title level="m">Dizionario biografico dei Soprintendenti Storici dell’Arte (1904-1974)</title> <!-- valore m indica il titolo del libro/volume autonomo (monographic) -->
+                        <pubPlace>Bologna</pubPlace>
+                        <publisher>Bononia University Press</publisher>
+                        <date>2007</date>
+                        <biblScope unit="page">651-652</biblScope> <!--elemento biblScope serve a specificare esattamente il riferimento bibliografico; attributo unit fa capire al software la natura del numero indicato (page=pagine)-->
+                    </bibl>
+                    <!-- Ginex 2023 -->
+                    <bibl xml:id="Ginex2023">
+                        <author>Giovanna Ginex</author>
+                        <title level="a">Fernanda Wittgens a Milano</title>
+                        <editor>Gallo, Luigi</editor>
+                        <editor>Morselli, Raffaella</editor>
+                        <title level="m">Arte liberata. Capolavori salvati dalla guerra 1937-1947</title>
+                        <note>Catalogo della mostra (Roma, Scuderie del Quirinale, 16 dicembre 2022 – 10 aprile 2023)</note>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Electa</publisher>
+                        <date>2023</date>
+                        <biblScope unit="page">214-222</biblScope>
+                    </bibl>                
+                </listBibl>
+                <listPerson> <!--contenitore che raggruppa persone estratte dal body-->
+                    <person xml:id="FW">
+                        <persName>Fernanda Wittgens</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/8397197</idno> <!--tag idno = identifier; attributo type = specifica il tipo di identificazione-->
+                        <affiliation ref="#PB_org">Direttrice</affiliation> <!--specifica la relazione con un'organizzazione-->
+                    </person>
+                    <person xml:id="ABC">
+                        <persName>Achille Bertini Calosso</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/23170497</idno>
+                    </person>
+                    <person xml:id="PR">
+                        <persName>Pasquale Rotondi</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/24461179</idno>
+                    </person>                    
+                </listPerson>                
+                <listOrg>
+                    <!-- contenitore che raggruppa organizzazioni/istituzioni museali estratte dal body-->
+                    <org xml:id="PB_org" corresp="#PB_loc">
+                        <orgName>Pinacoteca di Brera</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/157020123</idno>
+                    </org>
+                    <org xml:id="MPP_org" corresp="#MPP_loc">
+                        <orgName>Museo Poldi Pezzoli</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/127262991</idno>
+                    </org>
+                    <org xml:id="PA_org" corresp="#PA_loc">
+                        <orgName>Pinacoteca Ambrosiana</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/130698811</idno>
+                    </org>
+                    <org xml:id="CS_org" corresp="#CS_loc">
+                        <orgName>Castello Sforzesco</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/145790064</idno>
+                    </org>
+                    <org xml:id="OM_org" corresp="#OM_loc">
+                        <orgName>Ospedale Maggiore (Ca' Granda)</orgName>
+                        <idno type="Wikidata">https://www.wikidata.org/wiki/Q17154436</idno> 
+                    </org>
+                    <org xml:id="MTS_org" corresp="#MTS_loc">
+                        <orgName>Museo Teatrale alla Scala</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/158311786</idno>
+                    </org>
+                    <org xml:id="AC_org" corresp="#AC_loc">
+                        <orgName>Accademia Carrara di Bergamo</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/173736003</idno>
+                    </org>
+                    <org xml:id="PTM_org" corresp="#PTM_loc">
+                        <orgName>Pinacoteca Tosio Martinengo</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/244604707</idno>
+                    </org>
+                    <org xml:id="VMC_org" corresp="#VMC_loc">
+                        <orgName>Villa Marini – Clarelli (Montefreddo)</orgName>                           
+                    </org>
+                    <org xml:id="Cariplo_org" corresp="#Cariplo_loc">
+                        <orgName>Cassa di Risparmio delle Provincie Lombarde</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/151303818</idno>
+                    </org>
+                    <org xml:id="VIC_org" corresp="#VIC_loc">
+                        <orgName>Villa Il Corniolo (Orvieto)</orgName>                        
+                    </org>
+                    <org xml:id="PPC_org" corresp="#PPC_loc">
+                        <orgName>Palazzo dei Principi di Carpegna</orgName>
+                    </org>
+                    <org xml:id="Prefettura_org" corresp="#Prefettura_loc">
+                        <orgName>Prefettura di Milano</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/131723039</idno>
+                    </org>
+                    <org xml:id="SMG_org" corresp="#SMG_loc">
+                        <orgName>Santa Maria delle Grazie</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/307288822</idno>
+                    </org>
+                    <org xml:id="RSI_org" corresp="#RSI_loc">
+                        <orgName>Repubblica di Salò (RSI)</orgName>
+                        <idno type="Wikidata">https://www.wikidata.org/wiki/Q153660</idno>
+                    </org>
+                    <org xml:id="Soprintendenza-MI_org" corresp="#Soprintendenza-MI_loc">
+                        <orgName>Soprintendenza per i beni artistici e storici di Milano</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/128530575</idno>
+                    </org>
+                    <org xml:id="SV_org" corresp="#SV_loc">
+                        <orgName>Carcere di San Vittore</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/73144647641989307788</idno>
+                    </org>
+                    <org xml:id="ABAB_org" corresp="#ABAB_loc">
+                        <orgName>Accademia di Belle Arti di Brera</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/148353750</idno>
+                    </org>
+                    <org xml:id="ComandoAlleato_org">
+                        <orgName>Allied Commission (Comando Alleato)</orgName>
+                        <idno type="Wikidata">https://www.wikidata.org/wiki/Q716342</idno>
+                    </org>
+                </listOrg>
+                <listPlace><!-- contenitore che raggruppa luoghi (sedi fisiche delle org e città) estratti dal body-->
+                        <place xml:id="BG_loc">
+                            <placeName>Bergamo</placeName>
+                            <location><geo>45.69601 9.66721</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3182164/bergamo.html</idno>
+                        </place>
+                        <place xml:id="BS_loc">
+                            <placeName>Brescia</placeName>
+                            <location><geo>45.53558 10.21472</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3181554/brescia.html</idno>
+                        </place>
+                        <place xml:id="MF_loc">
+                            <placeName>Montefreddo</placeName>
+                            <location><geo>43.0441 12.2802</geo></location>   
+                        </place>
+                        <place xml:id="PG_loc">
+                            <placeName>Perugia</placeName>
+                            <location><geo>43.1122 12.38878</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3171180/perugia.html</idno>
+                        </place>
+                        <place xml:id="ORV_loc">
+                            <placeName>Orvieto</placeName>
+                            <location><geo>42.71924 12.11249</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3171874/orvieto.html</idno>
+                        </place>
+                        <place xml:id="CAR_loc">
+                            <placeName>Carpegna</placeName>
+                            <location><geo>43.7811 12.33543</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3180455/carpegna.html</idno>
+                        </place>
+                        <place xml:id="URB_loc">
+                            <placeName>Urbino</placeName>
+                            <location><geo>43.72621 12.63633</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3165035/urbino.html</idno>
+                        </place>
+                        <place xml:id="MI_loc">
+                            <placeName>Milano</placeName>
+                            <location><geo>45.46427 9.18951</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3173435/milan.html</idno>
+                        </place>
+                        <place xml:id="PB_loc">
+                            <placeName>Pinacoteca di Brera</placeName>
+                            <location><geo>45.4719 9.18806</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/6949436/pinacoteca-di-brera.html</idno>
+                        </place>
+                        <place xml:id="MPP_loc">
+                            <placeName>Museo Poldi Pezzoli</placeName>
+                            <location><geo>45.46847 9.19151</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/10278745/museo-poldi-pezzoli.html</idno>                            
+                        </place>
+                        <place xml:id="PA_loc">
+                            <placeName>Pinacoteca Ambrosiana</placeName>
+                            <location><geo>45.46352 9.18587</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/8133663/pinacoteca-ambrosiana.html</idno>                             
+                        </place>
+                        <place xml:id="CS_loc">
+                            <placeName>Castello Sforzesco</placeName>
+                            <location><geo>45.46987 9.18003</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3166568/castello-sforzesco.html</idno>
+                        </place>
+                        <place xml:id="OM_loc">
+                            <placeName>Ospedale Maggiore (Ca' Granda)</placeName>
+                            <location><geo>45.460008 9.195317</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q17154436</idno>                            
+                        </place>
+                        <place xml:id="MTS_loc">
+                            <placeName>Museo Teatrale alla Scala</placeName>
+                            <location><geo>45.46724 9.18922</geo></location> 
+                            <idno type="GeoNames">https://www.geonames.org/11839661/museo-teatrale-alla-scala.html</idno>                           
+                        </place>
+                        <place xml:id="AC_loc">
+                            <placeName>Accademia Carrara (Bergamo)</placeName>
+                            <location><geo>45.703861 9.675611</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q338367</idno>                             
+                        </place>
+                        <place xml:id="PTM_loc">
+                            <placeName>Pinacoteca Tosio Martinengo (Brescia)</placeName>
+                            <location><geo>45.5349 10.2248</geo></location>  
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q3388589</idno>                          
+                        </place>
+                        <place xml:id="VMC_loc">
+                            <placeName>Villa Marini – Clarelli (Montefreddo)</placeName>
+                            <location><geo>43.0435798 12.2853874</geo></location>                            
+                        </place>
+                        <place xml:id="Cariplo_loc">
+                            <placeName>Cassa di Risparmio delle Provincie Lombarde (Cariplo)</placeName>
+                            <location><geo> 45.4693 9.1895</geo> <!-- Sede storica di Via Monte di Pietà, Milano --></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q3661915</idno>
+                        </place>
+                        <place xml:id="VIC_loc">
+                            <placeName>Villa Il Corniolo</placeName> <!--Adesso viene chiamata Villa Paolina, si trova a Porano (Terni), nei pressi di Orvieto-->
+                            <location><geo>42.68161 12.10097</geo></location>
+                        </place>
+                        <place xml:id="PPC_loc">
+                            <placeName>Palazzo dei Principi di Carpegna</placeName>
+                            <location><geo>43.78169 12.33625</geo> <!-- Situato nel comune di Carpegna (PU) --></location>
+                        </place>
+                        <place xml:id="Prefettura_loc">
+                            <placeName>Palazzo Diotti (Prefettura)</placeName>
+                            <location><geo>45.46745 9.20218</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q25841599</idno>
+                        </place>
+                        <place xml:id="SMG_loc">
+                            <placeName>Santa Maria delle Grazie</placeName>
+                            <location><geo>45.4659 9.17114</geo></location> 
+                            <idno type="GeoNames">https://www.geonames.org/6949438/santa-maria-delle-grazie.html</idno>
+                        </place>
+                        <place xml:id="LG_loc">
+                            <placeName>Linea Gotica</placeName>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q696810</idno>
+                            <idno type="VIAF">http://viaf.org/viaf/8787148574289224430004</idno>
+                        </place>
+                        <place xml:id="RSI_loc">
+                            <placeName>Salò (Sede RSI)</placeName>
+                            <location><geo>45.607114 10.528279</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q153660</idno>
+                        </place>
+                        <place xml:id="Soprintendenza-MI_loc">
+                            <placeName>Palazzo Litta</placeName>
+                            <location><geo>45.465769 9.178311</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q732658</idno>
+                        </place>
+                        <place xml:id="SV_loc">
+                            <placeName>Carcere di San Vittore</placeName>
+                            <location><geo>45.461937 9.165688</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q3658360</idno>
+                        </place>
+                        <place xml:id="ABAB_loc">
+                            <placeName>Accademia di Belle Arti (Brera)</placeName>
+                            <location><geo>45.472222 9.188889</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q338472</idno>
+                        </place>                                           
+                    </listPlace>
+                    <listEvent> <!-- contenitore che raggruppa eventi estratti dal body-->
+                    <event xml:id="FW-direttrice-PB_ev" when="1940-08-01">
+                        <eventName>Nomina di Fernanda Wittgens a direttrice</eventName>
+                    </event>
+                    <event xml:id="Italia-guerra_ev" when="1940-06-10">
+                        <eventName>Entrata in guerra dell'Italia</eventName>
+                    </event>
+                    <event xml:id="VMC-rifugio_ev" when="1940-06-18">
+                        <eventName>Arrivo delle opere a Villa Marini – Clarelli</eventName>
+                    </event>
+                    <event xml:id="VIC-PPC-rifugio_ev" from="1941-09-17" to="1943-08-01">
+                        <eventName>Spostamento delle opere in nuovi rifugi verso sud</eventName>
+                    </event>
+                    <event xml:id="PB-bombardamento_ev" when="1943-08-08">
+                        <eventName>Bombardamento della Pinacoteca di Brera</eventName>
+                    </event>
+                    <event xml:id="SMG-bombardamento_ev" when="1943-08-13">
+                        <eventName>Bombardamento di Santa Maria delle Grazie</eventName>
+                    </event>
+                    <event xml:id="armistizio_ev" when="1943-09-08">
+                        <eventName>Armistizio dell'8 settembre</eventName>
+                    </event>
+                    <event xml:id="Soprintendenza-MI_ev" from="1944-01-01" to="1945-04-25">
+                        <eventName>Operazioni della soprintendenza milanese dal 1944 fino alla liberazione di Milano</eventName>
+                    </event>
+                    <event xml:id="FW-arresto_ev" when="1944-07-14">
+                        <eventName>Arresto di Fernanda Wittgens</eventName>
+                    </event>
+                    <event xml:id="liberazione-MI_ev" when="1945-04-25">
+                        <eventName>Liberazione di Milano</eventName>
+                    </event>
+                    <event xml:id="liberazione-FW_ev" when="1945-04-24">
+                        <eventName>Uscita dal carcere di Fernanda Wittgens</eventName>
+                    </event>
+                    <event xml:id="nomina-commissario-FW_ev" when="1945-06-01">
+                        <eventName>Wittgens nominata commissario straordinario dell'Accademia di Brera dal Comando Alleato</eventName>
+                    </event>
+                    <event xml:id="FW-direttrice-PB-dopoguerra_ev" when="1946-03-31">
+                        <eventName>Wittgens ottiene di nuovo la nomina a Direttrice di Brera</eventName>
+                    </event>                    
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> <!--sezione che descrive i criteri di codifica-->    <classDecl> <!--contenitore dove vengono dichiarate le tassonomie-->
+                <!--TEMI-->
+                <taxonomy xml:id="temi"> <!--definisce il sistema di classificazione-->
+                    <category xml:id="direzione-museale"> <!--elemento che definisce un singolo concetto all'interno di una tassonomia-->
+                        <catDesc>Attività dei direttori delle istituzioni museali nella gestione patrimonio culturale durante la guerra</catDesc>
+                    </category> <!--descrizione-->
+                    <category xml:id="tutela">
+                        <catDesc>Protezione e salvaguardia del patrimonio storico artistico durante la Seconda Guerra mondiale</catDesc> 
+                    </category>
+                    <category xml:id="guerra">
+                        <catDesc>Eventi bellici, bombardamenti e danni al patrimonio</catDesc>
+                    </category>
+                    <category xml:id="logistica">
+                        <catDesc>Trasporto, imballaggio e gestione dei rifugi</catDesc>
+                    </category>
+                    <category xml:id="archivio">
+                        <catDesc>Documentazione archivistica, dossier, elenchi e fondi documentari</catDesc>
+                    </category>
+                    <category xml:id="rifugio">
+                        <catDesc>Luogo sicuro individuato per nascondere le opere d'arte</catDesc>
+                    </category>
+                    <category xml:id="resistenza">
+                        <catDesc>Attività antifascista, clandestina e partigiana</catDesc>
+                    </category>
+                    <category xml:id="liberazione">
+                        <catDesc>Liberazione dalla dittatura nazi-fascista del territorio italiano</catDesc>
+                    </category>
+                    <category xml:id="comando-alleato">
+                        <catDesc>Attività degli Alleati in seguito all'armistizio dell'8 settembre</catDesc>
+                    </category>
+                    <category xml:id="valorizzazione">
+                        <catDesc>Attività post-bellica di ricostruzione e riapertura dei musei</catDesc>
+                    </category>
+                    <category xml:id="istituzioni">
+                        <catDesc>Musei, organizzaizoni ed enti coinvolti nelle vicende</catDesc>
+                    </category>
+                    <category xml:id="soprintendenza">
+                        <catDesc>Attività dei soprintendenti nella gestione patrimonio culturale durante la guerra</catDesc>
+                    </category>         
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>        
+    </teiHeader>
+    <text> <!--contiene tutto il testo: front (prefazione), group (gruppi di testi), body (testo effettivo) e back (appendici)-->
+        <body source="#Poloni2023 #Arrigoni2007 #Ginex2023"> 
+          <div type="chapter" n="1">
+            <p ana="#istituzioni #direzione-museale"> <!--ana è attributo che collega alla category; il valore deve essere il xml:id di un elemento presente nella taxonomy; si usa per i concetti a differenza di ref che si usa per persone, luoghi, organizzazioni ed eventi precisi-->
+                <persName ref="#FW">Fernanda Wittgens</persName> divenne direttrice della 
+                <orgName ref="#PB_org">Pinacoteca di Brera</orgName> nell’agosto del 1940 
+                <date ref="#FW-direttrice-PB_ev" when="1940-08-01"/>. 
+                Ebbe un ruolo fondamentale nella <term ana="#tutela">protezione del patrimonio culturale</term> milanese e lombardo, 
+                mettendo in sicurezza non solo le opere poste sotto la 
+                <rs ref="#FW">sua</rs> responsabilità, ma anche quelle provenienti da diversi musei del territorio circostante: 
+                tra questi possiamo citare il <orgName ref="#MPP_org">Museo Poldi Pezzoli</orgName>, 
+                la <orgName ref="#PA_org">Pinacoteca Ambrosiana</orgName>, 
+                il <orgName ref="#CS_org">Castello Sforzesco</orgName>, 
+                l’<orgName ref="#OM_org">Ospedale Maggiore</orgName>, 
+                il <orgName ref="#MTS_org">Museo Teatrale alla Scala</orgName>, 
+                l’<orgName ref="#AC_org">Accademia Carrara</orgName> di <placeName ref="#BG_loc">Bergamo</placeName> 
+                e la <orgName ref="#PTM_org">Pinacoteca Tosio Martinengo</orgName> di <placeName ref="#BS_loc">Brescia</placeName> <ref target="#Arrigoni2007" n="41">p. 651</ref>.
+            </p>
+          </div>
+          <div type="chapter" n="2">
+            <p ana="#tutela #logistica">
+                Le <term ana="#logistica">operazioni</term> cominciarono all’indomani dell’
+                <date ref="#Italia-guerra_ev" when="1940-06-10">entrata in guerra dell’Italia</date>, 
+                con lo <term ana="#logistica">sgombero</term> delle opere indicate come “illustri” nella 
+                <term ana="#archivio">documentazione redatta</term> dalla 
+                <rs ref="#FW">direttrice</rs> e il loro <term ana="#logistica">trasporto</term> alla 
+                <orgName ref="#VMC_org">Villa Marini – Clarelli</orgName>, 
+                a <placeName ref="#MF_loc">Montefreddo</placeName>, nei pressi di <placeName ref="#PG_loc">Perugia</placeName>. 
+                Le <num value="32" type="cardinal">32</num> casse arrivarono a destinazione il 
+                <date ref="#VMC-rifugio_ev" when="1940-06-18">18 giugno 1940</date> e furono consegnate al 
+                <rs ref="#ABC" ana="#soprintendenza">soprintendente</rs> <persName ref="#ABC">Achille Bertini Calosso</persName>. 
+                Altri <term ana="#logistica">rifugi</term> furono individuati nei sotterranei della 
+                <orgName ref="#Cariplo_org">Cassa di Risparmio</orgName> e del 
+                <placeName ref="#CS_loc">Castello Sforzesco</placeName>, dove le opere rimasero per poco più di un anno: 
+                l’eccessiva umidità di questi spazi non permetteva la corretta conservazione dei manufatti, che furono successivamente spostati <ref target="#Ginex2023" n="42">pp. 214-215</ref>.
+            </p>
+          </div>
+          <div type="chapter" n="3">
+            <p ana="#logistica #guerra">
+                Il <date ref="#VIC-PPC-rifugio_ev" from="1941-09-17" to="1943-08-01">17 settembre 1941</date> si decise di spostare le opere in nuovi <term ana="#rifugio">rifugi</term> verso sud e il <term ana="#logistica">trasferimento</term> proseguirà fino all’estate del 1943. 
+                Alcune opere vennero trasferite da <placeName ref="#MF_loc">Montefreddo</placeName> a 
+                <orgName ref="#VIC_org">Villa Il Corniolo</orgName>, nei pressi di <placeName ref="#ORV_loc">Orvieto</placeName>, 
+                mentre altre al <orgName ref="#PPC_org">Palazzo dei Principi di Carpegna</orgName>. 
+                Qui arrivarono <num value="87" type="cardinal">87</num> casse, poste sotto la <term ana="#tutela">protezione</term> di 
+                <persName ref="#PR" ana="#soprintendenza">Pasquale Rotondi</persName>, che da <placeName ref="#URB_loc">Urbino</placeName> 
+                stava coordinando il <term ana="#tutela">salvataggio</term> di opere provenienti da diverse regioni d’Italia. 
+                <persName ref="#FW">Wittgens</persName> viaggiò costantemente, accompagnando di persona i convogli, ma non senza difficoltà: 
+                i mezzi scarseggiavano, il personale maschile era chiamato al fronte e la <rs ref="#FW">direttrice</rs>, in quanto donna, 
+                necessitava di speciali autorizzazioni della <orgName ref="#Prefettura_org">Prefettura</orgName> <ref target="#Ginex2023" n="43">pp. 215-218</ref>. 
+                Nel frattempo <placeName ref="#MI_loc">Milano</placeName> veniva bombardata e numerosi edifici storici ne subivano le conseguenze: 
+                l’<date ref="#PB-bombardamento_ev" when="1943-08-08">8 agosto 1943</date> 
+                <placeName ref="#PB_loc">Brera</placeName> venne gravemente danneggiata, 
+                <num value="26" type="cardinal">26</num> delle <num value="34" type="cardinal">34</num> sale erano distrutte; 
+                il <date ref="#SMG-bombardamento_ev" when="1943-08-13">13 agosto dello stesso anno</date> veniva colpita 
+                <orgName ref="#SMG_org">Santa Maria delle Grazie</orgName>, dove il muro del 
+                <title ref="http://viaf.org/viaf/175915680">Cenacolo</title> si salvò grazie a una <term ana="#tutela">protezione di armature tubolari e sacchi di sabbia</term> <ref target="#Ginex2023" n="44">p. 219</ref>.
+            </p>
+          </div>
+          <div type="chapter" n="4">
+            <p ana="#guerra #soprintendenza">
+                In seguito all’<date ref="#armistizio_ev" when="1943-09-08">armistizio dell’8 settembre 1943</date> e all’aggravarsi della situazione, l’Italia centrale, attraversata dalla 
+                <placeName ref="#LG_loc">Linea Gotica</placeName>, e il territorio <placeName ref="#BS_loc">bresciano</placeName>, sede della 
+                <orgName ref="#RSI_org">Repubblica di Salò</orgName>, diventarono zone troppo pericolose: 
+                bisognava trovare altri <term ana="#rifugio">rifugi</term> e <date ref="#Soprintendenza-MI_ev #Soprintendenza-MI_org" from="1944-01-01" to="1945-04-25">dal 1944 fino alla Liberazione</date> la 
+                <orgName ref="#Soprintendenza-MI_org" ana="#soprintendenza">Soprintendenza milanese</orgName> si occupò di repentini <term ana="#logistica">spostamenti</term> in più di venti <term ana="#rifugio">ricoveri</term>, 
+                alla ricerca di luoghi sempre più sicuri <ref target="#Ginex2023" n="45">p. 222</ref>.
+            </p>
+          </div>
+          <div type="chapter" n="5">
+            <p ana="#resistenza #valorizzazione #comando-alleato">
+                L’impegno di <persName ref="#FW">Wittgens</persName> non si limitò alla <term ana="#tutela">tutela dei beni culturali</term>. 
+                Era infatti un’<term ana="#resistenza">antifascista</term> convinta e svolgeva attività clandestina: 
+                organizzava espatri di perseguitati ed ebrei, collaborando con associazioni benefiche e gruppi partigiani. 
+                Per questo, venne arrestata il <date ref="#FW-arresto_ev" when="1944-07-14">14 luglio 1944</date> 
+                e reclusa nel <orgName ref="#SV_org">carcere di San Vittore</orgName>. 
+                Liberata il <date ref="#liberazione-FW_ev" when="1945-04-24">24 aprile 1945</date>, 
+                nel <date ref="#nomina-commissario-FW_ev" when="1945-06-01">giugno dello stesso anno</date> fu nominata commissario straordinario dell’
+                <orgName ref="#ABAB_org">Accademia di Belle Arti di Brera</orgName> dal 
+                <orgName ref="#ComandoAlleato_org" ana="#comando-alleato">Comando Alleato</orgName>. 
+                Mantenne la carica fino al <date ref="#FW-direttrice-PB-dopoguerra_ev" when="1946-03-31">31 marzo dell’anno seguente </date>, quando riottenne il ruolo di 
+                <rs ref="#FW" ana="#direzione-museale">direttrice</rs> di <orgName ref="#PB_org">Brera</orgName><ref target="#Arrigoni2007" n="46">pp. 651-652</ref>.
+            </p>
+          </div>
+        </body>
+    </text>
+</TEI>

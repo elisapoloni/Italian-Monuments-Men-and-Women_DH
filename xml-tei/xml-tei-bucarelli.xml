@@ -1,0 +1,273 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"Palma Bucarelli e la Galleria Nazionale d'Arte Moderna"</title>
+                <respStmt>
+                    <resp>Codifica a cura di</resp>
+                    <name xml:id="EP">Elisa Poloni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Progetto per la tesi magistrale in Digital Humanities conseguita presso l'Università di Bologna</p>
+            </publicationStmt>
+            <sourceDesc> <!--Bibliografia-->
+                <listBibl xml:id="bibliografia">
+                    <!-- Fonte primaria: la mia tesi triennale -->
+                    <bibl xml:id="Poloni2023">
+                        <author>Poloni, Elisa</author>
+                        <title type="main">La salvaguardia del patrimonio storico artistico durante la seconda guerra mondiale</title> <!--Titolo-->
+                        <title type="sub">Per un dizionario biografico dei «monuments men» italiani</title> <!--Sottotitolo-->
+                        <note>Tesi di Laurea Triennale</note>
+                        <note>Corso di Laurea Triennale in Beni Artistici e dello Spettacolo</note>
+                        <note>Università degli Studi di Parma (UNIPR)</note>
+                        <date>2023</date>
+                    </bibl>
+                    <!-- Fonte secondaria: i testi citati nella mia tesi -->
+                    <!-- Ferrario 2010 -->
+                    <bibl xml:id="Ferrario2010">
+                        <author>Ferrario, Rachele</author>
+                        <title level="m">Regina di quadri. Vita e passioni di Palma Bucarelli</title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Mondadori</publisher>
+                        <date>2010</date>
+                        <biblScope unit="page">XI, 6</biblScope>
+                    </bibl>
+                    <!-- Biondi 2023 -->
+                    <bibl xml:id="Biondi2023">
+                        <author>Biondi, Antonietta</author>
+                        <title level="a">Palma Bucarelli: una partigiana dell’arte</title>
+                        <editor>Gallo, Luigi</editor>
+                        <editor>Morselli, Raffaella</editor>
+                        <title level="m">Arte liberata. Capolavori salvati dalla guerra 1937-1947</title>
+                        <note>Catalogo della mostra (Roma, Scuderie del Quirinale, 16 dicembre 2022 – 10 aprile 2023)</note>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Electa</publisher>
+                        <date>2023</date>
+                        <biblScope unit="page">267–269, 273–278</biblScope>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="temi">
+                    <category xml:id="tutela">
+                        <catDesc>Protezione e salvaguardia del patrimonio storico artistico durante la Seconda Guerra mondiale</catDesc>
+                    </category>
+                    <category xml:id="resistenza">
+                        <catDesc>Attività antifascista, clandestina e partigiana</catDesc>
+                    </category>
+                    <category xml:id="guerra">
+                        <catDesc>Eventi bellici, bombardamenti e danni al patrimonio</catDesc>
+                    </category>
+                    <category xml:id="istituzioni">
+                        <catDesc>Storia dell'amministrazione e della gestione di musei ed enti</catDesc>
+                    </category>
+                    <category xml:id="logistica">
+                        <catDesc>Trasporto, imballaggio e gestione dei depositi</catDesc>
+                    </category>
+                    <category xml:id="valorizzazione">
+                        <catDesc>Attività post-bellica e riapertura dei musei</catDesc>
+                    </category>
+                    <category xml:id="soprintendenza">
+                        <catDesc>Attività dei soprintendenti</catDesc>
+                    </category>
+                    <category xml:id="direzione-museale">
+                        <catDesc>Attività dei direttori</catDesc>
+                    </category>
+                    <category xml:id="archivio">
+                        <catDesc>Documentazione archivistica, dossier, elenchi e fondi documentari</catDesc>
+                    </category>
+                    <category xml:id="occupazione-tedesca">
+                        <catDesc>Presenza di truppe nemiche e pericoli legati all'occupazione militare tedesca</catDesc>
+                    </category>
+                    <category xml:id="liberazione">
+                        <catDesc>Liberazione dalla dittatura nazi-fascista del territorio italiano</catDesc>
+                    </category>
+                    <category xml:id="rifugio">
+                        <catDesc>Luogo sicuro individuato per nascondere le opere d'arte</catDesc>
+                    </category>
+                    <category xml:id="comando-alleato">
+                        <catDesc>Attività degli Alleati in seguito all'armistizio dell'8 settembre</catDesc>
+                    </category>
+                    <category xml:id="occultamento">
+                        <catDesc>Nascondimento fisico delle opere nella muratura e nei sotterranei dei rifugi</catDesc>
+                    </category>
+                    <category xml:id="spoliazioni">
+                        <catDesc>Rischio di furto, esportazione illegale o requisizione da parte delle truppe tedesche</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>                
+                <listPerson>
+                    <person xml:id="PB">
+                        <persName>Palma Bucarelli</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/79129998</idno>
+                    </person>
+                    <person xml:id="RP">
+                        <persName>Roberto Papini</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/42130209</idno>
+                    </person>
+                    <person xml:id="PM">
+                        <persName>Paolo Monelli</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/98064553</idno>
+                    </person>
+                    <person xml:id="GCA">
+                        <persName>Giulio Carlo Argan</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/56605075</idno>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="GNAM_org" corresp="#GNAM_loc">
+                        <orgName>Galleria Nazionale d'Arte Moderna</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/155685834</idno>
+                    </org>
+                    <org xml:id="GNAM-arch_org" corresp="#GNAM_loc">
+                        <orgName>Archivio bioiconografico della GNAM</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/272845058</idno>
+                    </org>                    
+                    <org xml:id="ACS_org" corresp="#ACS_loc">
+                        <orgName>Archivio Centrale dello Stato</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/130899505</idno>
+                    </org>
+                    <org xml:id="Min-Ed_org"> <!--Durante la seconda guerra mondiale, la tutela del patrimonio culturale italiano fu gestita dalla Direzione Generale Belle Arti del Ministero dell'educazione nazionale.-->
+                        <orgName>Ministero dell'Educazione Nazionale</orgName> 
+                        <idno type="Wikidata">https://www.wikidata.org/wiki/Q65132362</idno>
+                        <!-- Sede a Roma fino all'armistizio, poi trasferita a Padova (Palazzo del Bo) -->
+                    </org>
+                    <org xml:id="PFC_org" corresp="#PFC_loc">
+                        <orgName>Palazzo Farnese di Caprarola</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/155227712</idno>
+                    </org>
+                    <org xml:id="CSA_org" corresp="#CSA_loc">
+                        <orgName>Castel Sant'Angelo</orgName>
+                        <idno type="VIAF">http://viaf.org/viaf/80145424520886830105</idno>
+                    </org>
+                </listOrg>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                        <place xml:id="FI_loc">
+                            <placeName>Firenze</placeName>
+                            <location><geo>43.77925 11.24626</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3176959/florence.html</idno>
+                        </place>
+                        <place xml:id="RM_loc">
+                            <placeName>Roma</placeName>
+                            <location><geo>41.89193 12.51133</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3169070/rome.html</idno>
+                        </place>
+                        <place xml:id="CP_loc">
+                            <placeName>Caprarola</placeName>
+                            <location><geo>42.32308 12.23848</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3180635/caprarola.html</idno>
+                        </place>
+                        <place xml:id="PD_loc">
+                            <placeName>Padova</placeName>
+                            <location><geo>45.40797 11.88586</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/3171728/padua.html</idno>
+                        </place>
+                        <place xml:id="GNAM_loc">
+                            <placeName>Galleria Nazionale d'Arte Moderna (GNAM)</placeName>
+                            <location><geo>41.91706 12.48216</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/8015103/galleria-dell-arte-moderna.html</idno> 
+                        </place>
+                        <place xml:id="ACS_loc">
+                            <placeName>Archivio Centrale dello Stato</placeName> 
+                            <location><geo>41.82904 12.47538</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q2860420</idno>
+                        </place>
+                        <place xml:id="PFC_loc">
+                            <placeName>Palazzo Farnese (Caprarola)</placeName>
+                            <location><geo>42.32869 12.23701</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/8334595/villa-farnese.html</idno>
+                        </place>
+                        <place xml:id="CSA_loc">
+                            <placeName>Castel Sant'Angelo</placeName>
+                            <location><geo>41.903 12.46635</geo></location>
+                            <idno type="GeoNames">https://www.geonames.org/6269267/castel-sant-angelo.html</idno>
+                        </place>
+                        <place xml:id="Min-Ed-RM_loc">
+                            <placeName>Palazzo della Pubblica Istruzione (Ministero dell'Educazione Nazionale)</placeName>
+                            <location><geo>41.88497 12.470051</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q3891313</idno>
+                        </place>
+                        <place xml:id="Min-Ed-PD_loc">
+                            <placeName>Palazzo del Bo (Ministero dell'Educazione Nazionale)</placeName>
+                            <location><geo>45.40684 11.87754</geo></location>
+                            <idno type="Wikidata">https://www.wikidata.org/wiki/Q3360829</idno>
+                        </place>
+                </listPlace>
+            </settingDesc>
+            <listEvent>
+                <event xml:id="PB-direttrice-GNAM_ev" when="1941-07-01">
+                    <label>Palma Bucarelli diviene reggente della GNAM</label>
+                </event>
+                <event xml:id="autorizzazione-CP_ev" when="1941-08-19">
+                    <label>Autorizzazione del Ministero per il trasferimento a Caprarola</label>
+                </event>
+                <event xml:id="trasferimento-RM-CP_ev" from="1941-09-13" to="1942-02-06">
+                    <label>Trasferimento delle opere da Roma a Palazzo Farnese</label>
+                </event>
+                <event xml:id="riapertura-GNAM_ev" when="1942-04">
+                    <label>Riapertura della Galleria in tempo di guerra</label>
+                </event>
+                <event xml:id="Min-Ed-RM-PD_ev" when="1943-10">
+                    <label>La sede del Ministero dell'Educazione Nazionale viene spostata da Roma a Padova in seguito all'armistizio</label>
+                </event>
+                <event xml:id="autorizzazione-CSA_ev" when="1943-11">
+                    <label>Seconda autorizzazione del Ministero per il trasferimento a Castel Sant’Angelo</label>
+                </event>
+                <event xml:id="trasferimento-PFC-CSA_ev" from="1944-02-06" to="1944-03-06">
+                    <label>Trasferimento delle opere a Castel Sant'Angelo</label>
+                </event>
+                <event xml:id="liberazione-RM_ev" when="1944-06-05">
+                    <label>Liberazione di Roma</label>
+                </event>
+                <event xml:id="rientro-GNAM_ev" when="1944-06">
+                    <label>Rientro delle opere a GNAM</label>
+                </event>
+            </listEvent>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body source="#Poloni2023 #Ferrario2010 #Biondi2023">
+            <div type="chapter" n="1">
+            <p ana="#istituzioni #direzione-museale #archivio">
+                <persName ref="#PB">Palma Bucarelli</persName> fu prima <rs ref="#PB">ispettrice</rs> e poi <rs ref="#PB">direttrice</rs> della 
+                <orgName ref="#GNAM_org">Galleria Nazionale di Arte Moderna</orgName> di <placeName ref="#RM_loc">Roma</placeName>. 
+                Il <rs ref="#PB">suo</rs> operato è conservato presso l’<orgName ref="#GNAM-arch_org" ana="#archivio">Archivio bioiconografico della <choice><abbr>GNAM</abbr><expan>Galleria Nazionale d'Arte Moderna</expan></choice></orgName>, 
+                dove possiamo trovare <term ana="#archivio">documentazione</term> riguardante donazioni o acquisti di opere, dossier sulle mostre e ritagli di giornale con le polemiche che suscitavano le sue scelte, ma soprattutto l’<term ana="#archivio">elenco</term> delle opere che trasferì a <placeName ref="#CP_loc">Caprarola</placeName>, 
+                i resoconti sugli <term ana="#logistica">spostamenti</term> e le disposizioni per la <term ana="#tutela">protezione antiaerea</term><ref target="#Ferrario2010" n="1">p. 6</ref>. 
+                Donò invece all’<orgName ref="#ACS_org">Archivio Centrale dello Stato</orgName> documentazione personale, tra cui fotografie di famiglia, pagelle e appunti di scuola, biglietti di ammiratori, lettere del marito <persName ref="#PM">Paolo Monelli</persName> e di <persName ref="#GCA">Carlo Argan</persName><ref target="#Ferrario2010" n="2">p. XI</ref>.            
+            </p>
+            </div>
+
+            <div type="chapter" n="2">
+            <p ana="#istituzioni #logistica #tutela">
+                Nell’estate del <date ref="#PB-direttrice-GNAM_ev" when="1941-07-01">1941</date>, quando il direttore <persName ref="#RP">Roberto Papini</persName> si trasferì a <placeName ref="#FI_loc">Firenze</placeName> per insegnare, <persName ref="#PB">Bucarelli</persName> divenne <rs ref="#PB" ana="#direzione-museale">reggente</rs> della <orgName ref="#GNAM_org">Galleria</orgName>. 
+                A causa dell’assenza del <rs ref="#RP">direttore</rs> e dell’inadeguatezza delle <term ana="#tutela">misure</term> che aveva proposto al <orgName ref="#Min-Ed_org">Ministero</orgName>, 
+                <rs ref="#PB">Bucarelli</rs> decise di percorrere delle soluzioni alternative, proponendo come <term ana="#rifugio">rifugio</term> per le opere della <orgName ref="#GNAM_org">Galleria</orgName> il 
+                <placeName ref="#PFC_loc">Palazzo Farnese di Caprarola</placeName>. Il <term ana="#rifugio">rifugio</term>, a lei familiare perché meta delle vacanze estive in adolescenza, era abbastanza lontano da obiettivi militari ma allo stesso tempo abbastanza vicino a <placeName ref="#RM_loc">Roma</placeName> perché <rs ref="#PB" >lei</rs> potesse effettuare <term ana="#tutela">sopralluoghi</term> personalmente e di frequente. 
+                Il <date ref="#autorizzazione-CP_ev" when="1941-08-19">19 agosto 1941</date> arrivò l’autorizzazione dal <orgName ref="#Min-Ed_org">Ministero</orgName> ed ebbe inizio l’<term ana="#logistica">operazione di imballaggio e trasferimento</term>, accompagnata da meticolosi <term ana="#archivio">elenchi e documentazione fotografica</term>. Una cartellina conservata nell’<orgName ref="#ACS_org" ana="#archivio">Archivio Centrale dello Stato</orgName> raccoglie l’<term ana="#archivio">elenco</term> dei <num value="22">22</num> viaggi che dal <date ref="#trasferimento-RM-CP_ev" from="1941-09-13" to="1942-02-06">13 settembre 1941 al 6 febbraio 1942</date> portarono <num value="832">832</num> <term >opere</term> da <placeName ref="#RM_loc">Roma</placeName> a <placeName ref="#CP_loc">Caprarola</placeName>, con l’indicazione del numero delle casse trasportate e dei dipinti in esse contenuti. <persName ref="#PB" ana="#direzione-museale">Bucarelli</persName> scortava le <term >opere</term> direttamente sui camion o seguendoli con la <rs ref="#PB" ana="#direzione-museale">sua</rs> auto personale<ref target="#Biondi2023" n="3">pp. 267–269</ref>. L’importanza che la <rs ref="#PB" ana="#direzione-museale">direttrice</rs> attribuiva al <term >patrimonio artistico</term> si rivelò anche nella decisione di <term ana="#valorizzazione">riaprire</term> la <orgName ref="#GNAM_org">Galleria</orgName> nell’<date ref="#riapertura-GNAM_ev" when="1942-04">aprile del 1942</date>, mossa dalla necessità di offrire alla popolazione sconvolta dalla <term ana="#guerra">guerra</term> qualcosa in cui sperare<ref target="#Biondi2023" n="4"></ref>.
+            </p>
+            </div>
+
+            <div type="chapter" n="3">
+            <p ana="#tutela #logistica #guerra">
+                Dopo l’<date when="1943-09-08" ana="#guerra">armistizio</date> il <term ana="#tutela">rifugio</term> non era più sicuro: <persName ref="#PB">Bucarelli</persName> infatti venne informata dal custode del <placeName ref="#PFC_loc">Palazzo</placeName> che i <term ana="#occupazione-tedesca">tedeschi</term> si erano accampati nelle vicinanze e volevano occupare il borgo. Dopo diverse sollecitazioni, nel <date when="1943-11" ref="#autorizzazione-CSA_ev">novembre del 1943</date> arrivò l’autorizzazione del <orgName ref="#Min-Ed_org">Ministero</orgName> a trasferire le <term >opere</term> a 
+                <placeName ref="#CSA_loc">Castel Sant’Angelo</placeName> e <date ref="#trasferimento-PFC-CSA_ev" from="1944-02-06" to="1944-03-06">tra il 6 febbraio e il 6 marzo 1944</date>, viaggiando prevalentemente di notte, i beni vennero spostati<ref target="#Biondi2023" n="5">pp. 275–278</ref>.
+            </p>
+            </div>
+
+            <div type="chapter" n="4">
+            <p ana="#valorizzazione #tutela">
+                Nel <date ref="#liberazione-RM_ev" when="1944-06">giugno del 1944</date> <placeName ref="#RM_loc">Roma</placeName> era finalmente liberata e <persName ref="#PB">Bucarelli</persName> non perdette tempo: riaprì la <orgName ref="#GNAM_org">Galleria</orgName>, allestendo nelle poche sale rimaste integre una <term ana="#valorizzazione">mostra di artisti contemporanei</term> e procedette al tempestivo <term ana="#valorizzazione">rientro</term> delle <term >opere</term> da <placeName ref="#CSA_loc">Castel Sant’Angelo</placeName><ref target="#Biondi2023" n="6">pp. 275–278</ref>.
+            </p>
+            </div>
+        </body>
+    </text>
+</TEI>

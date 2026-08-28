@@ -1,0 +1,310 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"> <!-- dichiaro che sto usando i metadati Dublin Core: standard internazionale per la descrizione di risorse digitali e non digitali-->
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Progetto realizzato per la tesi di laurea magistrale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2026-10-12">
+	<META NAME="DC.Type" CONTENT="Web App">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="#">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--bootstrap 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">	
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- css di leaflet (https://leafletjs.com/download.html)-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+<body>
+	<header id="navbar-placeholder">
+		<!--barra di navigazione-->		
+	</header>
+	<main>
+
+		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
+        	<h2 class="page-title">LA MAPPA INTERATTIVA</h2>
+    	</section>
+
+		<section class="container-fluid mt-3">
+
+				<!--breadcrumbs-->
+				<nav aria-label="breadcrumb">
+            		<ol class="breadcrumb" id="breadcrumb-placeholder"></ol>
+        		</nav>
+
+				<div class="row">
+					<div class="col-12">
+
+					<!-- card intro -->
+					<div class="card border-0 shadow-sm mb-4">
+						<div class="card-body p-4">
+							<h5 class="card-title titolo-intro">Viaggia nello spazio</h5>
+							<p class="card-text" style="text-align: justify;">
+								La mappa interattiva permette di collocare le operazioni di tutela nello spazio e di restituire la dimensione spaziale 
+								della rete dei <em>monuments men</em> e <em>women</em>. I marcatori della visualizzazione distinguono le <b>istituzioni</b> 
+								di origine delle opere che vennero spedite per essere protette dalle attività belliche, i <b>rifugi</b> che le accolsero, 
+								gli <b>enti pubblici</b> che adottarono decisioni operative e le <b>città</b> di riferimento.
+								Inoltre, con dei bottoni dedicati, è possibile attivare la Linea Gustav, la Linea Gotica, gli sbarchi degli Alleati e 
+								i bombardamenti più significativi, contestualizzando i siti rispetto all’evoluzione del conflitto.
+							</p>
+
+							<hr>
+
+							<!-- legenda -->
+							<h6 class="fw-bold mb-3">Legenda dei marcatori:</h6>
+							<div class="row mb-4">
+								<div class="legenda-container">
+									<!-- Istituzione -->
+									<div class="d-flex align-items-center">
+										<div class="marker-pin marker-istituzione me-2">
+											<i class="bi bi-bank"></i>
+										</div>
+										<span class="small">Istituzione</span>
+									</div>
+
+									<!-- Rifugio -->
+									<div class="d-flex align-items-center">
+										<div class="marker-pin marker-rifugio me-2">
+											<i class="bi bi-exclamation-circle-fill"></i>
+										</div>
+										<span class="small">Rifugio</span>
+									</div>
+
+									<!-- Ente Pubblico -->
+									<div class="d-flex align-items-center">
+										<div class="marker-pin marker-ente-pubblico me-2">
+											<i class="bi bi-building"></i>
+										</div>
+										<span class="small">Ente Pubblico</span>
+									</div>
+
+									<!-- Città -->
+									<div class="d-flex align-items-center">
+										<div class="marker-pin marker-citta me-2">
+											<i class="bi bi-browser-safari"></i>
+										</div>
+										<span class="small">Città</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="legenda-container">
+									<!-- Sbarco -->
+									<div class="d-flex align-items-center">
+										<div class="marker-pin marker-sbarco me-2">
+											<i class="bi bi-flag-fill"></i>
+										</div>
+										<span class="small">Sbarco degli Alleati</span>
+									</div>
+									<!-- Linea Gustav -->
+									<div class="d-flex align-items-center">
+										<div class="me-2 legenda-linea-gustav"></div>
+										<span class="small">Linea Gustav</span>
+									</div>
+									<!-- Linea Gotica -->
+									<div class="d-flex align-items-center">
+										<div class="me-2 legenda-linea-gotica"></div>
+										<span class="small">Linea Gotica</span>
+									</div>
+									<!-- Bombardamenti -->
+									<div class="d-flex align-items-center">
+										<div class="marker-pin marker-bombardamento me-2">
+											<i class="bi bi-fire"></i>
+										</div>
+										<span class="small">Bombardamento</span>
+									</div>
+								</div>
+							</div>
+								<p class="text-muted small mt-4 mb-0" style="text-align: justify;"><i class="bi bi-mouse me-1"></i> 
+									Puoi trascinare la mappa per spostarti, usare la rotellina per lo zoom e cliccare su ogni marcatore per visualizzare i dettagli nel popup.
+								</p>
+						</div>
+					</div>
+					</div> <!-- chiusa colonna -->
+				</div> <!-- chiusa row -->	
+
+			    <!-- filtri -->     	
+				<div class="row">
+					<!-- col-12 su mobile (sopra), col-lg-2 su desktop (lato) -->
+            		<aside class="col-12 col-lg-3 sidebar-filtri">
+                		<div class="sticky-lg-top">
+                        	<h5 class="mb-3">Filtra per:</h5>
+                          		<div class="dropdown mb-3">
+							  		<button class="btn btn-secondary dropdown-toggle w-100 text-center" type="button" data-bs-toggle="dropdown">
+                            			Protagonista
+                        			</button>
+                        			<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-protagonista"></ul>
+								</div>
+								<div class="dropdown mb-3">
+							  		<button class="btn btn-secondary dropdown-toggle w-100 text-center" type="button" data-bs-toggle="dropdown">
+                            			Tipologia
+                        			</button>
+                        			<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-tipologia"></ul>
+								</div>
+								<!-- Bottone Reset -->
+                    			<button class="btn btn-outline-light text-dark btn-link btn-sm text-decoration-none text-muted w-100 mt-2" id="btn-reset">
+                        			<i class="bi bi-arrow-counterclockwise"></i> Mostra tutti i luoghi
+                    			</button>								
+								<!--bottone Linea Gustav-->
+								<div class="switch-mappa">
+									<div class="form-check form-switch">
+										<input class="form-check-input" type="checkbox" id="check-gustav">
+										<label class="form-check-label small fw-bold text-dark" for="check-gustav" style="cursor: pointer;">
+											Mostra la Linea Gustav
+										</label>
+									</div>
+									<p class="text-muted mb-0 small" style="font-size: 0.75rem; text-align: justify;">
+										Fronte di guerra tra il dicembre del 1943 e il maggio del 1944.
+									</p>
+								</div>
+								<!--bottone Linea Gotica-->
+								<div class="switch-mappa">
+									<div class="form-check form-switch">
+										<input class="form-check-input" type="checkbox" id="check-gotica" style="cursor: pointer;">
+										<label class="form-check-label small fw-bold text-dark" for="check-gotica" style="cursor: pointer;">
+											Mostra la Linea Gotica
+										</label>
+									</div>
+									<p class="text-muted mb-0" style="font-size: 0.75rem; text-align: justify;">
+										Fronte di guerra tra l'agosto del 1944 e l'aprile del 1945.
+									</p>
+								</div>						
+								<!--bottone Sbarco alleati-->
+								<div class="switch-mappa">
+									<div class="form-check form-switch">
+										<input class="form-check-input" type="checkbox" id="check-sbarco" style="cursor: pointer;">
+										<label class="form-check-label small fw-bold text-dark" for="check-sbarco" style="cursor: pointer;">
+											Mostra lo sbarco degli Alleati
+										</label>
+									</div>
+									<p class="text-muted mb-0" style="font-size: 0.75rem; text-align: justify;">
+										Gli alleati sbarcarono in Sicilia tra il 9 e il 10 luglio 1943.
+									</p>
+								</div>
+								<!--bottone Bombardamenti-->
+								<div class="switch-mappa">
+									<div class="form-check form-switch">
+										<input class="form-check-input" type="checkbox" id="check-bombardamento" style="cursor: pointer;">
+										<label class="form-check-label small fw-bold text-dark" for="check-bombardamento" style="cursor: pointer;">
+											Mostra i bombardamenti
+										</label>
+									</div>
+									<p class="text-muted mb-0" style="font-size: 0.75rem; text-align: justify;">
+										Bombardamenti aerei degli alleati su obiettivi civili, industriali e nodi logistici (1940-1943).
+									</p>
+								</div>
+								<!-- spiegazione filtri -->
+								<div id="spiegazione-filtri" class="box-spiegazione-filtri">
+									<h6 class="small fw-bold text-dark"><i class="bi bi-info-circle-fill me-1"></i> Logica dei filtri:</h6>
+									<p id="testo-spiegazione-filtri" class="small text-muted mb-0" style="font-size: 0.8rem; text-align: justify;">
+										I filtri permettono di incrociare due criteri di analisi il Protagonista e la Tipologia di luogo. 
+										Selezionando uno o più nominativi è possibile visualizzare l’estensione del loro operato. 
+										Il filtro per tipologia, invece, permette di isolare una o più categorie di siti per analizzarne la distribuzione geografica.
+									</p>
+								</div>							
+                		</div>
+					</aside>
+					<!--colonna dx-->
+					<div class="col-12 col-lg-9">
+							<div id="map" class="shadow-sm border rounded mt-1 mb-3"></div>
+					</div> <!--chiusa colonna dx-->
+				</div> <!--chiusa row-->
+				<div class="row">
+					<div class="col-12">
+						<div class="card border-0 shadow-sm mt-4 mb-4">
+								<div class="card-body p-4">
+									<h5 class="card-title titolo-analisi">Risultati</h5>
+									<p class="card-text" style="text-align: justify; text-indent: 20px; margin-bottom: 20px;">
+										L’analisi della visualizzazione evidenzia una netta concentrazione di enti e istituzioni nei <b>centri urbani</b>, mentre i rifugi si 
+										concentrano prevalentemente in <b>aree rurali</b>, <b>montane</b> o <b>isolate</b> e sono principalmente castelli, rocche, palazzi privati 
+										e sotterranei di enti ecclesiastici. La tendenza è quella di scegliere come ricovero per i beni culturali strutture architettoniche 
+										solide lontane dai centri della vita amministrativa e produttiva del paese, considerati obiettivi militari sensibili.
+									</p>
+
+									<p class="card-text" style="text-align: justify; text-indent: 20px; margin-bottom: 10px;">
+										I dati rivelano <b>tre cluster</b>, che sono il risultato del dominio di riferimento: i sei protagonisti scelti rappresentano sei regioni
+										d’Italia, dal Piemonte alla Sicilia.
+									</p>
+
+									<ul class="card-text" style="text-align: justify;">
+										<li>
+											Al <b>Nord</b> (Piemonte, Lombardia, Emilia-Romagna) si trovano maggiormente musei e collezioni. Torino e Milano, essendo tra i 
+											principali centri di produzione industriale e bellica, subirono pesanti bombardamenti a tappeto. Inoltre, la massiccia presenza tedesca, 
+											soprattutto in seguito all’armistizio dell’8 settembre 1943, rendeva il territorio ulteriormente pericoloso.
+										</li>
+										<li>
+											Al <b>Centro</b> (Lazio, Marche e Umbria) si concentrano la maggior parte dei depositi. Quelli gestiti da Pasquale Rotondi sono 
+											interregionali e si trovano in prossimità della Linea Gotica. Gli altri, selezionati da Fernanda Wittgens per le opere lombarde e da 
+											Palma Bucarelli per le opere romane, si trovano nel territorio tra la Linea Gustav e la Linea Gotica.
+										</li>
+										<li>
+											Il <b>Sud</b> (Sicilia) è inevitabilmente isolato rispetto al resto della Penisola per la posizione geografica: se al nord troviamo 
+											attività di tutela interregionali, in Sicilia si dovette optare per soluzioni locali. Inoltre, la Sicilia fu duramente colpita dai
+											bombardamenti che precedettero lo sbarco degli Alleati del luglio 1943.
+										</li>
+									</ul>
+
+									<p class="card-text" style="text-align: justify; text-indent: 20px; margin-bottom: 25px;">
+										La visualizzazione permette di focalizzare l’attenzione su un altro aspetto: l’<b>evoluzione del fronte bellico</b>. 
+										La <b>Linea Gustav</b> (inverno 1943 – primavera 1944) era una linea difensiva tedesca che aveva l’obiettivo di bloccare 
+										l’avanzata alleata verso Roma. Dopo la liberazione di Roma (5 giugno 1944) il fronte retrocede fino alla <b>Linea Gotica</b>. 
+										Il conflitto si sposta progressivamente verso nord, trasformando le zone precedentemente scelte per i rifugi perché isolate in zone di combattimento.
+									</p>
+
+
+									<p class="card-text" style="text-align: justify; text-indent: 20px; margin-bottom: 10px;">
+										Considerando dei casi d’uso notiamo alcune differenze nelle strategie di salvaguardia del patrimonio.
+									</p>
+
+									<ul class="card-text" style="text-align: justify;">
+										<li>
+											<b>Pasquale Rotondi</b> coordinò una fitta rete interregionale, ospitando presso la Rocca di Sassocorvaro e il Palazzo dei Principi 
+											di Carpegna opere provenienti da Milano, Brescia, Bergamo, Venezia, Pesaro e Roma. Collabora quindi con diverse figure, tra cui 
+											<b>Fernanda Wittgens</b>.
+										</li>
+										<li>
+											È diverso il caso di <b>Palma Bucarelli</b>, direttrice della GNAM, che preferisce gestire le sue operazioni di tutela in un contesto 
+											più locale, utilizzando i sotterranei di Castel Sant’Angelo e il Palazzo Farnese di Caprarola come rifugi.
+										</li>
+										<li>
+											Ancora diverso invece è l’approccio di <b>Noemi Gabrielli</b>: se la tendenza lombarda è quella di scendere nel centro-Italia, Gabrielli 
+											sceglie di portare le opere piemontesi sull’Isola Bella, dove la Direzione Generale delle Arti aveva selezionato il Palazzo Borromeo come 
+											rifugio sicuro.
+										</li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				</div>
+		</section><!--chiuso container-fluid-->
+	</main>
+	<!--footer-->
+	<footer id="footer-placeholder"> <!--chiusura del sito-->
+		<!--footer è nella cartella components e viene richiamato con javascript perchè si ripete in tutte le pagine-->
+	</footer>
+	<!-- js di leaflet (https://leafletjs.com/download.html)-->
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>	
+	<!-- miei js -->
+	<script src="js/main.js"></script>
+	<script src="js/mappa.js"></script>
+</body>
+</html>

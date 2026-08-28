@@ -1,0 +1,5664 @@
+{
+ "persone": [
+  {
+   "id": "FW",
+   "nome": "Fernanda",
+   "cognome": "Wittgens",
+   "authority_control": "http://viaf.org/viaf/8397197",
+   "data_nascita": 1903,
+   "luogo_nascita": "Milano",
+   "data_morte": 1957,
+   "luogo_morte": "Milano",
+   "ruolo": "Direttrice della Pinacoteca di Brera",
+   "ruolo_filtri": "Direzione",
+   "ruolo_card": "protagonista",
+   "note_bio": "Prima donna direttrice della Pinacoteca di Brera (1940), fu protagonista della protezione del patrimonio cuturale milanese durante la seconda guerra mondiale. Organizzò il trasferimento in rifugi sicuri di capolavori provenienti da diversi musei del territorio lombardo. Fu arrestata nel 1944 per aver aiutato ebrei e perseguitati a fuggire. Nel dopoguerra si occupò della ricostruzione di Brera.",
+   "id_persone": [
+    "PR",
+    "ABC"
+   ],
+   "id_istituzioni": [
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org",
+    "ABAB_org"
+   ],
+   "id_rifugi": [
+    "CS_org",
+    "VMC_org",
+    "Cariplo_org",
+    "VIC_org",
+    "PPC_org"
+   ],
+   "id_enti": [
+    "Prefettura_org",
+    "Soprintendenza-MI_org",
+    "SV_org",
+    "ComandoAlleato_org",
+    "Min-Ed_org",
+    "DG-Arti_org",
+    "RSI_org"
+   ],
+   "id_organizzazioni": [
+    "CS_org",
+    "VMC_org",
+    "Cariplo_org",
+    "VIC_org",
+    "PPC_org",
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org",
+    "ABAB_org",
+    "Prefettura_org",
+    "Soprintendenza-MI_org",
+    "SV_org",
+    "ComandoAlleato_org",
+    "Min-Ed_org",
+    "DG-Arti_org",
+    "RSI_org"
+   ],
+   "id_luoghi": [
+    "BG_loc",
+    "BS_loc",
+    "MF_loc",
+    "PG_loc",
+    "ORV_loc",
+    "CAR_loc",
+    "URB_loc",
+    "MI_loc",
+    "PB_loc",
+    "MPP_loc",
+    "Ambrosiana_loc",
+    "CS_loc",
+    "OM_loc",
+    "MTS_loc",
+    "AC_loc",
+    "PTM_loc",
+    "VMC_loc",
+    "Cariplo_loc",
+    "VIC_loc",
+    "PPC_loc",
+    "Prefettura_loc",
+    "SMG_loc",
+    "LG_loc",
+    "RSI_loc",
+    "Soprintendenza-MI_loc",
+    "SV_loc",
+    "ABAB_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "FW-direttrice-PB_ev",
+    "Italia-guerra_ev",
+    "VMC-rifugio_ev",
+    "VIC-PPC-rifugio_ev",
+    "PB-bombardamento_ev",
+    "SMG-bombardamento_ev",
+    "armistizio_ev",
+    "Min-Ed-RM-PD_ev",
+    "RSI_ev",
+    "Soprintendenza-MI_ev",
+    "FW-arresto_ev",
+    "liberazione-MI_ev",
+    "liberazione-FW_ev",
+    "nomina-commissario-FW_ev",
+    "FW-direttrice-PB-dopoguerra_ev"
+   ],
+   "id_temi": [
+    "direzione-museale",
+    "tutela",
+    "guerra",
+    "logistica",
+    "archivio",
+    "rifugio",
+    "resistenza",
+    "liberazione",
+    "comando-alleato",
+    "valorizzazione"
+   ],
+   "img": "Wittgens.jpg",
+   "sort_name": "Wittgens Fernanda",
+   "file_tei": "xml-tei-wittgens.xml",
+   "file_eac-cpf": "xml-eac-cpf-wittgens.xml"
+  },
+  {
+   "id": "PB",
+   "nome": "Palma",
+   "cognome": "Bucarelli",
+   "authority_control": "http://viaf.org/viaf/79129998",
+   "data_nascita": 1910,
+   "luogo_nascita": "Roma",
+   "data_morte": 1998,
+   "luogo_morte": "Roma",
+   "ruolo": "Direttrice della Galleria Nazionale d'Arte Moderna di Roma",
+   "ruolo_filtri": "Direzione",
+   "ruolo_card": "protagonista",
+   "note_bio": "Storica dell'arte e direttrice della Galleria Nazionale d'Arte Moderna di Roma (1942-1975). Durante la guerra si occupò del salvataggio delle collezioni di sua competenza, trasferendole prima a Palazzo Farnese (Caprarola) e poi a Castel Sant'Angelo. Nel dopoguerra portò in Italia le avanguardie internazionali (Pollock, Burri, Manzoni) e difese l'arte contemporanea dalle polemiche politiche del tempo.",
+   "id_persone": [
+    "PM",
+    "GCA",
+    "RP"
+   ],
+   "id_istituzioni": [
+    "GNAM_org",
+    "GNAM-arch_org"
+   ],
+   "id_rifugi": [
+    "PFC_org",
+    "CSA_org"
+   ],
+   "id_enti": [
+    "ACS_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_organizzazioni": [
+    "PFC_org",
+    "CSA_org",
+    "GNAM_org",
+    "GNAM-arch_org",
+    "ACS_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "RM_loc",
+    "PD_loc",
+    "CP_loc",
+    "FI_loc",
+    "GNAM_loc",
+    "ACS_loc",
+    "Min-Ed-RM_loc",
+    "Min-Ed-PD_loc",
+    "PFC_loc",
+    "CSA_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "PB-direttrice-GNAM_ev",
+    "autorizzazione-CP_ev",
+    "trasferimento-RM-CP_ev",
+    "riapertura-GNAM_ev",
+    "autorizzazione-CSA_ev",
+    "trasferimento-PFC-CSA_ev",
+    "liberazione-RM_ev",
+    "rientro-GNAM_ev"
+   ],
+   "id_temi": [
+    "direzione-museale",
+    "archivio",
+    "logistica",
+    "tutela",
+    "rifugio",
+    "occupazione-tedesca",
+    "guerra",
+    "liberazione",
+    "valorizzazione"
+   ],
+   "img": "Bucarelli2.jpg",
+   "sort_name": "Bucarelli Palma",
+   "file_tei": "xml-tei-bucarelli.xml",
+   "file_eac-cpf": null
+  },
+  {
+   "id": "PR",
+   "nome": "Pasquale",
+   "cognome": "Rotondi",
+   "authority_control": "http://viaf.org/viaf/24461179",
+   "data_nascita": 1909,
+   "luogo_nascita": "Arpino",
+   "data_morte": 1991,
+   "luogo_morte": "Roma",
+   "ruolo": "Soprintendente alle Gallerie e Opere d'Arte delle Marche",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Soprintendente alle Gallerie e Opere d’Arte delle Marche, durante la Seconda Guerra Mondiale coordinò l'Operazione Salvataggio riuscendo a nascondere e salvare circa 10.000 capolavori all'interno della Rocca di Sassocorvaro. Nel dopoguerra promosse interventi di restauro portando alla formazione della Commissione per lo \nsviluppo tecnologico della conservazione dei Beni Culturali, di cui fu presidente dal 1971.",
+   "id_persone": [
+    "FW",
+    "VM",
+    "GP",
+    "ZBR"
+   ],
+   "id_istituzioni": [
+    "PD-URB_org",
+    "GA-VE_org",
+    "GF_org",
+    "MO_org",
+    "GB_org",
+    "Corsini_org",
+    "Gaulino_org",
+    "Biblio-Oliveriana_org",
+    "Museo-Oliveriano_org",
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": [
+    "Rocca_org",
+    "PPC_org",
+    "VT_org",
+    "Cattedrale-URB_org",
+    "CS_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-MAR_org",
+    "Min-Ed_org",
+    "DG-Arti_org",
+    "ComandoMilitareGermanico_org"
+   ],
+   "id_organizzazioni": [
+    "Rocca_org",
+    "PPC_org",
+    "VT_org",
+    "Cattedrale-URB_org",
+    "PD-URB_org",
+    "GA-VE_org",
+    "GF_org",
+    "MO_org",
+    "GB_org",
+    "Corsini_org",
+    "Gaulino_org",
+    "Biblio-Oliveriana_org",
+    "Museo-Oliveriano_org",
+    "Soprintendenza-MAR_org",
+    "Min-Ed_org",
+    "DG-Arti_org",
+    "ComandoMilitareGermanico_org",
+    "CS_org",
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_luoghi": [
+    "AN_loc",
+    "VE_loc",
+    "PES_loc",
+    "SC_loc",
+    "Vaticano_loc",
+    "MAR_loc",
+    "VEN_loc",
+    "Lagosta_loc",
+    "LOM_loc",
+    "LAZ_loc",
+    "Soprintendenza-MAR_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc",
+    "PD-URB_loc",
+    "Rocca_loc",
+    "GA-VE_loc",
+    "GF_loc",
+    "MO_loc",
+    "GB_loc",
+    "Corsini_loc",
+    "Gaulino_loc",
+    "VT_loc",
+    "Cattedrale-URB_loc",
+    "Biblio-Oliveriana_loc",
+    "Museo-Oliveriano_loc",
+    "PB_loc",
+    "MPP_loc",
+    "Ambrosiana_loc",
+    "CS_loc",
+    "OM_loc",
+    "MTS_loc",
+    "AC_loc",
+    "PTM_loc",
+    "PPC_loc"
+   ],
+   "id_eventi": [
+    "PR-soprintendente_ev",
+    "PR-incarico-tutela_ev",
+    "MAR-Lagosta-trasferimento-Rocca_ev",
+    "VE-trasferimento-Rocca_ev",
+    "VEN-LAZ-LOM-trasferimento-PPC_ev",
+    "CS-trasferimento-PPC_ev",
+    "VE-trasferimento-PPC_ev",
+    "RM-trasferimento-PPC_ev",
+    "MI-trasferimento-PPC_ev",
+    "occupazione-tedesca-PPC_ev",
+    "occultamento-opere-URB_ev",
+    "URB-trasferimento-Vaticano_ev",
+    "PPC-sgomberato_ev",
+    "PES-trasferimento-Rocca_ev",
+    "liberazione-URB_ev",
+    "chiusura-Rocca_ev"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "guerra",
+    "tutela",
+    "logistica",
+    "archivio",
+    "rifugio",
+    "occupazione-tedesca",
+    "occultamento",
+    "liberazione",
+    "comando-alleato",
+    "valorizzazione"
+   ],
+   "img": "Rotondi2.jpg",
+   "sort_name": "Rotondi Pasquale",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "JBM",
+   "nome": "Jole",
+   "cognome": "Bovio Marconi",
+   "authority_control": "http://viaf.org/viaf/207546241",
+   "data_nascita": 1897,
+   "luogo_nascita": "Roma",
+   "data_morte": 1986,
+   "luogo_morte": "Palermo",
+   "ruolo": "Soprintendente alle Antichità per le province di Palermo e Trapani, Agrigento e Caltanissetta",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Archeologa e Soprintendente alle Antichità della Sicilia Occidentale (1939-1960). Durante la Seconda Guerra Mondiale organizzò il trasferimento delle collezioni del Museo Archeologico Nazionale nell'Abbazia di San Martino delle Scale. Durante la guerra collaborò con i Monuments men dopo lo sbarco degli Alleati in Sicilia e nel dopoguerra diresse la ricostruzione del Museo (oggi Museo Salinas).",
+   "id_persone": [
+    "MG"
+   ],
+   "id_istituzioni": [
+    "Moderna-PA_org",
+    "Galleria-PA_org",
+    "Etnografico-PA_org",
+    "SantIgnazio_org",
+    "Archeologico-PA_org"
+   ],
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "DG-Arti_org",
+    "Min-Ed_org",
+    "Soprintendenza-Sicilia-antichità_org",
+    "Soprintendenza-Sicilia-monumenti_org"
+   ],
+   "id_organizzazioni": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Soprintendenza-Sicilia-monumenti_org",
+    "Archeologico-PA_org",
+    "SanMartino_org",
+    "SantIgnazio_org",
+    "Etnografico-PA_org",
+    "Galleria-PA_org",
+    "Moderna-PA_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "TP_loc",
+    "AG_loc",
+    "CL_loc",
+    "MON_loc",
+    "Soprintendenza-Sicilia-antichità_loc",
+    "Soprintendenza-Sicilia-monumenti_loc",
+    "Archeologico-PA_loc",
+    "SanMartino_loc",
+    "SantIgnazio_loc",
+    "Etnografico-PA_loc",
+    "Galleria-PA_loc",
+    "Moderna-PA_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "JBM-soprintendente-Sicilia_ev",
+    "JBM-estensione-incarico_ev",
+    "ordine-Min-Ed_ev",
+    "Archeologico-PA-trasferimento-SanMartino_ev",
+    "Soprintendenza-Sicilia-Archeologico_ev",
+    "bombardamento-Archeologico_ev",
+    "sbarcoAlleati_ev",
+    "ricostruzione-Archeologico_ev",
+    "inaugurazione-Archeologico_ev"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "valorizzazione",
+    "comando-alleato",
+    "guerra",
+    "logistica",
+    "tutela",
+    "rifugio"
+   ],
+   "img": "bovio.jpg",
+   "sort_name": "Bovio Marconi Jole",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "NG",
+   "nome": "Noemi",
+   "cognome": "Gabrielli",
+   "authority_control": "http://viaf.org/viaf/7486886",
+   "data_nascita": 1901,
+   "luogo_nascita": "Pinerolo",
+   "data_morte": 1979,
+   "luogo_morte": "Torino",
+   "ruolo": "Ispettrice presso la Soprintendenza dell’Arte Medievale e Moderna del Piemonte e della Liguria",
+   "ruolo_filtri": "Ispettorato",
+   "ruolo_card": "protagonista",
+   "note_bio": "Storica dell'arte e funzionaria della Soprintendenza di Piemonte e Liguria. Durante la Seconda Guerra Mondiale collaborò con Carlo Aru per mettere in salvo i capolavori torinesi trasferendoli in rifugi sicuri. Nel dopoguerra, come Soprintendente (1952-1966), diresse l'opera di restauro dei monumenti di Torino danneggiati dai bombardamenti e curò la riorganizzazione dei musei piemontesi.",
+   "id_persone": [
+    "CA",
+    "AMB"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Guiglia_org",
+    "Borromeo_org",
+    "C-Settime_org",
+    "C-Monta_org"
+   ],
+   "id_enti": [
+    "Arch-Soprintendenza-TO_org",
+    "Soprintendenza-Piemonte-Liguria_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_organizzazioni": [
+    "Arch-Soprintendenza-TO_org",
+    "Soprintendenza-Piemonte-Liguria_org",
+    "C-Settime_org",
+    "C-Monta_org",
+    "Sabauda_org",
+    "C-Guiglia_org",
+    "Borromeo_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "Settime_loc",
+    "Monta_loc",
+    "Guiglia_loc",
+    "Stresa_loc",
+    "Soprintendenza-Piemonte-Liguria_loc",
+    "C-Settime_loc",
+    "C-Monta_loc",
+    "Sabauda_loc",
+    "C-Guiglia_loc",
+    "Borromeo_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "TO-trasferimento-Castelli_ev",
+    "Castelli-trasferimento-Guiglia_ev",
+    "Guiglia-trasferimento-Borromeo_ev"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "valorizzazione",
+    "guerra",
+    "logistica",
+    "tutela",
+    "rifugio",
+    "archivio"
+   ],
+   "img": "Gabrielli.jpg",
+   "sort_name": "Gabrielli Noemi",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "AOQ",
+   "nome": "Armando Ottaviano",
+   "cognome": "Quintavalle",
+   "authority_control": "http://viaf.org/viaf/37955491",
+   "data_nascita": 1894,
+   "luogo_nascita": "Napoli",
+   "data_morte": 1967,
+   "luogo_morte": "Parma",
+   "ruolo": "Soprintendente alla Regia Galleria di Parma",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Soprintendente a Parma durante il conflitto. Organizzò il ricovero di capolavori nel Castello di Torrechiara e riuscì a preservare l'integrità delle collezioni della Pilotta, assicurandosi personalmente della sicurezza dei depositi fino alla Liberazione.",
+   "id_persone": [
+    "AJ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org",
+    "MA-PR_org"
+   ],
+   "id_rifugi": [
+    "C-Guiglia_org",
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Direzione-RG-PR_org",
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_organizzazioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org",
+    "C-Guiglia_org",
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org",
+    "Direzione-RG-PR_org",
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Min-Ed_org",
+    "DG-Arti_org",
+    "MA-PR_org"
+   ],
+   "id_luoghi": [
+    "PR_loc",
+    "PC_loc",
+    "Veano_loc",
+    "Gaione_loc",
+    "TC_loc",
+    "Pilotta_loc",
+    "VA_loc",
+    "VP_loc",
+    "C-Torrechiara_loc",
+    "MC-PF_loc",
+    "Ricci_loc",
+    "Guiglia_loc",
+    "C-Guiglia_loc",
+    "MA-PR_loc",
+    "RE_loc",
+    "MOD_loc",
+    "Soprintendenza-PR-PC_loc",
+    "Soprintendenza-MO-RE_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "AOQ-direzione-RG-PR_ev",
+    "AOQ-soprintendente-PR-PC_ev",
+    "AOQ-direttore-MA-PR_ev",
+    "AOQ-soprintendente-MO-RE_ev",
+    "Min-Ed-ordine-PC_ev",
+    "VA-trasferimento-C-Torrechiara_ev",
+    "C-Torrechiara-occultamento_ev",
+    "sopralluoghi-tedeschi_ev",
+    "Min-Ed-ordine-Borromeo_ev",
+    "C-Torrechiara-aperta_ev",
+    "liberazione-PR_ev"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "direzione-museale",
+    "guerra",
+    "logistica",
+    "tutela",
+    "rifugio",
+    "occultamento",
+    "occupazione-tedesca"
+   ],
+   "img": "placeholder.png",
+   "sort_name": "Quintavalle Armando Ottaviano",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "RP",
+   "nome": "Roberto",
+   "cognome": "Papini",
+   "authority_control": "http://viaf.org/viaf/42130209",
+   "data_nascita": 1883,
+   "luogo_nascita": "Pistoia",
+   "data_morte": 1957,
+   "luogo_morte": "Modena",
+   "ruolo": "Storico e critico d'arte e di architettura",
+   "ruolo_filtri": "Direzione",
+   "ruolo_card": "protagonista",
+   "note_bio": "Storico e critico d'arte e di architettura, diresse prima la Pinacoteca di Brera (dal 1920) e poi la Galleria Nazionale d'Arte Moderna di Roma (dal 1933 al 1941). Autore di molte pubblicazioni di storia dell’arte e di architettura, collaborò con diverse riviste.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": [
+    "PB_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": [
+    "Soprintendenza-MI_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_organizzazioni": [
+    "PB_org",
+    "Soprintendenza-MI_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "MI_loc",
+    "PB_loc",
+    "Soprintendenza-MI_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": null,
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Papini Roberto",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "PM",
+   "nome": "Paolo",
+   "cognome": "Monelli",
+   "authority_control": "http://viaf.org/viaf/98064553",
+   "data_nascita": 1891,
+   "luogo_nascita": "Fiorano Modenese",
+   "data_morte": 1984,
+   "luogo_morte": "Roma",
+   "ruolo": "Giornalista, scrittore e marito di Palma Bucarelli",
+   "ruolo_filtri": null,
+   "ruolo_card": "altro",
+   "note_bio": "Giornalista, scrittore e marito di Palma Bucarelli. Descrisse i fatti accaduti nel 1943 a Roma nel suo celebre libro \"Roma 1943\". Documentò il clima di quegli anni e le operazioni dei funzionari delle Belle Arti durante l'occupazione tedesca, fornendo un fondamentale spaccato storico dell'epoca.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_organizzazioni": null,
+   "id_luoghi": null,
+   "id_eventi": null,
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Monelli Paolo",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "GCA",
+   "nome": "Giulio Carlo",
+   "cognome": "Argan",
+   "authority_control": "http://viaf.org/viaf/56605075",
+   "data_nascita": 1909,
+   "luogo_nascita": "Torino",
+   "data_morte": 1992,
+   "luogo_morte": "Roma",
+   "ruolo": "Funzionario del Ministero dell'Educazione Nazionale durante la guerra",
+   "ruolo_filtri": "Funzionariato",
+   "ruolo_card": "protagonista",
+   "note_bio": "Storico dell'arte e successivamente sindaco di Roma, durante la guerra operò come ispettore centrale presso il Ministero dell'Educazione Nazionale. Fu una figura chiave nel coordinamento burocratico della tutela a livello nazionale e collaborò attivamente con Bucarelli e Rotondi per garantire la sicurezza dei depositi centrali.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_organizzazioni": [
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "Min-Ed-RM_loc",
+    "Min-Ed-PD_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc",
+    "RM_loc",
+    "PD_loc"
+   ],
+   "id_eventi": null,
+   "id_temi": null,
+   "img": "Argan.jpg",
+   "sort_name": "Argan Giulio Carlo",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "ABC",
+   "nome": "Achille",
+   "cognome": "Bertini Calosso",
+   "authority_control": "http://viaf.org/viaf/23170497",
+   "data_nascita": 1882,
+   "luogo_nascita": "Foggia",
+   "data_morte": 1955,
+   "luogo_morte": "Roma",
+   "ruolo": "Soprintendente ai Monumenti e alle Galleria dell'Umbria",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Soprintendente ai Monumenti e alle Galleria dell'Umbria (1926 - 1948), promosse norme e misure preventive da adottare in caso di guerra, fornendo indicazioni dettagliate riguardo alla conservazione e al trasferimento dei manufatti in luoghi più protetti e indicando le località dell'Umbria più soggette ad attacchi aerei.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_organizzazioni": null,
+   "id_luoghi": null,
+   "id_eventi": null,
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Bertini Calosso Achille",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "VM",
+   "nome": "Vittorio",
+   "cognome": "Moschini",
+   "authority_control": "http://viaf.org/viaf/44450598",
+   "data_nascita": 1896,
+   "luogo_nascita": "Piacenza",
+   "data_morte": 1976,
+   "luogo_morte": "Venezia",
+   "ruolo": "Direttore delle Gallerie dell'Accademia di Venezia",
+   "ruolo_filtri": "Direzione",
+   "ruolo_card": "protagonista",
+   "note_bio": "Direttore delle Gallerie dell'Accademia di Venezia, durante la guerra coordinò la protezione del patrimonio pittorico veneziano trasferendo i capolavori in depositi sicuri.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": [
+    "GA-VE_org"
+   ],
+   "id_rifugi": [
+    "Rocca_org",
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_organizzazioni": [
+    "GA-VE_org",
+    "Rocca_org",
+    "PPC_org"
+   ],
+   "id_luoghi": [
+    "GA-VE_loc",
+    "VE_loc"
+   ],
+   "id_eventi": null,
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Moschini Vittorio",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "GP",
+   "nome": "Guglielmo",
+   "cognome": "Pacchioni",
+   "authority_control": "http://viaf.org/viaf/57680919",
+   "data_nascita": 1883,
+   "luogo_nascita": "Pavullo di Frignano",
+   "data_morte": 1969,
+   "luogo_morte": "Milano",
+   "ruolo": "Storico dell'arte e Soprintendente ai Monumenti e alle Gallerie di Milano",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Storico dell'arte e Soprintendente ai Monumenti e alle Gallerie di Milano nel periodo della guerra (1939-1945).",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "Soprintendenza-MI_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_organizzazioni": [
+    "Soprintendenza-MI_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "Soprintendenza-MI_loc",
+    "Min-Ed-RM_loc",
+    "Min-Ed-PD_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": null,
+   "id_temi": null,
+   "img": "Pacchioni.jpg",
+   "sort_name": "Pacchioni Guglielmo",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "ZBR",
+   "nome": "Zea",
+   "cognome": "Bernardini Rotondi",
+   "authority_control": null,
+   "data_nascita": 1913,
+   "luogo_nascita": "Urbino",
+   "data_morte": 1994,
+   "luogo_morte": "Roma",
+   "ruolo": "Storica dell'arte e insegnante, moglie di Pasquale Rotondi",
+   "ruolo_filtri": null,
+   "ruolo_card": "altro",
+   "note_bio": "Storica dell'arte, insegnante e collaboratrice del marito Pasquale Rotondi durante l'Operazione Salvataggio nelle Marche. Partecipò attivamente alla gestione dei depositi di Sassocorvaro e Carpegna.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_organizzazioni": null,
+   "id_luoghi": null,
+   "id_eventi": null,
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Bernardini Rotondi Zea",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "MG",
+   "nome": "Mario",
+   "cognome": "Guiotto",
+   "authority_control": "https://www.wikidata.org/wiki/Q61476560",
+   "data_nascita": 1903,
+   "luogo_nascita": "Campodarsego",
+   "data_morte": 1999,
+   "luogo_morte": "Venezia",
+   "ruolo": "Soprintendente ai Monumenti per la Sicilia occidentale",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Architetto e Soprintendente ai Monumenti per la Sicilia occidentale(1942-1949). Si occupò della tutela e del salvataggio del patrimonio artistico di sua competenza attarverso operazioni di trasferimento delle opere d'arte , opere di protezione antiaerea e collaborando con i Monuments men dopo lo sbarco degli Alleati in Sicilia.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": [
+    "Moderna-PA_org",
+    "Galleria-PA_org",
+    "Etnografico-PA_org",
+    "SantIgnazio_org",
+    "Archeologico-PA_org"
+   ],
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "DG-Arti_org",
+    "Min-Ed_org",
+    "Soprintendenza-Sicilia-antichità_org",
+    "Soprintendenza-Sicilia-monumenti_org"
+   ],
+   "id_organizzazioni": [
+    "Moderna-PA_org",
+    "Galleria-PA_org",
+    "Etnografico-PA_org",
+    "SantIgnazio_org",
+    "Archeologico-PA_org",
+    "SanMartino_org",
+    "DG-Arti_org",
+    "Min-Ed_org",
+    "Soprintendenza-Sicilia-antichità_org",
+    "Soprintendenza-Sicilia-monumenti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "TP_loc",
+    "AG_loc",
+    "CL_loc",
+    "MON_loc",
+    "Soprintendenza-Sicilia-antichità_loc",
+    "Soprintendenza-Sicilia-monumenti_loc",
+    "Archeologico-PA_loc",
+    "SanMartino_loc",
+    "SantIgnazio_loc",
+    "Etnografico-PA_loc",
+    "Galleria-PA_loc",
+    "Moderna-PA_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": null,
+   "id_temi": [
+    "soprintendenza",
+    "valorizzazione",
+    "comando-alleato",
+    "guerra",
+    "logistica",
+    "tutela",
+    "rifugio"
+   ],
+   "img": "Guiotto.png",
+   "sort_name": "Guiotto Mario",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "CA",
+   "nome": "Carlo",
+   "cognome": "Aru",
+   "authority_control": "https://www.wikidata.org/wiki/Q22069308",
+   "data_nascita": 1881,
+   "luogo_nascita": "Cagliari",
+   "data_morte": 1954,
+   "luogo_morte": "Torino",
+   "ruolo": "Soprintendente alle Gallerie per il Piemonte",
+   "ruolo_filtri": "Soprintendenza",
+   "ruolo_card": "protagonista",
+   "note_bio": "Storico dell'arte e soprintendente alle Gallerie per il Piemonte (1934-1952). Durante la Seconda Guerra Mondiale collaborò con Noemi Gabrielli per mettere in salvo i capolavori torinesi trasferendoli in rifugi sicuri.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Arch-Soprintendenza-TO_org",
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_organizzazioni": [
+    "Sabauda_org",
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org",
+    "Arch-Soprintendenza-TO_org",
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_luoghi": [
+    "TO_loc",
+    "Settime_loc",
+    "Monta_loc",
+    "Guiglia_loc",
+    "Stresa_loc",
+    "Soprintendenza-Piemonte-Liguria_loc",
+    "C-Settime_loc",
+    "C-Monta_loc",
+    "Sabauda_loc",
+    "C-Guiglia_loc",
+    "Borromeo_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "TO-trasferimento-Castelli_ev",
+    "Castelli-trasferimento-Guiglia_ev",
+    "Guiglia-trasferimento-Borromeo_ev"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "valorizzazione",
+    "guerra",
+    "logistica",
+    "tutela",
+    "rifugio",
+    "archivio"
+   ],
+   "img": null,
+   "sort_name": "Aru Carlo",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "AMB",
+   "nome": "Anna Maria",
+   "cognome": "Brizio",
+   "authority_control": "https://www.wikidata.org/wiki/Q3617742",
+   "data_nascita": 1902,
+   "luogo_nascita": "Sale d'Alessandria",
+   "data_morte": 1982,
+   "luogo_morte": "Rapallo",
+   "ruolo": "Direttrice della Galleria Sabauda",
+   "ruolo_filtri": "Direzione",
+   "ruolo_card": "protagonista",
+   "note_bio": "Direttrice della Galleria Sabauda (1936–1947) e docente universitaria. Nel corso della Seconda guerra mondiale, la Brizio si impegnò attivamente per proteggere e mettere in sicurezza le opere d'arte del museo, scortandole personalmente nei rifugi sicuri.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Arch-Soprintendenza-TO_org",
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_organizzazioni": [
+    "Sabauda_org",
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org",
+    "Arch-Soprintendenza-TO_org",
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_luoghi": [
+    "TO_loc",
+    "Settime_loc",
+    "Monta_loc",
+    "Guiglia_loc",
+    "Stresa_loc",
+    "Soprintendenza-Piemonte-Liguria_loc",
+    "C-Settime_loc",
+    "C-Monta_loc",
+    "Sabauda_loc",
+    "C-Guiglia_loc",
+    "Borromeo_loc",
+    "DG-Arti-RM_loc",
+    "DG-Arti-PD_loc"
+   ],
+   "id_eventi": [
+    "TO-trasferimento-Castelli_ev",
+    "Castelli-trasferimento-Guiglia_ev",
+    "Guiglia-trasferimento-Borromeo_ev"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "valorizzazione",
+    "guerra",
+    "logistica",
+    "tutela",
+    "rifugio",
+    "archivio"
+   ],
+   "img": "Brizio.jpg",
+   "sort_name": "Brizio Anna Maria",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "CAN",
+   "nome": "Carlo",
+   "cognome": "Anti",
+   "authority_control": "http://viaf.org/viaf/35260547",
+   "data_nascita": 1889,
+   "luogo_nascita": "Villafranca di Verona",
+   "data_morte": 1961,
+   "luogo_morte": "Padova",
+   "ruolo": "Direttore generale delle arti del Ministero dell'educazione nazionale",
+   "ruolo_filtri": "Direzione",
+   "ruolo_card": "protagonista",
+   "note_bio": "Archeologo e rettore dell'Università di Padova dal 1932 al 1943. Durante la seconda guerra mondiale ricoprì la carica di Direttore generale delle arti per la RSI, sfruttando il ruolo per proteggere il patrimonio artistico italiano dalle spoliazioni naziste. Allontanato nel dopoguerra, fu poi reintegrato e tornò all'insegnamento universitario fino al pensionamento.",
+   "id_persone": null,
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "DG-Arti_org",
+    "Min-Ed_org"
+   ],
+   "id_organizzazioni": [
+    "DG-Arti_org",
+    "Min-Ed_org"
+   ],
+   "id_luoghi": [
+    "DG-Arti-PD_loc",
+    "Min-Ed-PD_loc",
+    "PD_loc"
+   ],
+   "id_eventi": [
+    "CAN-direttore_ev"
+   ],
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Anti Carlo",
+   "file_tei": null,
+   "file_eac-cpf": null
+  },
+  {
+   "id": "AJ",
+   "nome": "Albert",
+   "cognome": "Junker",
+   "authority_control": null,
+   "data_nascita": null,
+   "luogo_nascita": null,
+   "data_morte": null,
+   "luogo_morte": null,
+   "ruolo": "Tenente tedesco",
+   "ruolo_filtri": null,
+   "ruolo_card": "altro",
+   "note_bio": "Tenente tedesco che collaborò con Quintavalle nella protezione di Torrechiara",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "C-Torrechiara_org"
+   ],
+   "id_enti": null,
+   "id_organizzazioni": [
+    "C-Torrechiara_org"
+   ],
+   "id_luoghi": [
+    "C-Torrechiara_loc",
+    "TC_loc"
+   ],
+   "id_eventi": [
+    "C-Torrechiara-aperta_ev"
+   ],
+   "id_temi": null,
+   "img": null,
+   "sort_name": "Junker Albert",
+   "file_tei": null,
+   "file_eac-cpf": null
+  }
+ ],
+ "organizzazioni": [
+  {
+   "id": "PB_org",
+   "nome_org": "Pinacoteca di Brera",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/157020123",
+   "data_fondazione": 1809,
+   "note_org": "Pinacoteca diretta da Fernanda Wittgens dal 1940, che si occupò della tutela del patrimonio qui custodito e della ricostruzione in seguito ai danni subiti durante la guerra.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": [
+    "ABAB_org",
+    "Soprintendenza-MI_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PB_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "MPP_org",
+   "nome_org": "Museo Poldi Pezzoli",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/127262991",
+   "note_org": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "MPP_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1881,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Ambrosiana_org",
+   "nome_org": "Pinacoteca Ambrosiana",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/130698811",
+   "note_org": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Ambrosiana_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1607,
+   "data_scioglimento": null
+  },
+  {
+   "id": "CS_org",
+   "nome_org": "Castello Sforzesco",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/145790064",
+   "note_org": "Durante il conflitto, i sotterranei sono stati utilizzati come deposito temporaneo prima del trasferimento delle opere in rifugi più sicuri.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": [
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": "Rocca_org",
+   "id_enti": null,
+   "id_luoghi": [
+    "CS_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1360,
+   "data_scioglimento": null
+  },
+  {
+   "id": "OM_org",
+   "nome_org": "Ca' Granda",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q17154436",
+   "note_org": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "OM_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1456,
+   "data_scioglimento": null
+  },
+  {
+   "id": "MTS_org",
+   "nome_org": "Museo Teatrale alla Scala",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/158311786",
+   "note_org": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "MTS_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1913,
+   "data_scioglimento": null
+  },
+  {
+   "id": "AC_org",
+   "nome_org": "Accademia Carrara",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/173736003",
+   "note_org": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "AC_loc",
+    "BG_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1796,
+   "data_scioglimento": null
+  },
+  {
+   "id": "PTM_org",
+   "nome_org": "Pinacoteca Tosio Martinengo",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/244604707",
+   "note_org": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "VMC_org",
+    "VIC_org",
+    "PPC_org",
+    "Cariplo_org",
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "PTM_loc",
+    "BS_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1851,
+   "data_scioglimento": null
+  },
+  {
+   "id": "VMC_org",
+   "nome_org": "Villa Marini – Clarelli",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": null,
+   "note_org": "Villa seicentesca a Montefreddo (PG), primo rifugio utilizzato da Wittgens nel 1940 per ospitare i capolavori di Brera e di altri musei milanesi e lombardi.",
+   "id_persone": [
+    "FW",
+    "ABC"
+   ],
+   "id_istituzioni": [
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "CS_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "VMC_loc",
+    "MF_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Cariplo_org",
+   "nome_org": "Cassa di Risparmio delle Provincie Lombarde",
+   "tipologia_eac-cpf": "Istituto di Credito",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/151303818",
+   "note_org": "I sotterranei sono stati utilizzati come rifugio da Wittgens per ospitare il patrimonio artistico proveniente da diversi musei nel territorio milanese e lombardo.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": [
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "CS_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "Cariplo_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1816,
+   "data_scioglimento": null
+  },
+  {
+   "id": "VIC_org",
+   "nome_org": "Villa Il Corniolo",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://cultura.gov.it/luogo/villa-paolina",
+   "note_org": "Residenza situata nei pressi di Orvieto (TR), utilizzata come ricovero per le opere d'arte evacuate da Villa Marini-Clarelli a partire dal settembre 1941.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": [
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "CS_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "VIC_loc",
+    "ORV_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1706,
+   "data_scioglimento": null
+  },
+  {
+   "id": "PPC_org",
+   "nome_org": "Palazzo dei Principi di Carpegna",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.comune.carpegna.pu.it/vivere-il-comune/luoghi/l/palazzo-1/palazzo-carpegna-35?cHash=319f72f3c9568fad3a181618747d4c6f",
+   "note_org": "Residenza situata nei pressi di Carpegna (PU), utilizzato come grande centro di raccolta dove Pasquale Rotondi ospitò migliaia di opere provenienti dall'Italia centro-settentrionale.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": [
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "CS_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": [
+    "Vaticano_org"
+   ],
+   "id_luoghi": [
+    "PPC_loc",
+    "CAR_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1669,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Prefettura_org",
+   "nome_org": "Prefettura di Milano",
+   "tipologia_eac-cpf": "Ente pubblico territoriale",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/131723039",
+   "note_org": "Organo di rappresentanza del Governo a Milano che si occupò di fornire varie autorizzazioni a Wittgens per il trasferimento delle opere.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "Prefettura_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1861,
+   "data_scioglimento": null
+  },
+  {
+   "id": "SMG_org",
+   "nome_org": "Santa Maria delle Grazie",
+   "tipologia_eac-cpf": "Complesso ecclesiastico",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/307288822",
+   "note_org": "Complesso religioso che ospita il Cenacolo vinciano e che subì gravi danni a causa dei bombardamenti del 1943.",
+   "id_persone": null,
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "SMG_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1483,
+   "data_scioglimento": null
+  },
+  {
+   "id": "RSI_org",
+   "nome_org": "Repubblica di Salò (RSI)",
+   "tipologia_eac-cpf": "Ente politico e governativo",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://www.wikidata.org/wiki/Q153660",
+   "note_org": "Stato fantoccio fascista istituito da Benito Mussolini nel Nord Italia (settembre 1943 - aprile 1945) sotto l'occupazione nazista.",
+   "id_persone": null,
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "ComandoMilitareGermanico_org"
+   ],
+   "id_luoghi": [
+    "RSI_loc",
+    "BS_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1943,
+   "data_scioglimento": 1945
+  },
+  {
+   "id": "Soprintendenza-MI_org",
+   "nome_org": "Soprintendenza ai monumenti di Milano",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?TipoPag=prodente&Chiave=74219&RicProgetto=as%2Dmilano",
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela e conservazione del patrimonio culturale nell'area milanese (Soprintendenza ai monumenti di Milano, 1939 - 1975).",
+   "id_persone": [
+    "FW",
+    "GP"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "Soprintendenza-MI_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1907,
+   "data_scioglimento": null
+  },
+  {
+   "id": "SV_org",
+   "nome_org": "Carcere di San Vittore",
+   "tipologia_eac-cpf": "Carcere",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/73144647641989307788",
+   "note_org": "Istituto penitenziario di Milano, luogo di detenzione di Wittgens tra il 1944 e il 1945, in seguito al suo arresto per attività clandestina e anti-fascista.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "SV_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1879,
+   "data_scioglimento": null
+  },
+  {
+   "id": "ABAB_org",
+   "nome_org": "Accademia di Belle Arti di Brera",
+   "tipologia_eac-cpf": "Ateneo pubblico",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/148353750",
+   "note_org": "Istituzione pubblica di alta cultura, fondata nel 1776 e situata a Milano.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": [
+    "PB_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": [
+    "ComandoAlleato_org"
+   ],
+   "id_luoghi": [
+    "ABAB_loc",
+    "MI_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1776,
+   "data_scioglimento": null
+  },
+  {
+   "id": "ComandoAlleato_org",
+   "nome_org": "Allied Commission (Comando Alleato)",
+   "tipologia_eac-cpf": "Ente militare",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://www.wikidata.org/wiki/Q716342",
+   "note_org": "Organo politico-militare istituito dagli Alleati nel 1943 per gestire l'amministrazione dei territori liberati fino al 1947. Nominò Wittgens commissario di Brera e collaborò alla prima fase di ricostruzione della Pinacoteca.",
+   "id_persone": [
+    "FW"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "PB_org",
+    "ABAB_org"
+   ],
+   "id_luoghi": null,
+   "file_eac-cpf": null,
+   "data_fondazione": 1943,
+   "data_scioglimento": 1947
+  },
+  {
+   "id": "GNAM_org",
+   "nome_org": "Galleria Nazionale d'Arte Moderna",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/155685834",
+   "note_org": "Galleria diretta da Palma Bucarelli, che si occupò della tutela del patrimonio artistico qui custodito e della riapertura e promozione nel dopoguerra.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PFC_org",
+    "CSA_org"
+   ],
+   "id_enti": [
+    "GNAM-arch_org",
+    "ACS_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "GNAM_loc",
+    "RM_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1883,
+   "data_scioglimento": null
+  },
+  {
+   "id": "GNAM-arch_org",
+   "nome_org": "Archivio bioiconografico della GNAM",
+   "tipologia_eac-cpf": "Archivio",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/272845058",
+   "note_org": "Archivio digitale che conserva documentazione sulle attività della galleria, tra cui anche elenchi delle opere trasferite a Caprarola, resoconti degli spostamenti, disposizioni per la protezione antiaerea, dossier sulle mostre.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": [
+    "GNAM_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": null,
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "ACS_org",
+   "nome_org": "Archivio Centrale dello Stato",
+   "tipologia_eac-cpf": "Archivio",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/130899505",
+   "note_org": "Istituto dotato di autonomia speciale del Ministero della Cultura, conserva documentazione amministrativa dello Stato.",
+   "id_persone": [
+    "PB",
+    "PR"
+   ],
+   "id_istituzioni": [
+    "GNAM_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": [
+    "Min-Ed_org"
+   ],
+   "id_luoghi": [
+    "ACS_loc",
+    "RM_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1953,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Min-Ed_org",
+   "nome_org": "Ministero dell'Educazione Nazionale",
+   "tipologia_eac-cpf": "Organo centrale dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://www.wikidata.org/wiki/Q65132362",
+   "note_org": "Istituito nel 1929 in epoca fascista, ha sostituito il Ministero della Pubblica Istruzione ed è stato soppresso nel 1944.",
+   "id_persone": [
+    "PB",
+    "PR",
+    "GCA"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "DG-Arti_org",
+    "Soprintendenza-MI_org",
+    "Soprintendenza-MAR_org",
+    "Soprintendenza-Sicilia-antichità_org",
+    "Soprintendenza-Sicilia-monumenti_org",
+    "Soprintendenza-Piemonte-Liguria_org",
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org"
+   ],
+   "id_luoghi": [
+    "Min-Ed-RM_loc",
+    "RM_loc",
+    "Min-Ed-PD_loc",
+    "PD_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1929,
+   "data_scioglimento": 1944
+  },
+  {
+   "id": "PFC_org",
+   "nome_org": "Palazzo Farnese di Caprarola",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/155227712",
+   "note_org": "Villa cinquecentesca utilizzata come rifugio da Bucarelli per le opere della GNAM, distante da obiettivi militari ma abbastanza vicina a Roma da permetterle sopralluoghi frequenti.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": [
+    "GNAM_org"
+   ],
+   "id_rifugi": [
+    "CSA_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "PFC_loc",
+    "CP_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1556,
+   "data_scioglimento": null
+  },
+  {
+   "id": "CSA_org",
+   "nome_org": "Castel Sant'Angelo",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/80145424520886830105",
+   "note_org": "Complesso museale utilizzato come secondo rifugio da Bucarelli per le opere della GNAM dopo l'armistizio del 1943, quando Palazzo Farnese di Caprarola non era più sicuro per l'avvicinarsi delle truppe tedesche.",
+   "id_persone": [
+    "PB"
+   ],
+   "id_istituzioni": [
+    "GNAM_org"
+   ],
+   "id_rifugi": [
+    "PFC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "CSA_loc",
+    "RM_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1925,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Soprintendenza-MAR_org",
+   "nome_org": "Soprintendenza alle Gallerie e Opere d'Arte delle Marche",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/167449817",
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio nelle Marche. Pasquale Rotondi ne divenne soprintendente nell'ottobre 1939 e da questa sede coordinò l'Operazione Salvataggio.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "Rocca_org",
+    "PPC_org"
+   ],
+   "id_enti": [
+    "DG-Arti_org",
+    "Min-Ed_org"
+   ],
+   "id_luoghi": [
+    "Soprintendenza-MAR_loc",
+    "AN_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1907,
+   "data_scioglimento": null
+  },
+  {
+   "id": "DG-Arti_org",
+   "nome_org": "Direzione Generale delle Arti",
+   "tipologia_eac-cpf": "Organo centrale dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/130704381",
+   "note_org": "Organo centrale del Ministero dell'Educazione Nazionale deputato alla tutela del patrimonio artistico nazionale.",
+   "id_persone": [
+    "PR",
+    "GCA",
+    "CAN"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "Min-Ed_org",
+    "Soprintendenza-MAR_org",
+    "Soprintendenza-MI_org",
+    "Soprintendenza-Sicilia-antichità_org",
+    "Soprintendenza-Sicilia-monumenti_org",
+    "Soprintendenza-Piemonte-Liguria_org",
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org"
+   ],
+   "id_luoghi": [
+    "DG-Arti-RM_loc",
+    "RM_loc",
+    "DG-Arti-PD_loc",
+    "PD_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1881,
+   "data_scioglimento": null
+  },
+  {
+   "id": "PD-URB_org",
+   "nome_org": "Palazzo Ducale di Urbino",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/147649675",
+   "note_org": "Sede della Galleria Nazionale delle Marche, inizialmente scelto dalla Direzione Generale delle Arti come rifugio per le opere, ma scartato per via della vicinanza a un deposito bellico dell'Aviazione. Usato da Rotondi come rifugio temporaneo durante l'occupazione tedesca, murando alcune opere nei sotterranei.",
+   "id_persone": [
+    "PR",
+    "ZBR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "Rocca_org",
+    "PPC_org",
+    "Cattedrale-URB_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-MAR_org"
+   ],
+   "id_luoghi": [
+    "PD-URB_loc",
+    "URB_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1454,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Rocca_org",
+   "nome_org": "Rocca Ubaldinesca di Sassocorvaro",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/127804456",
+   "note_org": "Fortezza rinascimentale scelta da Rotondi come rifugio principale: tra il 1940 e il 1945 custodì oltre 10.000 opere d'arte. Il rifugio fu chiuso il 14 settembre 1945.",
+   "id_persone": [
+    "PR",
+    "ZBR"
+   ],
+   "id_istituzioni": [
+    "GA-VE_org",
+    "GF_org",
+    "MO_org",
+    "Biblio-Oliveriana_org",
+    "Museo-Oliveriano_org",
+    "PB_org",
+    "MPP_org",
+    "Ambrosiana_org",
+    "CS_org",
+    "OM_org",
+    "MTS_org",
+    "AC_org",
+    "PTM_org"
+   ],
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-MAR_org"
+   ],
+   "id_luoghi": [
+    "Rocca_loc",
+    "SC_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1475,
+   "data_scioglimento": null
+  },
+  {
+   "id": "GA-VE_org",
+   "nome_org": "Gallerie dell'Accademia di Venezia",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/145358176",
+   "note_org": "Fondate nel 1750 contestualmente all'Accademia di Belle Arti, conservano la più importante collezione di pittura veneta. Vittorio Moschini, durante la guerra, gestì la protezione delle opere trasferendole al Palazzo dei Principi di Carpegna.",
+   "id_persone": [
+    "PR",
+    "VM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "GA-VE_loc",
+    "VE_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1750,
+   "data_scioglimento": null
+  },
+  {
+   "id": "GF_org",
+   "nome_org": "Galleria Franchetti (Ca d'Oro)",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/147271225",
+   "note_org": "Le opere qui conservate vennero spedite da Vittorio Moschini a Carpegna.",
+   "id_persone": [
+    "PR",
+    "VM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "GF_loc",
+    "VE_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1927,
+   "data_scioglimento": null
+  },
+  {
+   "id": "MO_org",
+   "nome_org": "Museo Orientale di Venezia",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/138048975",
+   "note_org": "Le opere qui conservate vennero spedite da Vittorio Moschini a Carpegna nel maggio 1943.",
+   "id_persone": [
+    "PR",
+    "VM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "MO_loc",
+    "VE_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1887,
+   "data_scioglimento": null
+  },
+  {
+   "id": "GB_org",
+   "nome_org": "Galleria Borghese",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/135862740",
+   "note_org": "Galleria che ospita la collezione del cardinale Scipione Borghese. Le opere qui conservate vennero spedite a Carpegna in 11 casse nel giugno 1943.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "GB_loc",
+    "RM_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1903,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Corsini_org",
+   "nome_org": "Galleria Corsini",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/172108264",
+   "note_org": "Raccolta statale dal 1883 grazie alla donazione del principe Tommaso Corsini. Nel 1943 vennero spedite da Palazzo Corsini 10 casse.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Corsini_loc",
+    "RM_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1883,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Gaulino_org",
+   "nome_org": "Collezione Gaulino",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": null,
+   "note_org": "Le opere qui conservate vennero spedite a Carpegna in 4 casse nel 1943.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Gaulino_loc",
+    "RM_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "ComandoMilitareGermanico_org",
+   "nome_org": "Comando Militare Germanico",
+   "tipologia_eac-cpf": "Ente militare",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://www.wikidata.org/wiki/Q128781",
+   "note_org": "Ente militare tedesco operante nel territorio italiano dopo l'armistizio dell'8 settembre 1943. Nell'ottobre 1943 requisì e accasermò il Palazzo dei Principi di Carpegna, costringendo Rotondi a sgomberare il rifugio.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "PPC_loc",
+    "CAR_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "VT_org",
+   "nome_org": "Villa Tortorina",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": null,
+   "note_org": "Residenza di famiglia di Pasquale Rotondi, usata come rifugio temporaneo per le opere di piccolo formato sottratte al rifugio di Sassocorvaro durante lo sgombero d'emergenza dell'ottobre 1943, sotto la sorveglianza della moglie Zea Bernardini Rotondi.",
+   "id_persone": [
+    "PR",
+    "ZBR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PD-URB_org",
+    "Rocca_org",
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "VT_loc",
+    "URB_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Cattedrale-URB_org",
+   "nome_org": "Cattedrale di Urbino",
+   "tipologia_eac-cpf": "Ente ecclesiastico",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/142341240",
+   "note_org": "Grazie alla mediazione della Chiesa, Rotondi poté recuperare alcune opere da Carpegna e occultarle nella cripta del Duomo di Santa Maria Assunta, in attesa del trasferimento in Vaticano.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Cattedrale-URB_loc",
+    "URB_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1447,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Vaticano_org",
+   "nome_org": "Chiesa Cattolica",
+   "tipologia_eac-cpf": "Ente ecclesiastico",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/130782063",
+   "note_org": "Durante l'occupazione tedesca del centro Italia, la Santa Sede offrì ospitalità alle opere d'arte sottratte ai rifugi di Carpegna e Urbino da Pasquale Rotondi. Grazie alla mediazione della Chiesa, che reclamò la restituzione dei beni ecclesiastici veneziani custoditi a Carpegna, Rotondi poté recuperare quanto più possibile.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "PPC_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Vaticano_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1929,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Biblio-Oliveriana_org",
+   "nome_org": "Biblioteca Oliveriana",
+   "tipologia_eac-cpf": "Biblioteca",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/140513155",
+   "note_org": "Durante la guerra il materiale qui conservato fu spedito alla Rocca di Sassocorvaro.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": [
+    "Museo-Oliveriano_org"
+   ],
+   "id_rifugi": [
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Biblio-Oliveriana_loc",
+    "PES_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1756,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Museo-Oliveriano_org",
+   "nome_org": "Museo Archeologico Oliveriano",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/122815807",
+   "note_org": "Durante la guerra il materiale qui conservato fu spedito alla Rocca di Sassocorvaro.",
+   "id_persone": [
+    "PR"
+   ],
+   "id_istituzioni": [
+    "Biblio-Oliveriana_org"
+   ],
+   "id_rifugi": [
+    "Rocca_org"
+   ],
+   "id_enti": null,
+   "id_luoghi": [
+    "Museo-Oliveriano_loc",
+    "PES_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": 1756,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Soprintendenza-Sicilia-antichità_org",
+   "nome_org": "Soprintendenza alle Antichità della Sicilia occidentale",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": null,
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela dei beni archeologici nelle province di Palermo, Trapani, Agrigento e Caltanissetta. Diretta da Jole Bovio Marconi dal 1939, coordinò il trasferimento delle opere del Museo Nazionale alla Basilica di San Martino delle Scale per proteggerle dai bombardamenti.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Sicilia-monumenti_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "Soprintendenza-Sicilia-antichità_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Soprintendenza-Sicilia-monumenti_org",
+   "nome_org": "Soprintendenza ai Monumenti della la Sicilia occidentale",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": null,
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela dei monumenti della Sicilia occidentale, guidato da Mario Guiotto; collaborò con la Soprintendenza alle Antichità nella messa in salvo del patrimonio artistico durante la guerra.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "Soprintendenza-Sicilia-monumenti_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Archeologico-PA_org",
+   "nome_org": "Museo Archeologico Regionale 'Antonio Salinas'",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q1954237",
+   "note_org": "Già Museo Nazionale di Palermo, custodisce la più importante collezione archeologica della Sicilia. Le sue opere furono trasferite tra il 1940 e il 1943 nella Basilica abbaziale di San Martino delle Scale per sottrarle ai bombardamenti. Il museo, danneggiato nel 1943, fu ricostruito tra il 1945 e il 1952 e riaperto col nome di Museo Archeologico Regionale 'Antonio Salinas'.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "SanMartino_org",
+   "nome_org": "Basilica abbaziale di San Martino delle Scale",
+   "tipologia_eac-cpf": "Ente ecclesiastico",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.wikidata.org/wiki/Q3947649",
+   "note_org": "Complesso monastico benedettino di Monreale, utilizzato dal luglio 1940 come rifugio per le opere del Museo Nazionale di Palermo.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": [
+    "Archeologico-PA_org"
+   ],
+   "id_rifugi": null,
+   "id_enti": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "MON_loc",
+    "SanMartino_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "SantIgnazio_org",
+   "nome_org": "Chiesa di Sant'ignazio all'Olivella",
+   "tipologia_eac-cpf": "Ente ecclesiastico",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q2223886",
+   "note_org": "Chiesa palermitana adiacente al Museo Archeologico, danneggiata dal bombardamento del 5 aprile 1943 che colpì anche il lato meridionale del cortile del museo.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": null,
+   "id_luoghi": [
+    "PA_loc",
+    "SantIgnazio_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Etnografico-PA_org",
+   "nome_org": "Museo G. Pitrè",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q122476",
+   "note_org": "Museo etnografico di Palermo, fondato sulla raccolta di Giuseppe Pitrè. Il suo patrimonio venne messo in salvo insieme alle altre collezioni palermitane sotto la direzione della Soprintendenza durante la guerra.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "Etnografico-PA_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Galleria-PA_org",
+   "nome_org": "Galleria Nazionale di Palazzo Abatellis",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q1255652",
+   "note_org": "Galleria ospitata a Palazzo Abatellis, sede della raccolta d'arte medievale e moderna siciliana. Le opere furono protette durante la guerra dalla Soprintendenza alle Antichità della Sicilia occidentale.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "Galleria-PA_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Moderna-PA_org",
+   "nome_org": "Galleria d'Arte Moderna",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q1492337",
+   "note_org": "Galleria d'arte moderna di Palermo, il cui patrimonio fu messo in salvo insieme alle altre collezioni palermitane sotto la direzione della Soprintendenza durante la guerra.",
+   "id_persone": [
+    "JBM"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "SanMartino_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Sicilia-antichità_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PA_loc",
+    "Moderna-PA_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Arch-Soprintendenza-TO_org",
+   "nome_org": "Archivio della Soprintendenza Archeologia Belle Arti e Paesaggio per la città metropolitana di Torino",
+   "tipologia_eac-cpf": "Archivio",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://www.wikidata.org/wiki/Q134371478",
+   "note_org": "Archivio della Soprintendenza all'Arte Medievale e Moderna del Piemonte e della Liguria, che conserva la documentazione amministrativa relativa alle operazioni di salvataggio delle opere durante la guerra.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": null,
+   "id_enti": [
+    "Soprintendenza-Piemonte-Liguria_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "TO_loc",
+    "Soprintendenza-Piemonte-Liguria_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Soprintendenza-Piemonte-Liguria_org",
+   "nome_org": "Soprintendenza all'Arte Medievale e Moderna del Piemonte e della Liguria",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "https://www.wikidata.org/wiki/Q134371478",
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio in Piemonte e Liguria, diretto da Carlo Aru in collaborazione con l'ispettrice Noemi Gabrielli e la direttrice della Galleria Sabauda Anna Maria Brizio. Coordinò il trasferimento delle opere della Galleria Sabauda nei rifugi sicuri.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Arch-Soprintendenza-TO_org"
+   ],
+   "id_luoghi": [
+    "TO_loc",
+    "Soprintendenza-Piemonte-Liguria_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "C-Settime_org",
+   "nome_org": "Castello di Settime",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.wikidata.org/wiki/Q18601508",
+   "note_org": "Castello nei pressi di Asti, utilizzato dal 1940 come primo rifugio per le opere della Galleria Sabauda di Torino, insieme al Castello di Montà d'Alba.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_luoghi": [
+    "Settime_loc",
+    "C-Settime_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "C-Monta_org",
+   "nome_org": "Castello di Montà d'Alba",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.wikidata.org/wiki/Q131564608",
+   "note_org": "Castello nelle Langhe, utilizzato insieme al Castello di Settime come rifugio per le opere della Galleria Sabauda a partire dal 1940.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Guiglia_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_luoghi": [
+    "Monta_loc",
+    "C-Monta_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Sabauda_org",
+   "nome_org": "Galleria Sabauda",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "https://www.wikidata.org/wiki/Q2245152",
+   "note_org": "Pinacoteca di Torino la cui collezione fu evacuata nei castelli di Settime e Montà d'Alba e, dopo l'armistizio, trasferita al Castello di Guiglia e infine a Palazzo Borromeo.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": null,
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_luoghi": [
+    "TO_loc",
+    "Sabauda_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "C-Guiglia_org",
+   "nome_org": "Castello di Guiglia",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.wikidata.org/wiki/Q55164626",
+   "note_org": "Castello sull'Appennino modenese, utilizzato dal giugno 1940 come rifugio for le opere della Galleria Sabauda, trasferite qui dai castelli di Settime e Montà d'Alba.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Monta_org",
+    "Borromeo_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Piemonte-Liguria_org",
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org"
+   ],
+   "id_luoghi": [
+    "Guiglia_loc",
+    "C-Guiglia_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Borromeo_org",
+   "nome_org": "Palazzo Borromeo",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.wikidata.org/wiki/Q3889703",
+   "note_org": "Residenza sull'Isola Bella nel Lago Maggiore, selezionata nel 1944 come rifugio dalla Direzione Generale delle Arti.",
+   "id_persone": [
+    "NG"
+   ],
+   "id_istituzioni": [
+    "Sabauda_org"
+   ],
+   "id_rifugi": [
+    "C-Settime_org",
+    "C-Monta_org",
+    "C-Guiglia_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-Piemonte-Liguria_org"
+   ],
+   "id_luoghi": [
+    "Stresa_loc",
+    "Borromeo_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Direzione-RG-PR_org",
+   "nome_org": "Direzione della Regia Galleria di Parma",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": null,
+   "note_org": "Direzione della Regia Galleria di Parma, affidata ad Armando Ottaviano Quintavalle a partire dal 1937.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Min-Ed_org",
+    "DG-Arti_org"
+   ],
+   "id_luoghi": [
+    "PR_loc",
+    "Pilotta_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Soprintendenza-PR-PC_org",
+   "nome_org": "Soprintendenza alle Gallerie e alle Opere d'Arte medievali e Moderne per le province di Parma e Piacenza",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/5868148122904295200001",
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio nelle province di Parma e Piacenza, diretto da Armando Ottaviano Quintavalle a partire dal 1939.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "PR_loc",
+    "Soprintendenza-PR-PC_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Soprintendenza-MO-RE_org",
+   "nome_org": "Soprintendenza alle Gallerie e alle Opere d'Arte medievali e Moderne per le province di Modena e Reggio Emilia",
+   "tipologia_eac-cpf": "Organo periferico dello Stato",
+   "tipologia_org": "ente-pubblico",
+   "authority_control": "http://viaf.org/viaf/154546393",
+   "note_org": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio nelle province di Modena e Reggio Emilia, incarico affidato a Quintavalle tra il 1940 e il 1942.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "MO_loc",
+    "Soprintendenza-MO-RE_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Pilotta_org",
+   "nome_org": "Complesso della Pilotta",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/122798614",
+   "note_org": "Complesso monumentale di Parma che ospita la Galleria Nazionale, il Museo Archeologico e la Biblioteca Palatina; sede della direzione di Armando Ottaviano Quintavalle durante la guerra.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "PR_loc",
+    "Pilotta_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "VA_org",
+   "nome_org": "Villa Alberoni",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": null,
+   "note_org": "Villa nei pressi di Veano (PC), utilizzata come rifugio per le opere d'arte piacentine, sgomberate per la vicinanza al ponte sul Po considerato obiettivo militare; ceduta poi alle autorità militari nel settembre 1940.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "Veano_loc",
+    "VA_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "VP_org",
+   "nome_org": "Villa Paganini",
+   "tipologia_eac-cpf": "Ente privato",
+   "tipologia_org": "rifugio",
+   "authority_control": "https://www.wikidata.org/wiki/Q27929472",
+   "note_org": "Villa nei pressi di Gaione (PR), individuata come rifugio per il patrimonio artistico parmense sotto la direzione di Armando Ottaviano Quintavalle durante la seconda guerra mondiale.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "Gaione_loc",
+    "VP_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "C-Torrechiara_org",
+   "nome_org": "Castello di Torrechiara",
+   "tipologia_eac-cpf": "Complesso museale",
+   "tipologia_org": "rifugio",
+   "authority_control": "http://viaf.org/viaf/239192413",
+   "note_org": "Castello medievale nei pressi di Parma, utilizzato dal settembre 1940 come rifugio per le opere provenienti da Villa Alberoni; nel settembre 1943 Quintavalle vi occultò le opere murandole nei sotterranei per sottrarle ai sopralluoghi delle autorità tedesche.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "TC_loc",
+    "C-Torrechiara_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "MC-PF_org",
+   "nome_org": "Musei civici di Palazzo Farnese",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/135862520",
+   "note_org": "Museo ospitato nel Palazzo Farnese di Piacenza, il cui patrimonio fu messo in salvo insieme alle altre collezioni piacentine sotto la direzione di Armando Ottaviano Quintavalle.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "PC_loc",
+    "MC-PF_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "Ricci_org",
+   "nome_org": "Galleria d'arte moderna Ricci Oddi",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/137848876",
+   "note_org": "Galleria d'arte moderna di Piacenza, fondata dal collezionista Giuseppe Ricci Oddi e inaugurata nel 1931; le sue opere furono protette durante la guerra sotto la sorveglianza della Soprintendenza di Parma e Piacenza.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "PC_loc",
+    "Ricci_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  },
+  {
+   "id": "MA-PR_org",
+   "nome_org": "Museo Archeologico",
+   "tipologia_eac-cpf": "Museo",
+   "tipologia_org": "istituzione",
+   "authority_control": "http://viaf.org/viaf/130252198",
+   "note_org": "Museo Archeologico ospitato nel Complesso della Pilotta a Parma, il cui incarico di dirigenza fu affidato ad Armando Ottaviano Quintavalle a partire dal 1934.",
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_istituzioni": [
+    "Pilotta_org",
+    "MC-PF_org",
+    "Ricci_org"
+   ],
+   "id_rifugi": [
+    "VA_org",
+    "VP_org",
+    "C-Torrechiara_org"
+   ],
+   "id_enti": [
+    "Soprintendenza-PR-PC_org",
+    "Soprintendenza-MO-RE_org",
+    "Direzione-RG-PR_org"
+   ],
+   "id_luoghi": [
+    "PR_loc",
+    "MA-PR_loc"
+   ],
+   "file_eac-cpf": null,
+   "data_fondazione": null,
+   "data_scioglimento": null
+  }
+ ],
+ "luoghi": [
+  {
+   "id": "BG_loc",
+   "nome_loc": "Bergamo",
+   "tipologia_loc": "città",
+   "lat": 45.69601,
+   "lng": 9.66721,
+   "comune": "Bergamo",
+   "authority_control": "https://www.geonames.org/3182164/bergamo.html",
+   "note_loc": null
+  },
+  {
+   "id": "BS_loc",
+   "nome_loc": "Brescia",
+   "tipologia_loc": "città",
+   "lat": 45.53558,
+   "lng": 10.21472,
+   "comune": "Brescia",
+   "authority_control": "https://www.geonames.org/3181554/brescia.html",
+   "note_loc": null
+  },
+  {
+   "id": "MF_loc",
+   "nome_loc": "Montefreddo",
+   "tipologia_loc": "città",
+   "lat": 43.0441,
+   "lng": 12.2802,
+   "comune": "Montefreddo",
+   "authority_control": null,
+   "note_loc": null
+  },
+  {
+   "id": "PG_loc",
+   "nome_loc": "Perugia",
+   "tipologia_loc": "città",
+   "lat": 43.1122,
+   "lng": 12.38878,
+   "comune": "Perugia",
+   "authority_control": "https://www.geonames.org/3171180/perugia.html",
+   "note_loc": null
+  },
+  {
+   "id": "ORV_loc",
+   "nome_loc": "Orvieto",
+   "tipologia_loc": "città",
+   "lat": 42.71924,
+   "lng": 12.11249,
+   "comune": "Orvieto",
+   "authority_control": "https://www.geonames.org/3171874/orvieto.html",
+   "note_loc": null
+  },
+  {
+   "id": "CAR_loc",
+   "nome_loc": "Carpegna",
+   "tipologia_loc": "città",
+   "lat": 43.7811,
+   "lng": 12.33543,
+   "comune": "Carpegna",
+   "authority_control": "https://www.geonames.org/3180455/carpegna.html",
+   "note_loc": null
+  },
+  {
+   "id": "URB_loc",
+   "nome_loc": "Urbino",
+   "tipologia_loc": "città",
+   "lat": 43.72621,
+   "lng": 12.63633,
+   "comune": "Urbino",
+   "authority_control": "https://www.geonames.org/3165035/urbino.html",
+   "note_loc": null
+  },
+  {
+   "id": "MI_loc",
+   "nome_loc": "Milano",
+   "tipologia_loc": "città",
+   "lat": 45.46427,
+   "lng": 9.18951,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/3173435/milan.html",
+   "note_loc": null
+  },
+  {
+   "id": "PB_loc",
+   "nome_loc": "Pinacoteca di Brera",
+   "tipologia_loc": "istituzione",
+   "lat": 45.4719,
+   "lng": 9.18806,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/6949436/pinacoteca-di-brera.html",
+   "note_loc": "Pinacoteca diretta da Fernanda Wittgens dal 1940, che si occupò della tutela del patrimonio qui costudito e della ricostruzione in seguito ai danni subiti durante la guerra."
+  },
+  {
+   "id": "MPP_loc",
+   "nome_loc": "Museo Poldi Pezzoli",
+   "tipologia_loc": "istituzione",
+   "lat": 45.46847,
+   "lng": 9.19151,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/10278745/museo-poldi-pezzoli.html",
+   "note_loc": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale."
+  },
+  {
+   "id": "Ambrosiana_loc",
+   "nome_loc": "Pinacoteca Ambrosiana",
+   "tipologia_loc": "istituzione",
+   "lat": 45.46352,
+   "lng": 9.18587,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/8133663/pinacoteca-ambrosiana.html",
+   "note_loc": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale."
+  },
+  {
+   "id": "CS_loc",
+   "nome_loc": "Castello Sforzesco",
+   "tipologia_loc": "rifugio",
+   "lat": 45.46987,
+   "lng": 9.18003,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/3166568/castello-sforzesco.html",
+   "note_loc": "Durante il conflitto, i sotterranei sono stati utilizati come deposito temporaneo prima del trasferimento delle opere in rifugi più sicuri."
+  },
+  {
+   "id": "OM_loc",
+   "nome_loc": "Cà Granda",
+   "tipologia_loc": "istituzione",
+   "lat": 45.460008,
+   "lng": 9.195317,
+   "comune": "Milano",
+   "authority_control": "https://www.wikidata.org/wiki/Q17154436",
+   "note_loc": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale."
+  },
+  {
+   "id": "MTS_loc",
+   "nome_loc": "Museo Teatrale alla Scala",
+   "tipologia_loc": "istituzione",
+   "lat": 45.46724,
+   "lng": 9.18922,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/11839661/museo-teatrale-alla-scala.html",
+   "note_loc": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale."
+  },
+  {
+   "id": "AC_loc",
+   "nome_loc": "Accademia Carrara",
+   "tipologia_loc": "istituzione",
+   "lat": 45.703861,
+   "lng": 9.675611,
+   "comune": "Bergamo",
+   "authority_control": "https://www.wikidata.org/wiki/Q338367",
+   "note_loc": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale."
+  },
+  {
+   "id": "PTM_loc",
+   "nome_loc": "Pinacoteca Tosio Martinengo",
+   "tipologia_loc": "istituzione",
+   "lat": 45.5349,
+   "lng": 10.2248,
+   "comune": "Brescia",
+   "authority_control": "https://www.wikidata.org/wiki/Q3388589",
+   "note_loc": "Il patrimonio artistico qui custodito è stato raccolto e trasferito in rifugi sicuri durante la seconda guerra mondiale."
+  },
+  {
+   "id": "VMC_loc",
+   "nome_loc": "Villa Marini – Clarelli",
+   "tipologia_loc": "rifugio",
+   "lat": 43.04358,
+   "lng": 12.285387,
+   "comune": "Montefreddo",
+   "authority_control": null,
+   "note_loc": "Villa seicentesca a Montefreddo (PG), primo rifugio utilizzato da Wittgens nel 1940 per ospitare i capolavori di Brera e di altri musei milanesi e lombardi."
+  },
+  {
+   "id": "Cariplo_loc",
+   "nome_loc": "Cassa di Risparmio delle Provincie Lombarde",
+   "tipologia_loc": "rifugio",
+   "lat": 45.4693,
+   "lng": 9.1895,
+   "comune": "Milano",
+   "authority_control": "https://www.wikidata.org/wiki/Q3661915",
+   "note_loc": "I sotterranei sono stati utilizzati come rifugio da Wittgens per ospitare il patrimonio artistico proveniente da diversi musei nel territorio milanese e lombardo."
+  },
+  {
+   "id": "VIC_loc",
+   "nome_loc": "Villa Il Corniolo",
+   "tipologia_loc": "rifugio",
+   "lat": 42.68161,
+   "lng": 12.10097,
+   "comune": "Orvieto",
+   "authority_control": null,
+   "note_loc": "Residenza situata nei pressi di Orvieto (TR), utilizzata come ricovero per le opere d'arte evacuate da Villa Marini-Clarelli a partire dal settembre 1941."
+  },
+  {
+   "id": "PPC_loc",
+   "nome_loc": "Palazzo Principi di Carpegna",
+   "tipologia_loc": "rifugio",
+   "lat": 43.78169,
+   "lng": 12.33625,
+   "comune": "Carpegna",
+   "authority_control": null,
+   "note_loc": "Residenza situata nei pressi di Carpegna (PU), utilizzato come grande centro di raccolta dove Pasquale Rotondi ospitò migliaia di opere provenienti dall'Italia centro-settentrionale."
+  },
+  {
+   "id": "Prefettura_loc",
+   "nome_loc": "Palazzo Diotti (Prefettura)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.46745,
+   "lng": 9.20218,
+   "comune": "Milano",
+   "authority_control": "https://www.wikidata.org/wiki/Q25841599",
+   "note_loc": "Organo di rappresentanza del Governo a Milano che si occupò di fornire varie autorizzazioni a Wittgens per il trasferimento delle opere."
+  },
+  {
+   "id": "SMG_loc",
+   "nome_loc": "Santa Maria delle Grazie",
+   "tipologia_loc": "istituzione",
+   "lat": 45.4659,
+   "lng": 9.17114,
+   "comune": "Milano",
+   "authority_control": "https://www.geonames.org/6949438/santa-maria-delle-grazie.html",
+   "note_loc": "Complesso religioso che ospita il Cenacolo vinciano e che subì gravi danni a causa dei bombardamenti del 1943."
+  },
+  {
+   "id": "LG_loc",
+   "nome_loc": "Linea Gotica",
+   "tipologia_loc": null,
+   "lat": null,
+   "lng": null,
+   "comune": null,
+   "authority_control": null,
+   "note_loc": null
+  },
+  {
+   "id": "RSI_loc",
+   "nome_loc": "Salò (Sede RSI)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.607114,
+   "lng": 10.528279,
+   "comune": "Salò",
+   "authority_control": "https://www.wikidata.org/wiki/Q153660",
+   "note_loc": "Stato fantoccio fascista istituito da Benito Mussolini nel Nord Italia (settembre 1943 - aprile 1945) sotto l'occupazione nazista."
+  },
+  {
+   "id": "Soprintendenza-MI_loc",
+   "nome_loc": "Palazzo Litta (Soprintendenza 1939 - 1975)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.465769,
+   "lng": 9.178311,
+   "comune": "Milano",
+   "authority_control": "https://www.wikidata.org/wiki/Q732658",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela e conservazione del patrimonio culturale nell'area milanese (Soprintendenza ai monumenti di Milano, 1939 - 1975)."
+  },
+  {
+   "id": "SV_loc",
+   "nome_loc": "Carcere di San Vittore",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.461937,
+   "lng": 9.165688,
+   "comune": "Milano",
+   "authority_control": "https://www.wikidata.org/wiki/Q3658360",
+   "note_loc": "Istituto penitenziario di Milano, luogo di detenzione di Wittgens tra il 1944 e il 1945, in seguito al suo arresto per attività clandestina e anti-fascista."
+  },
+  {
+   "id": "ABAB_loc",
+   "nome_loc": "Accademia di Belle Arti di Brera",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.472222,
+   "lng": 9.188889,
+   "comune": "Milano",
+   "authority_control": "https://www.wikidata.org/wiki/Q338472",
+   "note_loc": "Istituzione pubblica di alta cultura, fondata nel 1776 e situata a Milano."
+  },
+  {
+   "id": "RM_loc",
+   "nome_loc": "Roma",
+   "tipologia_loc": "città",
+   "lat": 41.89193,
+   "lng": 12.51133,
+   "comune": "Roma",
+   "authority_control": "https://www.geonames.org/3169070/rome.html",
+   "note_loc": null
+  },
+  {
+   "id": "PD_loc",
+   "nome_loc": "Padova",
+   "tipologia_loc": "città",
+   "lat": 45.40797,
+   "lng": 11.88586,
+   "comune": "Padova",
+   "authority_control": "https://www.geonames.org/3171728/padua.html",
+   "note_loc": null
+  },
+  {
+   "id": "CP_loc",
+   "nome_loc": "Caprarola",
+   "tipologia_loc": "città",
+   "lat": 42.32308,
+   "lng": 12.23848,
+   "comune": "Caprarola",
+   "authority_control": "https://www.geonames.org/3180635/caprarola.html",
+   "note_loc": null
+  },
+  {
+   "id": "GNAM_loc",
+   "nome_loc": "Galleria Nazionale d'Arte Moderna",
+   "tipologia_loc": "istituzione",
+   "lat": 41.91706,
+   "lng": 12.48216,
+   "comune": "Roma",
+   "authority_control": "https://www.geonames.org/8015103/galleria-dell-arte-moderna.html",
+   "note_loc": "Galleria diretta da Palma Bucarelli, che si occupò della tutela del patrimonio artistico qui custodito e della riapertura e promozione nel dopoguerra."
+  },
+  {
+   "id": "ACS_loc",
+   "nome_loc": "Archivio Centrale dello Stato",
+   "tipologia_loc": "istituzione",
+   "lat": 41.82904,
+   "lng": 12.47538,
+   "comune": "Roma",
+   "authority_control": "https://www.wikidata.org/wiki/Q2860420",
+   "note_loc": "Istituto dotato di autonomia speciale del Ministero della Cultura, conserva documentazione amministrativa dello Stato."
+  },
+  {
+   "id": "Min-Ed-RM_loc",
+   "nome_loc": "Palazzo della Pubblica Istruzione (Ministero dell'Educazione Nazionale)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 41.88497,
+   "lng": 12.470051,
+   "comune": "Roma",
+   "authority_control": "https://www.wikidata.org/wiki/Q3891313",
+   "note_loc": "Sede del Ministero dell'Educazione Nazionale e della Direzione Generale delle Arti. Il Ministero dell'Educazione Nazionale è stato istituito nel 1929 in epoca fascista, ha sostituito il Ministero della Pubblica Istruzione ed è stato soppresso nel 1944. La Direzione Generale delle Arti è stato un organo centrale del Ministero dell'Educazione Nazionale deputato alla tutela del patrimonio artistico nazionale."
+  },
+  {
+   "id": "Min-Ed-PD_loc",
+   "nome_loc": "Palazzo del Bo (Ministero dell'Educazione Nazionale)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.40684,
+   "lng": 11.87754,
+   "comune": "Padova",
+   "authority_control": "https://www.wikidata.org/wiki/Q3360829",
+   "note_loc": "Sede del Ministero dell'Educazione Nazionale e della Direzione Generale delle Arti che, in seguito all'armistizio del 1943, è stata spostata da Roma a Padova."
+  },
+  {
+   "id": "PFC_loc",
+   "nome_loc": "Palazzo Farnese",
+   "tipologia_loc": "rifugio",
+   "lat": 42.32869,
+   "lng": 12.23701,
+   "comune": "Caprarola",
+   "authority_control": "https://www.geonames.org/8334595/villa-farnese.html",
+   "note_loc": "Villa cinquecentesca utilizzata come rifugio da Bucarelli per le opere della GNAM, distante da obiettivi militari ma abbastanza vicina a Roma da permetterle sopralluoghi frequenti."
+  },
+  {
+   "id": "CSA_loc",
+   "nome_loc": "Castel Sant'Angelo",
+   "tipologia_loc": "rifugio",
+   "lat": 41.903,
+   "lng": 12.46635,
+   "comune": "Roma",
+   "authority_control": "https://www.geonames.org/6269267/castel-sant-angelo.html",
+   "note_loc": "Complesso museale utilizzato come secondo rifugio da Bucarelli per le opere della GNAM dopo l'armistizio del 1943, quando Palazzo Farnese di Caprarola non era più sicuro per l'avvicinarsi delle truppe tedesche."
+  },
+  {
+   "id": "AN_loc",
+   "nome_loc": "Ancona",
+   "tipologia_loc": "città",
+   "lat": 43.60717,
+   "lng": 13.5103,
+   "comune": "Ancona",
+   "authority_control": "https://www.geonames.org/3183089/ancona.html",
+   "note_loc": null
+  },
+  {
+   "id": "VE_loc",
+   "nome_loc": "Venezia",
+   "tipologia_loc": "città",
+   "lat": 45.43713,
+   "lng": 12.33265,
+   "comune": "Venezia",
+   "authority_control": "https://www.geonames.org/3164603/venice.html",
+   "note_loc": null
+  },
+  {
+   "id": "PES_loc",
+   "nome_loc": "Pesaro",
+   "tipologia_loc": "città",
+   "lat": 43.90921,
+   "lng": 12.9164,
+   "comune": "Pesaro",
+   "authority_control": "https://www.geonames.org/3171173/pesaro.html",
+   "note_loc": null
+  },
+  {
+   "id": "SC_loc",
+   "nome_loc": "Sassocorvaro",
+   "tipologia_loc": "città",
+   "lat": 43.78156,
+   "lng": 12.49875,
+   "comune": "Sassocorvaro",
+   "authority_control": "https://www.geonames.org/6536772/sassocorvaro.html",
+   "note_loc": null
+  },
+  {
+   "id": "Vaticano_loc",
+   "nome_loc": "Città del Vaticano",
+   "tipologia_loc": "città",
+   "lat": 41.90268,
+   "lng": 12.45414,
+   "comune": "Città del Vaticano",
+   "authority_control": "https://www.geonames.org/6691831/vatican-city.html",
+   "note_loc": "Durante l'occupazione tedesca del centro Italia, la Santa Sede offrì ospitalità alle opere d'arte sottratte ai rifugi di Carpegna e Urbino da Pasquale Rotondi. Grazie alla mediazione della Chiesa, che reclamò la restituzione dei beni ecclesiastici veneziani custoditi a Carpegna, Rotondi poté recuperare quanto più possibile."
+  },
+  {
+   "id": "Soprintendenza-MAR_loc",
+   "nome_loc": "Soprintendenza alle Gallerie e Opere d'Arte delle Marche",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 43.62302,
+   "lng": 13.51094,
+   "comune": "Ancona",
+   "authority_control": "https://www.geonames.org/10288100/soprintendenza-archeologica-delle-marche.html",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio nelle Marche. Pasquale Rotondi ne divenne soprintendente nell'ottobre 1939 e da questa sede coordinò l'Operazione Salvataggio."
+  },
+  {
+   "id": "DG-Arti-RM_loc",
+   "nome_loc": "Palazzo della Pubblica Istruzione",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 41.88497,
+   "lng": 12.470051,
+   "comune": "Roma",
+   "authority_control": "https://www.wikidata.org/wiki/Q3891313",
+   "note_loc": "Sede del Ministero dell'Educazione Nazionale e della Direzione Generale delle Arti. Il Ministero dell'Educazione Nazionale è stato istituito nel 1929 in epoca fascista, ha sostituito il Ministero della Pubblica Istruzione ed è stato soppresso nel 1944. La Direzione Generale delle Arti è stato un organo centrale del Ministero dell'Educazione Nazionale deputato alla tutela del patrimonio artistico nazionale."
+  },
+  {
+   "id": "DG-Arti-PD_loc",
+   "nome_loc": "Palazzo del Bo",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.40684,
+   "lng": 11.87754,
+   "comune": "Padova",
+   "authority_control": "https://www.wikidata.org/wiki/Q3360829",
+   "note_loc": "Organo centrale del Ministero dell'Educazione Nazionale, la cui sede fu spostata in seguito all'armistizio da Roma a Padova."
+  },
+  {
+   "id": "PD-URB_loc",
+   "nome_loc": "Palazzo Ducale di Urbino",
+   "tipologia_loc": "rifugio",
+   "lat": 43.72333,
+   "lng": 12.63778,
+   "comune": "Urbino",
+   "authority_control": "https://www.geonames.org/7602822/palazzo-ducale.html",
+   "note_loc": "Sede della Galleria Nazionale delle Marche, inizialmente scelto dalla Direzione Generale delle Arti come rifugio per le opere, ma scartato per via della vicinanza a un deposito bellico dell'Aviazione. Usato da Rotondi come rifugio temporaneo durante l'occupazione tedesca, murando alcune opere nei sotterranei."
+  },
+  {
+   "id": "Rocca_loc",
+   "nome_loc": "Rocca di Sassocorvaro",
+   "tipologia_loc": "rifugio",
+   "lat": 43.781223,
+   "lng": 12.495312,
+   "comune": "Sassocorvaro",
+   "authority_control": "https://www.wikidata.org/wiki/Q3939494",
+   "note_loc": "Fortezza rinascimentale scelta da Rotondi come rifugio principale: tra il 1940 e il 1945 custodì oltre 10.000 opere d'arte. Il rifugio fu chiuso il 14 settembre 1945."
+  },
+  {
+   "id": "GA-VE_loc",
+   "nome_loc": "Gallerie dell'Accademia di Venezia",
+   "tipologia_loc": "istituzione",
+   "lat": 45.431154,
+   "lng": 12.328118,
+   "comune": "Venezia",
+   "authority_control": "https://www.geonames.org/10628950/gallerie-dell-accademia.html",
+   "note_loc": "Fondate nel 1750 contestualmente all'Accademia di Belle Arti, conservano la più importante collezione di pittura veneta. Vittorio Moschini, durante la guerra, gestì la protezione delle opere trasferendole al Palazzo dei Principi di Carpegna."
+  },
+  {
+   "id": "GF_loc",
+   "nome_loc": "Galleria Franchetti (Ca d'Oro)",
+   "tipologia_loc": "istituzione",
+   "lat": 45.441199,
+   "lng": 12.334144,
+   "comune": "Venezia",
+   "authority_control": "https://www.geonames.org/11836151/ca-d-oro.html",
+   "note_loc": "Le opere qui conservate vennero spedite da Vittorio Moschini a Carpegna."
+  },
+  {
+   "id": "MO_loc",
+   "nome_loc": "Museo Orientale di Venezia",
+   "tipologia_loc": "istituzione",
+   "lat": 45.441234,
+   "lng": 12.331544,
+   "comune": "Venezia",
+   "authority_control": "https://www.geonames.org/11127075/civico-museo-d-arte-orientale.html",
+   "note_loc": "Le opere qui conservate vennero spedite da Vittorio Moschini a Carpegna nel maggio 1943."
+  },
+  {
+   "id": "GB_loc",
+   "nome_loc": "Galleria Borghese",
+   "tipologia_loc": "istituzione",
+   "lat": 41.914483,
+   "lng": 12.492023,
+   "comune": "Roma",
+   "authority_control": "https://www.geonames.org/7303254/galleria-borghese.html",
+   "note_loc": "Galleria che ospita la collezione del cardinale Scipione Borghese. Le opere qui conservate vennero spedite a Carpegna in 11 casse nel giugno 1943."
+  },
+  {
+   "id": "Corsini_loc",
+   "nome_loc": "Galleria Corsini",
+   "tipologia_loc": "istituzione",
+   "lat": 41.893421,
+   "lng": 12.466894,
+   "comune": "Roma",
+   "authority_control": "https://www.geonames.org/8199619/galleria-nazionale-d-arte-antica-in-palazzo-corsini.html",
+   "note_loc": "Raccolta statale dal 1883 grazie alla donazione del principe Tommaso Corsini. Nel 1943 vennero spedite da Palazzo Corsini 10 casse."
+  },
+  {
+   "id": "Gaulino_loc",
+   "nome_loc": "Palazzo Koch (Collezione Gaulino)",
+   "tipologia_loc": "istituzione",
+   "lat": 41.897554,
+   "lng": 12.488789,
+   "comune": "Roma",
+   "authority_control": "https://www.wikidata.org/wiki/Q1058677",
+   "note_loc": "Le opere qui conservate vennero spedite a Carpegna in 4 casse nel 1943."
+  },
+  {
+   "id": "VT_loc",
+   "nome_loc": "Villa Tortorina",
+   "tipologia_loc": "rifugio",
+   "lat": 43.7226,
+   "lng": 12.6645,
+   "comune": "Urbino",
+   "authority_control": null,
+   "note_loc": "Residenza di famiglia di Pasquale Rotondi, usata come rifugio temporaneo for le opere di piccolo formato sottratte al rifugio di Sassocorvaro durante lo sgombero d'emergenza dell'ottobre 1943, sotto la sorveglianza della moglie Zea Bernardini Rotondi."
+  },
+  {
+   "id": "Cattedrale-URB_loc",
+   "nome_loc": "Cattedrale di Urbino",
+   "tipologia_loc": "rifugio",
+   "lat": 43.724971,
+   "lng": 12.636837,
+   "comune": "Urbino",
+   "authority_control": "https://www.wikidata.org/wiki/Q2754576",
+   "note_loc": "Grazie alla mediazione della Chiesa, Rotondi poté recuperare alcune opere da Carpegna e occultarle nella cripta del Duomo di Santa Maria Assunta, in attesa del trasferimento in Vaticano."
+  },
+  {
+   "id": "Biblio-Oliveriana_loc",
+   "nome_loc": "Biblioteca Oliveriana",
+   "tipologia_loc": "istituzione",
+   "lat": 43.909962,
+   "lng": 12.913519,
+   "comune": "Pesaro",
+   "authority_control": "https://www.wikidata.org/wiki/Q23405709",
+   "note_loc": "Durante la guerra il materiale qui conservato fu spedito alla Rocca di Sassocorvaro."
+  },
+  {
+   "id": "Museo-Oliveriano_loc",
+   "nome_loc": "Museo Archeologico Oliveriano",
+   "tipologia_loc": "istituzione",
+   "lat": 43.910008,
+   "lng": 12.909742,
+   "comune": "Pesaro",
+   "authority_control": "https://www.wikidata.org/wiki/Q21008951",
+   "note_loc": "Durante la guerra il materiale qui conservato fu spedito alla Rocca di Sassocorvaro."
+  },
+  {
+   "id": "PA_loc",
+   "nome_loc": "Palermo",
+   "tipologia_loc": "città",
+   "lat": 37.81667,
+   "lng": 13.58333,
+   "comune": "Palermo",
+   "authority_control": "https://www.geonames.org/2523918/palermo.html",
+   "note_loc": null
+  },
+  {
+   "id": "TP_loc",
+   "nome_loc": "Trapani",
+   "tipologia_loc": "città",
+   "lat": 38.0176,
+   "lng": 12.53617,
+   "comune": "Trapani",
+   "authority_control": "https://www.geonames.org/2522876/trapani.html",
+   "note_loc": null
+  },
+  {
+   "id": "AG_loc",
+   "nome_loc": "Agrigento",
+   "tipologia_loc": "città",
+   "lat": 37.32084,
+   "lng": 13.58876,
+   "comune": "Agrigento",
+   "authority_control": "https://www.geonames.org/6541860/agrigento.html",
+   "note_loc": null
+  },
+  {
+   "id": "CL_loc",
+   "nome_loc": "Caltanissetta",
+   "tipologia_loc": "città",
+   "lat": 37.48774,
+   "lng": 14.04497,
+   "comune": "Caltanissetta",
+   "authority_control": "https://www.geonames.org/6541861/caltanissetta.html",
+   "note_loc": null
+  },
+  {
+   "id": "MON_loc",
+   "nome_loc": "Monreale",
+   "tipologia_loc": "città",
+   "lat": 38.08005,
+   "lng": 13.28854,
+   "comune": "Monreale",
+   "authority_control": "https://www.geonames.org/6540050/monreale.html",
+   "note_loc": null
+  },
+  {
+   "id": "Soprintendenza-Sicilia-antichità_loc",
+   "nome_loc": "Soprintendenza alle Antichità della Sicilia occidentale",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 38.1208,
+   "lng": 13.3605,
+   "comune": "Palermo",
+   "authority_control": "https://www.geonames.org/7828764/museo-archeologico-regionale-antonio-salinas.html",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela dei beni archeologici nelle province di Palermo, Trapani, Agrigento e Caltanissetta. Diretta da Jole Bovio Marconi dal 1939, coordinò il trasferimento delle opere del Museo Nazionale alla Basilica di San Martino delle Scale per proteggerle dai bombardamenti."
+  },
+  {
+   "id": "Soprintendenza-Sicilia-monumenti_loc",
+   "nome_loc": "Soprintendenza ai Monumenti della la Sicilia occidentale",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 38.1208,
+   "lng": 13.3605,
+   "comune": "Palermo",
+   "authority_control": "https://www.geonames.org/7828764/museo-archeologico-regionale-antonio-salinas.html",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela dei monumenti della Sicilia occidentale, guidato da Mario Guiotto; collaborò con la Soprintendenza alle Antichità nella messa in salvo del patrimonio artistico durante la guerra."
+  },
+  {
+   "id": "Archeologico-PA_loc",
+   "nome_loc": "Museo Archeologico Regionale 'Antonio Salinas'",
+   "tipologia_loc": "istituzione",
+   "lat": 38.1208,
+   "lng": 13.3605,
+   "comune": "Palermo",
+   "authority_control": "https://www.geonames.org/7828764/museo-archeologico-regionale-antonio-salinas.html",
+   "note_loc": "Già Museo Nazionale di Palermo, custodisce la più importante collezione archeologica della Sicilia. Le sue opere furono trasferite tra il 1940 e il 1943 nella Basilica abbaziale di San Martino delle Scale per sottrarle ai bombardamenti. Il museo, danneggiato nel 1943, fu ricostruito tra il 1945 e il 1952 e riaperto col nome di Museo Archeologico Regionale 'Antonio Salinas'."
+  },
+  {
+   "id": "SanMartino_loc",
+   "nome_loc": "Basilica abbaziale di San Martino delle Scale",
+   "tipologia_loc": "rifugio",
+   "lat": 38.09062,
+   "lng": 13.25412,
+   "comune": "Monreale",
+   "authority_control": "https://www.geonames.org/8949577/san-martino-delle-scale.html",
+   "note_loc": "Complesso monastico benedettino di Monreale, utilizzato dal luglio 1940 come rifugio for le opere del Museo Nazionale di Palermo."
+  },
+  {
+   "id": "SantIgnazio_loc",
+   "nome_loc": "Chiesa di Sant'ignazio all'Olivella",
+   "tipologia_loc": "istituzione",
+   "lat": 38.12065,
+   "lng": 13.36073,
+   "comune": "Palermo",
+   "authority_control": "https://www.wikidata.org/wiki/Q2223886",
+   "note_loc": "Chiesa palermitana adiacente al Museo Archeologico, danneggiata dal bombardamento del 5 aprile 1943 che colpì anche il lato meridionale del cortile del museo."
+  },
+  {
+   "id": "Etnografico-PA_loc",
+   "nome_loc": "Museo G. Pitrè",
+   "tipologia_loc": "istituzione",
+   "lat": 38.166833,
+   "lng": 13.330375,
+   "comune": "Palermo",
+   "authority_control": "https://www.wikidata.org/wiki/Q122476",
+   "note_loc": "Museo etnografico di Palermo, fondato sulla raccolta di Giuseppe Pitrè. Il suo patrimonio venne messo in salvo insieme alle altre collezioni palermitane sotto la direzione della Soprintendenza durante la guerra."
+  },
+  {
+   "id": "Galleria-PA_loc",
+   "nome_loc": "Galleria Nazionale di Palazzo Abatellis",
+   "tipologia_loc": "istituzione",
+   "lat": 38.116667,
+   "lng": 13.371111,
+   "comune": "Palermo",
+   "authority_control": "https://www.wikidata.org/wiki/Q1255652",
+   "note_loc": "Galleria ospitata a Palazzo Abatellis, sede della raccolta d'arte medievale e moderna siciliana. Le opere furono protette durante la guerra dalla Soprintendenza alle Antichità della Sicilia occidentale."
+  },
+  {
+   "id": "Moderna-PA_loc",
+   "nome_loc": "Galleria d'Arte Moderna",
+   "tipologia_loc": "istituzione",
+   "lat": 38.115159,
+   "lng": 13.3657,
+   "comune": "Palermo",
+   "authority_control": "https://www.wikidata.org/wiki/Q1492337",
+   "note_loc": "Galleria d'arte moderna di Palermo, il cui patrimonio fu messo in salvo insieme alle altre collezioni palermitane sotto la direzione della Soprintendenza durante la guerra."
+  },
+  {
+   "id": "TO_loc",
+   "nome_loc": "Torino",
+   "tipologia_loc": "città",
+   "lat": 45.071948,
+   "lng": 7.685207,
+   "comune": "Torino",
+   "authority_control": "https://www.geonames.org/3165524/turin.html",
+   "note_loc": null
+  },
+  {
+   "id": "Settime_loc",
+   "nome_loc": "Settime",
+   "tipologia_loc": "città",
+   "lat": 44.96244,
+   "lng": 8.113844,
+   "comune": "Settime",
+   "authority_control": "https://www.geonames.org/6543505/settime.html",
+   "note_loc": null
+  },
+  {
+   "id": "Monta_loc",
+   "nome_loc": "Montà",
+   "tipologia_loc": "città",
+   "lat": 44.814646,
+   "lng": 7.956029,
+   "comune": "Montà",
+   "authority_control": "https://www.geonames.org/6541803/monta.html",
+   "note_loc": null
+  },
+  {
+   "id": "Guiglia_loc",
+   "nome_loc": "Guiglia",
+   "tipologia_loc": "città",
+   "lat": 44.426255,
+   "lng": 10.960191,
+   "comune": "Guiglia",
+   "authority_control": "https://www.geonames.org/3175676/guiglia.html",
+   "note_loc": null
+  },
+  {
+   "id": "Stresa_loc",
+   "nome_loc": "Stresa",
+   "tipologia_loc": "città",
+   "lat": 45.888605,
+   "lng": 8.525454,
+   "comune": "Stresa",
+   "authority_control": "https://www.geonames.org/8964994/stresa.html",
+   "note_loc": null
+  },
+  {
+   "id": "Soprintendenza-Piemonte-Liguria_loc",
+   "nome_loc": "Palazzo Carignano (Soprintendenza all'Arte Medievale e Moderna del Piemonte e della Liguria)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 45.069179,
+   "lng": 7.685415,
+   "comune": "Torino",
+   "authority_control": "https://www.geonames.org/6697884/palazzo-carignano.html",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio in Piemonte e Liguria, diretto da Carlo Aru in collaborazione con l'ispettrice Noemi Gabrielli e la direttrice della Galleria Sabauda Anna Maria Brizio. Coordinò il trasferimento delle opere della Galleria Sabauda nei rifugi sicuri."
+  },
+  {
+   "id": "C-Settime_loc",
+   "nome_loc": "Castello di Settime",
+   "tipologia_loc": "rifugio",
+   "lat": 44.964207,
+   "lng": 8.1128,
+   "comune": "Settime",
+   "authority_control": "https://www.wikidata.org/wiki/Q18601508",
+   "note_loc": "Castello nei pressi di Asti, utilizzato dal 1940 come primo rifugio for le opere della Galleria Sabauda di Torino, insieme al Castello di Montà d'Alba."
+  },
+  {
+   "id": "C-Monta_loc",
+   "nome_loc": "Castello di Montà d'Alba",
+   "tipologia_loc": "rifugio",
+   "lat": 44.813192,
+   "lng": 7.965963,
+   "comune": "Montà",
+   "authority_control": "https://www.wikidata.org/wiki/Q131564608",
+   "note_loc": "Castello nelle Langhe, utilizzato insieme al Castello di Settime come rifugio for le opere della Galleria Sabauda a partire dal 1940."
+  },
+  {
+   "id": "Sabauda_loc",
+   "nome_loc": "Galleria Sabauda",
+   "tipologia_loc": "istituzione",
+   "lat": 45.069065,
+   "lng": 7.685994,
+   "comune": "Torino",
+   "authority_control": "https://www.geonames.org/6697915/galleria-sabauda.html",
+   "note_loc": "Pinacoteca di Torino la cui collezione fu evacuata nei castelli di Settime e Montà d'Alba e, dopo l'armistizio, trasferita al Castello di Guiglia e infine a Palazzo Borromeo."
+  },
+  {
+   "id": "C-Guiglia_loc",
+   "nome_loc": "Castello di Guiglia",
+   "tipologia_loc": "rifugio",
+   "lat": 44.428591,
+   "lng": 10.956945,
+   "comune": "Guiglia",
+   "authority_control": "https://www.wikidata.org/wiki/Q55164626",
+   "note_loc": "Castello sull'Appennino modenese, utilizzato dal giugno 1940 come rifugio for le opere della Galleria Sabauda, trasferite qui dai castelli di Settime e Montà d'Alba."
+  },
+  {
+   "id": "Borromeo_loc",
+   "nome_loc": "Palazzo Borromeo",
+   "tipologia_loc": "rifugio",
+   "lat": 45.89631,
+   "lng": 8.526154,
+   "comune": "Stresa",
+   "authority_control": "https://www.wikidata.org/wiki/Q3889703",
+   "note_loc": "Residenza sull'Isola Bella nel Lago Maggiore, selezionata nel 1944 come rifugio dalla Direzione Generale delle Arti."
+  },
+  {
+   "id": "PR_loc",
+   "nome_loc": "Parma",
+   "tipologia_loc": "città",
+   "lat": 44.801468,
+   "lng": 10.328366,
+   "comune": "Parma",
+   "authority_control": "https://www.geonames.org/3171457/parma.html",
+   "note_loc": null
+  },
+  {
+   "id": "PC_loc",
+   "nome_loc": "Piacenza",
+   "tipologia_loc": "città",
+   "lat": 45.052036,
+   "lng": 9.696602,
+   "comune": "Piacenza",
+   "authority_control": "https://www.geonames.org/3171058/piacenza.html",
+   "note_loc": null
+  },
+  {
+   "id": "Veano_loc",
+   "nome_loc": "Veano",
+   "tipologia_loc": "città",
+   "lat": 44.88561,
+   "lng": 9.614734,
+   "comune": "Veano",
+   "authority_control": "https://www.geonames.org/8966149/veano.html",
+   "note_loc": null
+  },
+  {
+   "id": "Gaione_loc",
+   "nome_loc": "Gaione",
+   "tipologia_loc": "città",
+   "lat": 44.75827,
+   "lng": 10.29031,
+   "comune": "Gaione",
+   "authority_control": "https://www.geonames.org/8949455/gaione.html",
+   "note_loc": null
+  },
+  {
+   "id": "TC_loc",
+   "nome_loc": "Torrechiara",
+   "tipologia_loc": "città",
+   "lat": 44.65832,
+   "lng": 10.28314,
+   "comune": "Torrechiara",
+   "authority_control": "https://www.geonames.org/3165465/torrechiara.html",
+   "note_loc": null
+  },
+  {
+   "id": "Pilotta_loc",
+   "nome_loc": "Complesso della Pilotta",
+   "tipologia_loc": "istituzione",
+   "lat": 44.804925,
+   "lng": 10.32624,
+   "comune": "Parma",
+   "authority_control": "https://www.geonames.org/10286908/palazzo-della-pilotta.html",
+   "note_loc": "Complesso monumentale di Parma che ospita la Galleria Nazionale, il Museo Archeologico e la Biblioteca Palatina; sede della direzione di Armando Ottaviano Quintavalle durante la guerra."
+  },
+  {
+   "id": "VA_loc",
+   "nome_loc": "Villa Alberoni",
+   "tipologia_loc": "rifugio",
+   "lat": 44.886967,
+   "lng": 9.619692,
+   "comune": "Veano",
+   "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=R&osmid=2449475&class=building",
+   "note_loc": "Villa nei pressi di Veano (PC), utilizzata come rifugio for le opere d'arte piacentine, sgomberate for la vicinanza al ponte sul Po considerato obiettivo militare; ceduta poi alle autorità militari nel settembre 1940."
+  },
+  {
+   "id": "VP_loc",
+   "nome_loc": "Villa Paganini",
+   "tipologia_loc": "rifugio",
+   "lat": 44.754376,
+   "lng": 10.287587,
+   "comune": "Gaione",
+   "authority_control": "https://www.wikidata.org/wiki/Q27929472",
+   "note_loc": "Villa nei pressi di Gaione (PR), individuata come rifugio for il patrimonio artistico parmense sotto la direzione di Armando Ottaviano Quintavalle durante la seconda guerra mondiale."
+  },
+  {
+   "id": "C-Torrechiara_loc",
+   "nome_loc": "Castello di Torrechiara",
+   "tipologia_loc": "rifugio",
+   "lat": 44.656766,
+   "lng": 10.278114,
+   "comune": "Torrechiara",
+   "authority_control": "https://www.geonames.org/7302924/castello-di-torrechiara.html",
+   "note_loc": "Castello medievale nei pressi di Parma, utilizzato dal settembre 1940 come rifugio for le opere provenienti da Villa Alberoni; nel settembre 1943 Quintavalle vi occultò le opere murandole nei sotterranei for sottrarle ai sopralluoghi delle autorità tedesche."
+  },
+  {
+   "id": "MC-PF_loc",
+   "nome_loc": "Musei civici di Palazzo Farnese",
+   "tipologia_loc": "istituzione",
+   "lat": 45.055766,
+   "lng": 9.69641,
+   "comune": "Piacenza",
+   "authority_control": "https://www.geonames.org/8133640/musei-civici-di-palazzo-farnese.html",
+   "note_loc": "Museo ospitato nel Palazzo Farnese di Piacenza, il cui patrimonio fu messo in salvo insieme alle altre collezioni piacentine sotto la direzione di Armando Ottaviano Quintavalle."
+  },
+  {
+   "id": "Ricci_loc",
+   "nome_loc": "Galleria d'arte moderna Ricci Oddi",
+   "tipologia_loc": "istituzione",
+   "lat": 45.048427,
+   "lng": 9.692052,
+   "comune": "Piacenza",
+   "authority_control": "https://www.geonames.org/10286297/galleria-d-arte-ricci-oddi.html",
+   "note_loc": "Galleria d'arte moderna di Piacenza, fondata dal collezionista Giuseppe Ricci Oddi e inaugurata nel 1931; le sue opere furono protette durante la guerra sotto la sorveglianza della Soprintendenza di Parma e Piacenza."
+  },
+  {
+   "id": "MA-PR_loc",
+   "nome_loc": "Museo Archeologico",
+   "tipologia_loc": "istituzione",
+   "lat": 44.804505,
+   "lng": 10.325602,
+   "comune": "Parma",
+   "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=651830217&class=tourism",
+   "note_loc": "Museo Archeologico ospitato nel Complesso della Pilotta a Parma, il cui incarico di dirigenza fu affidato ad Armando Ottaviano Quintavalle a partire dal 1934."
+  },
+  {
+   "id": "MOD_loc",
+   "nome_loc": "Modena",
+   "tipologia_loc": "città",
+   "lat": 44.538472,
+   "lng": 10.93596,
+   "comune": "Modena",
+   "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=R&osmid=42884&class=boundary",
+   "note_loc": null
+  },
+  {
+   "id": "RE_loc",
+   "nome_loc": "Reggio Emilia",
+   "tipologia_loc": "città",
+   "lat": 44.608667,
+   "lng": 10.594066,
+   "comune": "Reggio Emilia",
+   "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=R&osmid=42965&class=boundary",
+   "note_loc": null
+  },
+  {
+   "id": "Soprintendenza-PR-PC_loc",
+   "nome_loc": "Palazzo della Pilotta (Soprintendenza alle Gallerie e alle Opere d'Arte medievali e Moderne per le province di Parma e Piacenza)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 44.804925,
+   "lng": 10.32624,
+   "comune": "Parma",
+   "authority_control": "https://www.geonames.org/10286908/palazzo-della-pilotta.html",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio nelle province di Parma e Piacenza, diretto da Armando Ottaviano Quintavalle a partire dal 1939."
+  },
+  {
+   "id": "Soprintendenza-MO-RE_loc",
+   "nome_loc": "Palazzo dei Musei (Soprintendenza alle Gallerie e alle Opere d'Arte medievali e Moderne per le province di Modena e Reggio Emilia)",
+   "tipologia_loc": "ente-pubblico",
+   "lat": 44.648,
+   "lng": 10.920532,
+   "comune": "Modena",
+   "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=R&osmid=1640895&class=building",
+   "note_loc": "Organo periferico del Ministero dell'Educazione Nazionale responsabile della tutela del patrimonio nelle province di Modena e Reggio Emilia, incarico affidato a Quintavalle tra il 1940 e il 1942."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "FW-direttrice-PB_ev",
+   "evento": "Nomina di Fernanda Wittgens a direttrice",
+   "data_inizio": "1940-08-01",
+   "data_fine": null,
+   "note_ev": "Fernanda Wittgens assume ufficialmente la direzione della Pinacoteca di Brera.",
+   "id_contesto": "FW",
+   "id_luoghi": [
+    "PB_loc",
+    "MI_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "FW"
+   ],
+   "id_temi": [
+    "direzione-museale"
+   ]
+  },
+  {
+   "id": "Italia-guerra_ev",
+   "evento": "Inizio del conflitto in Italia",
+   "data_inizio": "1940-06-10",
+   "data_fine": null,
+   "note_ev": "L'Italia entra in guerra.",
+   "id_contesto": "guerra",
+   "id_luoghi": null,
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "VMC-rifugio_ev",
+   "evento": "Arrivo delle casse di Brera a Villa Marini – Clarelli",
+   "data_inizio": "1940-06-18",
+   "data_fine": null,
+   "note_ev": "Arrivano a Villa Marini – Clarelli 32 casse provenienti da Brera, consegnate a Bertini Calosso.",
+   "id_contesto": "FW",
+   "id_luoghi": [
+    "PB_loc",
+    "MI_loc",
+    "VMC_loc",
+    "MF_loc",
+    "PG_loc"
+   ],
+   "id_partenza": [
+    "PB_loc",
+    "MI_loc"
+   ],
+   "id_arrivo": [
+    "VMC_loc",
+    "MF_loc",
+    "PG_loc"
+   ],
+   "id_persone": [
+    "FW",
+    "ABC"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "VIC-PPC-rifugio_ev",
+   "evento": "Spostamento delle opere da Villa Marini – Clarelli",
+   "data_inizio": "1941-09-17",
+   "data_fine": "1943-08-01",
+   "note_ev": "Le opere vengono spostate da Villa Marini – Clarelli  verso nuovi rifugi ritenuti più sicuri (Villa Il Corniolo nei pressi di Orvieto e Palazzo dei Principi di Carpegna nei pressi di Urbino).",
+   "id_contesto": "FW",
+   "id_luoghi": null,
+   "id_partenza": [
+    "VMC_loc",
+    "MF_loc",
+    "PG_loc"
+   ],
+   "id_arrivo": [
+    "VIC_loc",
+    "ORV_loc",
+    "PPC_loc",
+    "CAR_loc"
+   ],
+   "id_persone": [
+    "FW",
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "PB-bombardamento_ev",
+   "evento": "Bombardamento della Pinacoteca di Brera",
+   "data_inizio": "1943-08-08",
+   "data_fine": null,
+   "note_ev": "La Pinacoteca viene colpita: 26 sale su 34 vengono gravemente danneggiate.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "PB_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "SMG-bombardamento_ev",
+   "evento": "Bombardamento di Santa Maria delle Grazie",
+   "data_inizio": "1943-08-13",
+   "data_fine": null,
+   "note_ev": "Viene colpita la chiesa ma il muro del Cenacolo si salva grazie alle protezioni di sacchi di sabbia.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "SMG_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "armistizio_ev",
+   "evento": "Armistizio",
+   "data_inizio": "1943-09-08",
+   "data_fine": null,
+   "note_ev": "Proclamazione dell'armistizio; l'Italia centro-settentrionale diventa zona di guerra.",
+   "id_contesto": "guerra",
+   "id_luoghi": null,
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "Min-Ed-RM-PD_ev",
+   "evento": "Nuova sede Ministero dell'Educazione Nazionale",
+   "data_inizio": "1943-10-01",
+   "data_fine": null,
+   "note_ev": "La sede del Ministero dell'Educazione Nazionale viene spostata in seguito all'armistizio.",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": null,
+   "id_partenza": [
+    "Min-Ed-RM_loc",
+    "RM_loc"
+   ],
+   "id_arrivo": [
+    "Min-Ed-PD_loc",
+    "PD_loc"
+   ],
+   "id_persone": null,
+   "id_temi": null
+  },
+  {
+   "id": "RSI_ev",
+   "evento": "Repubblica Sociale Italiana",
+   "data_inizio": "1943-09-23",
+   "data_fine": null,
+   "note_ev": "Nasce la Repubblica Sociale Italiana con sede a Salò (BS)",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": [
+    "RSI_loc",
+    "BS_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "Soprintendenza-MI_ev",
+   "evento": "Operazioni della Soprintendenza milanese",
+   "data_inizio": "1944-01-01",
+   "data_fine": "1945-04-25",
+   "note_ev": "La Soprintendenza milanese si occupa di gestire repentini spostamenti, alla ricerca di luoghi sempre più sicuri.",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": [
+    "Soprintendenza-MI_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "GP"
+   ],
+   "id_temi": [
+    "soprintendenza"
+   ]
+  },
+  {
+   "id": "FW-arresto_ev",
+   "evento": "Arresto di Fernanda Wittgens",
+   "data_inizio": "1944-07-14",
+   "data_fine": null,
+   "note_ev": "Wittgens viene arrestata per attività clandestina.",
+   "id_contesto": "FW",
+   "id_luoghi": [
+    "SV_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "FW"
+   ],
+   "id_temi": [
+    "resistenza"
+   ]
+  },
+  {
+   "id": "liberazione-MI_ev",
+   "evento": "Liberazione di Milano",
+   "data_inizio": "1945-04-25",
+   "data_fine": null,
+   "note_ev": "Le truppe alleate e partigiane liberano Milano dall'occupazione nazi-fascista.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "MI_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "liberazione-FW_ev",
+   "evento": "Liberazione di Wittgens",
+   "data_inizio": "1945-04-24",
+   "data_fine": null,
+   "note_ev": "Fernanda Wittgens viene rilasciata.",
+   "id_contesto": "FW",
+   "id_luoghi": [
+    "SV_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "FW"
+   ],
+   "id_temi": [
+    "resistenza"
+   ]
+  },
+  {
+   "id": "nomina-commissario-FW_ev",
+   "evento": "Nomina di Wittgens a Commissario di Brera",
+   "data_inizio": "1945-06-01",
+   "data_fine": null,
+   "note_ev": "Il Comando Alleato nomina Wittgens commissario straordinario dell'Accademia di Brera.",
+   "id_contesto": "FW",
+   "id_luoghi": [
+    "ABAB_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "FW"
+   ],
+   "id_temi": [
+    "valorizzazione"
+   ]
+  },
+  {
+   "id": "FW-direttrice-PB-dopoguerra_ev",
+   "evento": "Seconda nomina di Wittgens",
+   "data_inizio": "1946-03-31",
+   "data_fine": null,
+   "note_ev": "Fernanda Wittgens riottiene ufficialmente il ruolo di Direttrice di Brera.",
+   "id_contesto": "FW",
+   "id_luoghi": [
+    "PB_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "FW"
+   ],
+   "id_temi": [
+    "direzione-museale"
+   ]
+  },
+  {
+   "id": "PB-direttrice-GNAM_ev",
+   "evento": "Nomina di Palma Bucarelli a direttrice della GNAM",
+   "data_inizio": "1941-07-01",
+   "data_fine": null,
+   "note_ev": "Bucarelli assume la direzione della Galleria Nazionale d'Arte Moderna di Roma.",
+   "id_contesto": "PB",
+   "id_luoghi": [
+    "GNAM_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PB"
+   ],
+   "id_temi": [
+    "direzione-museale"
+   ]
+  },
+  {
+   "id": "autorizzazione-CP_ev",
+   "evento": "Autorizzazione al trasferimento delle opere a Caprarola",
+   "data_inizio": "1941-08-19",
+   "data_fine": null,
+   "note_ev": "Il Ministero autorizza il trasferimento delle opere della GNAM a Palazzo Farnese.",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": [
+    "Min-Ed-RM_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PB",
+    "GCA"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela"
+   ]
+  },
+  {
+   "id": "trasferimento-RM-CP_ev",
+   "evento": "Trasferimento a Caprarola",
+   "data_inizio": "1941-09-13",
+   "data_fine": "1942-02-06",
+   "note_ev": "Operazioni di trasferimento delle opere romane verso Palazzo Farnese (22 viaggi descritti in una cartellina conservata nell’Archivio Centrale dello Stato).",
+   "id_contesto": "PB",
+   "id_luoghi": [
+    "GNAM_loc",
+    "RM_loc",
+    "PFC_loc",
+    "CP_loc"
+   ],
+   "id_partenza": [
+    "GNAM_loc",
+    "RM_loc"
+   ],
+   "id_arrivo": [
+    "PFC_loc",
+    "CP_loc"
+   ],
+   "id_persone": [
+    "PB"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "riapertura-GNAM_ev",
+   "evento": "Riapertura della GNAM in guerra",
+   "data_inizio": "1942-04-01",
+   "data_fine": null,
+   "note_ev": "La Galleria riapre parzialmente per dare un segnale di continuità culturale.",
+   "id_contesto": "PB",
+   "id_luoghi": [
+    "GNAM_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PB"
+   ],
+   "id_temi": [
+    "valorizzazione"
+   ]
+  },
+  {
+   "id": "autorizzazione-CSA_ev",
+   "evento": "Autorizzazione al trasferimento delle opere a Castel Sant'Angelo",
+   "data_inizio": "1943-11-01",
+   "data_fine": null,
+   "note_ev": "Seconda autorizzazione per spostare le opere in Castel Sant'Angelo.",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": [
+    "PD_loc",
+    "Min-Ed-PD_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PB",
+    "GCA"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela"
+   ]
+  },
+  {
+   "id": "trasferimento-PFC-CSA_ev",
+   "evento": "Trasferimento a Castel Sant'Angelo",
+   "data_inizio": "1944-02-06",
+   "data_fine": "1944-03-06",
+   "note_ev": "Operazioni di trasferimento delle opere da Palazzo Farnese (Caprarola) a Castel Sant'Angelo.",
+   "id_contesto": "PB",
+   "id_luoghi": [
+    "PFC_loc",
+    "CP_loc",
+    "CSA_loc",
+    "RM_loc"
+   ],
+   "id_partenza": [
+    "PFC_loc",
+    "CP_loc"
+   ],
+   "id_arrivo": [
+    "CSA_loc",
+    "RM_loc"
+   ],
+   "id_persone": [
+    "PB"
+   ],
+   "id_temi": [
+    "logistica"
+   ]
+  },
+  {
+   "id": "liberazione-RM_ev",
+   "evento": "Liberazione di Roma",
+   "data_inizio": "1944-06-05",
+   "data_fine": null,
+   "note_ev": "Le truppe alleate liberano la Capitale dall'occupazione tedesca.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "RM_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "liberazione"
+   ]
+  },
+  {
+   "id": "rientro-GNAM_ev",
+   "evento": "Rientro delle opere e riapertura della GNAM",
+   "data_inizio": "1944-06-01",
+   "data_fine": null,
+   "note_ev": "Le opere tornano alla GNAM dopo la liberazione di Roma.",
+   "id_contesto": "PB",
+   "id_luoghi": [
+    "GNAM_loc"
+   ],
+   "id_partenza": [
+    "CSA_loc",
+    "RM_loc"
+   ],
+   "id_arrivo": [
+    "GNAM_loc",
+    "RM_loc"
+   ],
+   "id_persone": [
+    "PB"
+   ],
+   "id_temi": [
+    "valorizzazione"
+   ]
+  },
+  {
+   "id": "PR-soprintendente_ev",
+   "evento": "Nomina a Soprintendente di Pasquale Rotondi",
+   "data_inizio": "1939-10-01",
+   "data_fine": null,
+   "note_ev": "Pasquale Rotondi diventa Soprintendente",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "Soprintendenza-MAR_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "soprintendenza"
+   ]
+  },
+  {
+   "id": "PR-incarico-tutela_ev",
+   "evento": "Incarico affidato a Rotondi",
+   "data_inizio": "1940-04-01",
+   "data_fine": null,
+   "note_ev": "Viene affidato a Rotondi l'incarico di trovare rifugi per la protezione del patrimonio",
+   "id_contesto": "PR",
+   "id_luoghi": null,
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "soprintendenza",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "MAR-Lagosta-trasferimento-Rocca_ev",
+   "evento": "Trasporto di alcune casse dalle Marche e dall'Isola di Lagosta",
+   "data_inizio": "1940-06-08",
+   "data_fine": "1940-06-18",
+   "note_ev": "Vengono trasportate casse provenienti dalle Marche e dall'Isola di Lagosta presso il rifugio di Sassocorvaro",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "MAR_loc",
+    "Lagosta_loc",
+    "Rocca_loc"
+   ],
+   "id_partenza": [
+    "MAR_loc",
+    "Lagosta_loc"
+   ],
+   "id_arrivo": [
+    "Rocca_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "VE-trasferimento-Rocca_ev",
+   "evento": "Arrivo dei beni provenienti da Venezia",
+   "data_inizio": "1940-10-16",
+   "data_fine": null,
+   "note_ev": "Arrivano a Sassocorvaro beni provenienti da Venezia",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "VE_loc",
+    "Rocca_loc"
+   ],
+   "id_partenza": [
+    "VE_loc"
+   ],
+   "id_arrivo": [
+    "Rocca_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "VEN-LAZ-LOM-trasferimento-PPC_ev",
+   "evento": "Palazzo dei Principi di Carpegna individuato come rifugio",
+   "data_inizio": "1943-04-21",
+   "data_fine": "1943-06-26",
+   "note_ev": "Viene individuato un second rifugio presso il Palazzo dei Principi di Carpegna dove confluiscono opere provenienti da Veneto, Lazio e Lombardia",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "VEN_loc",
+    "LAZ_loc",
+    "LOM_loc",
+    "PPC_loc"
+   ],
+   "id_partenza": [
+    "VEN_loc",
+    "LAZ_loc",
+    "LOM_loc"
+   ],
+   "id_arrivo": [
+    "PPC_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "CS-trasferimento-PPC_ev",
+   "evento": "Arrivo dei primi convogli al Palazzo dei Principi di Carpegna",
+   "data_inizio": "1943-04-21",
+   "data_fine": null,
+   "note_ev": "Arrivano al Palazzo dei Principi di Carpegna i primi convogli contenenti opere provenienti da Castello Sforzesco, consegnate a Rotondi da Fernanda Wittgens",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "CS_loc",
+    "PPC_loc"
+   ],
+   "id_partenza": [
+    "CS_loc"
+   ],
+   "id_arrivo": [
+    "PPC_loc"
+   ],
+   "id_persone": [
+    "PR",
+    "FW"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "VE-trasferimento-PPC_ev",
+   "evento": "Arrivo di opere provenienti da Venezia",
+   "data_inizio": "1943-05-13",
+   "data_fine": null,
+   "note_ev": "Vittorio Moschini spedisce da Venezia casse provenienti da chiese, gallerie e dalla Ca d'Oro di Venezia",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "VE_loc",
+    "GA-VE_loc",
+    "GF_loc",
+    "MO_loc",
+    "PPC_loc"
+   ],
+   "id_partenza": [
+    "VE_loc",
+    "GA-VE_loc",
+    "GF_loc",
+    "MO_loc"
+   ],
+   "id_arrivo": [
+    "PPC_loc"
+   ],
+   "id_persone": [
+    "PR",
+    "VM"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "RM-trasferimento-PPC_ev",
+   "evento": "Arrivo di diversi carichi di capolavori provenienti da Roma",
+   "data_inizio": "1943-06-15",
+   "data_fine": null,
+   "note_ev": "Arrivano da Roma diversi carichi di capolavori provenienti da diverse chiese e dalla Galleria Borghese, Regia Galleria Corsini e Collezione Gaulino",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "RM_loc",
+    "GB_loc",
+    "Corsini_loc",
+    "Gaulino_loc",
+    "PPC_loc"
+   ],
+   "id_partenza": [
+    "RM_loc",
+    "GB_loc",
+    "Corsini_loc",
+    "Gaulino_loc"
+   ],
+   "id_arrivo": [
+    "PPC_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "MI-trasferimento-PPC_ev",
+   "evento": "Arrivo delle casse provenienti da Milano",
+   "data_inizio": "1943-06-26",
+   "data_fine": null,
+   "note_ev": "Arrivano le casse spedite da Milano dal soprintendente Pacchioni",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "MI_loc",
+    "PPC_loc"
+   ],
+   "id_partenza": [
+    "MI_loc"
+   ],
+   "id_arrivo": [
+    "PPC_loc"
+   ],
+   "id_persone": [
+    "PR",
+    "GP"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "occupazione-tedesca-PPC_ev",
+   "evento": "Requisizione del Palazzo dei Principi di Carpegna dal Comando Militare Germanico",
+   "data_inizio": "1943-10-19",
+   "data_fine": "1943-10-21",
+   "note_ev": "Il Palazzo dei Principi di Carpegna viene requisito e accasermato dal Comando Militare Germanico: viene sgomberato il rifugio di Sassocorvaro per timore che venga occupato anch'esso e le opere vengono spostate a Villa Tortorina e Palazzo Ducale.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "PPC_loc",
+    "Rocca_loc",
+    "VT_loc",
+    "PD-URB_loc"
+   ],
+   "id_partenza": [
+    "Rocca_loc"
+   ],
+   "id_arrivo": [
+    "VT_loc",
+    "PD-URB_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "occupazione-tedesca",
+    "logistica",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "occultamento-opere-URB_ev",
+   "evento": "Occultamento di alcune opere nella cripta della Cattedrale e nei sotteranei del Palazzo Ducale",
+   "data_inizio": "1943-11-01",
+   "data_fine": "1943-12-01",
+   "note_ev": "Grazie alla mediazione della Chiesa, vengono recuperate alcune opere raccolte nel rifugio di Carpegna, temporaneamente sotto la protezione del terzo Reich: vengono occultate nella cripta della Cattedrale e murate nei sotteranei del Palazzo Ducale",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "PPC_loc",
+    "Cattedrale-URB_loc",
+    "PD-URB_loc"
+   ],
+   "id_partenza": [
+    "PPC_loc"
+   ],
+   "id_arrivo": [
+    "Cattedrale-URB_loc",
+    "PD-URB_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "occupazione-tedesca",
+    "tutela",
+    "logistica",
+    "occultamento"
+   ]
+  },
+  {
+   "id": "URB-trasferimento-Vaticano_ev",
+   "evento": "Spostamento delle opere in Vaticano",
+   "data_inizio": "1943-12-22",
+   "data_fine": "1944-01-16",
+   "note_ev": "Le opere temporaneamente conservate nella Cattedrale e nei sotterranei di Palazzo Ducale vengono spostate in Vaticano.",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "Cattedrale-URB_loc",
+    "PD-URB_loc",
+    "Vaticano_loc"
+   ],
+   "id_partenza": [
+    "Cattedrale-URB_loc",
+    "PD-URB_loc"
+   ],
+   "id_arrivo": [
+    "Vaticano_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "PPC-sgomberato_ev",
+   "evento": "Sgombero del rifugio di Carpegna",
+   "data_inizio": "1943-12-22",
+   "data_fine": "1944-01-16",
+   "note_ev": "Il rifugio di Carpegna viene sgomberato completamente.",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "PPC_loc",
+    "Vaticano_loc"
+   ],
+   "id_partenza": [
+    "PPC_loc"
+   ],
+   "id_arrivo": [
+    "Vaticano_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "PES-trasferimento-Rocca_ev",
+   "evento": "Arrivo di altre opere alla Rocca di Sassocorvaro",
+   "data_inizio": "1943-12-22",
+   "data_fine": "1944-01-16",
+   "note_ev": "Alla Rocca di Sassocorvaro continuano a confluire opere provenienti dal Museo e dalla Biblioteca di Pesaro.",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "Biblio-Oliveriana_loc",
+    "Museo-Oliveriano_loc",
+    "Rocca_loc"
+   ],
+   "id_partenza": [
+    "Biblio-Oliveriana_loc",
+    "Museo-Oliveriano_loc"
+   ],
+   "id_arrivo": [
+    "Rocca_loc"
+   ],
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "logistica",
+    "rifugio",
+    "tutela"
+   ]
+  },
+  {
+   "id": "liberazione-URB_ev",
+   "evento": "Liberazione di Urbino",
+   "data_inizio": "1944-08-30",
+   "data_fine": null,
+   "note_ev": "Gli alleati arrivano anche a Sassocorvaro e le opere possono considerarsi definitivamente fuori pericolo.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "URB_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "liberazione"
+   ]
+  },
+  {
+   "id": "chiusura-Rocca_ev",
+   "evento": "Chiusura del rifugio di Sassocorvaro",
+   "data_inizio": "1945-09-14",
+   "data_fine": "1946-05-01",
+   "note_ev": "Il patrimonio culturale viene restituito e il rifugio viene chiuso.",
+   "id_contesto": "PR",
+   "id_luoghi": [
+    "Rocca_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "PR"
+   ],
+   "id_temi": [
+    "valorizzazione"
+   ]
+  },
+  {
+   "id": "JBM-soprintendente-Sicilia_ev",
+   "evento": "Nomina di Jole Bovio Marconi",
+   "data_inizio": "1939-01-01",
+   "data_fine": null,
+   "note_ev": "Jole Bovio Marconi diventa Soprintendente alle Antichità per le province di Palermo e Trapani.",
+   "id_contesto": "JBM",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "JBM"
+   ],
+   "id_temi": [
+    "soprintendenza"
+   ]
+  },
+  {
+   "id": "JBM-estensione-incarico_ev",
+   "evento": "Estensione dell'incarcio di Bovio",
+   "data_inizio": "1941-01-01",
+   "data_fine": null,
+   "note_ev": "L'incarico di Bovio viene esteso alle province di Agrigento e Caltanissetta.",
+   "id_contesto": "JBM",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "JBM"
+   ],
+   "id_temi": [
+    "soprintendenza"
+   ]
+  },
+  {
+   "id": "ordine-Min-Ed_ev",
+   "evento": "Soprintendenza riceve ordine da ministero di trasferire le opere custodite nel Museo Nazionale a San Martino",
+   "data_inizio": "1940-01-08",
+   "data_fine": null,
+   "note_ev": "La Soprintendenza della Sicilia Occidentale riceve ordine dal Ministero di trasferire le opere custodite nel Museo Nazionale a San Martino.",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": null,
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "JBM",
+    "MG"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela"
+   ]
+  },
+  {
+   "id": "Archeologico-PA-trasferimento-SanMartino_ev",
+   "evento": "Operazioni di trasferimento delle opere del Museo Nazionale di Palermo",
+   "data_inizio": "1940-07-03",
+   "data_fine": "1940-07-05",
+   "note_ev": "Le opere vengono trasferite dal Museo Nazionale di Palermo alla Basilica abbaziale di San Martino delle Scale a Monreale.",
+   "id_contesto": "JBM",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc",
+    "MON_loc",
+    "SanMartino_loc"
+   ],
+   "id_partenza": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_arrivo": [
+    "MON_loc",
+    "SanMartino_loc"
+   ],
+   "id_persone": [
+    "JBM"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "Soprintendenza-Sicilia-Archeologico_ev",
+   "evento": "Trasferimento degli ultimi reperti del Museo Nazionale",
+   "data_inizio": "1943-03-08",
+   "data_fine": "1943-04-03",
+   "note_ev": "La Soprintendenza distacca gli ultimi reperti aercheologici che con gli autocarri vengono trasportati alla Basilica di San Martino.",
+   "id_contesto": "JBM",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_partenza": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_arrivo": [
+    "MON_loc",
+    "SanMartino_loc"
+   ],
+   "id_persone": [
+    "JBM",
+    "MG"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "bombardamento-Archeologico_ev",
+   "evento": "Bombardamento di Palermo",
+   "data_inizio": "1943-04-05",
+   "data_fine": null,
+   "note_ev": "Un bombardamento danneggia la Chiesa di Sant'ignazio e il lato meridionale del cortile del Museo.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "guerra"
+   ]
+  },
+  {
+   "id": "sbarcoAlleati_ev",
+   "evento": "Sbarco degli alleati",
+   "data_inizio": "1943-07-09",
+   "data_fine": "1943-07-10",
+   "note_ev": "Gli alleati sbarcano in Sicilia e inizio la collaborazione con i Monuments men.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "Licata_loc",
+    "Gela_loc",
+    "Scoglitti_loc",
+    "Pachino_loc",
+    "Marzamemi_loc",
+    "Avola_loc",
+    "Siracusa_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "comando-alleato"
+   ]
+  },
+  {
+   "id": "ricostruzione-Archeologico_ev",
+   "evento": "Ricostruzione del Museo Nazionale",
+   "data_inizio": "1945-01-01",
+   "data_fine": "1952-04-01",
+   "note_ev": "La ricostruzione del Museo Nazionale dura 7 anni.",
+   "id_contesto": "JBM",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "JBM"
+   ],
+   "id_temi": [
+    "valorizzazione"
+   ]
+  },
+  {
+   "id": "inaugurazione-Archeologico_ev",
+   "evento": "Inaugurazione del Museo Nazionale",
+   "data_inizio": "1952-04-01",
+   "data_fine": null,
+   "note_ev": "Il Museo Nazionale viene riaperto col nome Museo Archeologico Regionale 'Antonio Salinas'.",
+   "id_contesto": "JBM",
+   "id_luoghi": [
+    "PA_loc",
+    "Archeologico-PA_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "JBM"
+   ],
+   "id_temi": [
+    "valorizzazione"
+   ]
+  },
+  {
+   "id": "TO-trasferimento-Castelli_ev",
+   "evento": "Opere mobili raccolte presso i castelli",
+   "data_inizio": "1940-01-01",
+   "data_fine": "1940-06-01",
+   "note_ev": "Le opere della Galleria Sabauda vengono raccolte presso i castelli torinesi.",
+   "id_contesto": "NG",
+   "id_luoghi": [
+    "TO_loc",
+    "Sabauda_loc",
+    "Settime_loc",
+    "Monta_loc",
+    "C-Settime_loc",
+    "C-Monta_loc"
+   ],
+   "id_partenza": [
+    "TO_loc",
+    "Sabauda_loc"
+   ],
+   "id_arrivo": [
+    "Settime_loc",
+    "Monta_loc",
+    "C-Settime_loc",
+    "C-Monta_loc"
+   ],
+   "id_persone": [
+    "NG",
+    "CA",
+    "AMB"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "Castelli-trasferimento-Guiglia_ev",
+   "evento": "dai castelli opere spostate a castello Guiglia",
+   "data_inizio": "1940-06-20",
+   "data_fine": null,
+   "note_ev": "Le opere vengono trasferite dai castelli torinesi al Castello di Guiglia.",
+   "id_contesto": "NG",
+   "id_luoghi": [
+    "Settime_loc",
+    "Monta_loc",
+    "C-Settime_loc",
+    "C-Monta_loc",
+    "Guiglia_loc",
+    "C-Guiglia_loc"
+   ],
+   "id_partenza": [
+    "Settime_loc",
+    "Monta_loc",
+    "C-Settime_loc",
+    "C-Monta_loc"
+   ],
+   "id_arrivo": [
+    "Guiglia_loc",
+    "C-Guiglia_loc"
+   ],
+   "id_persone": [
+    "NG",
+    "AOQ",
+    "CA",
+    "AMB"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "Guiglia-trasferimento-Borromeo_ev",
+   "evento": "dopo armistizio opere spostate a Palazzo Borromeo",
+   "data_inizio": "1944-06-18",
+   "data_fine": "1944-07-20",
+   "note_ev": "Le opere vengono trasferite dal Castello di Guiglia al Palazzo Borromeo sull'Isola Bella.",
+   "id_contesto": "NG",
+   "id_luoghi": [
+    "Guiglia_loc",
+    "C-Guiglia_loc",
+    "Stresa_loc",
+    "Borromeo_loc"
+   ],
+   "id_partenza": [
+    "Guiglia_loc",
+    "C-Guiglia_loc"
+   ],
+   "id_arrivo": [
+    "Stresa_loc",
+    "Borromeo_loc"
+   ],
+   "id_persone": [
+    "NG",
+    "CA",
+    "AMB"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "AOQ-direzione-RG-PR_ev",
+   "evento": "Nomina di Quintavalle a direttore della Regia Galleria",
+   "data_inizio": "1937-01-01",
+   "data_fine": null,
+   "note_ev": "Quintavalle ottiene la nomina a direttore della Regia Galleria di Parma.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "Pilotta_loc",
+    "PR_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "direzione-museale"
+   ]
+  },
+  {
+   "id": "AOQ-soprintendente-PR-PC_ev",
+   "evento": "Nomina di Quintavalle a soprintendente",
+   "data_inizio": "1939-01-01",
+   "data_fine": null,
+   "note_ev": "Quintavalle viene nominato Soprintendente per le opere d'arte medievali e moderne delle province di Parma e Piacenza.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "PR_loc",
+    "PC_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "soprintendenza"
+   ]
+  },
+  {
+   "id": "AOQ-direttore-MA-PR_ev",
+   "evento": "Estensione dell'incarico di dirigenza",
+   "data_inizio": "1934-01-01",
+   "data_fine": "1937-01-01",
+   "note_ev": "L'incarico di dirigenza viene esteso al Museo Archeologico Nazionale di Parma.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "MA-PR_loc",
+    "PR_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "direzione-museale"
+   ]
+  },
+  {
+   "id": "AOQ-soprintendente-MO-RE_ev",
+   "evento": "Estensione dell'incarico di soprintendente",
+   "data_inizio": "1940-03-01",
+   "data_fine": "1942-02-01",
+   "note_ev": "L'incarico di dirigenza viene esteso alle province di Modena e Reggio.",
+   "id_contesto": "AOQ",
+   "id_luoghi": null,
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "soprintendenza"
+   ]
+  },
+  {
+   "id": "Min-Ed-ordine-PC_ev",
+   "evento": "Ordine del Ministero di sgomberare Piacenza",
+   "data_inizio": "1940-06-10",
+   "data_fine": null,
+   "note_ev": "Il Ministero ordina lo sgombero delle opere d'arte di Piacenza data la vicinanta al ponte sul Po, considerato obiettivo militare. Le opere vengono spedite a Villa Alberoni.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "PC_loc",
+    "VA_loc",
+    "Veano_loc"
+   ],
+   "id_partenza": [
+    "PC_loc"
+   ],
+   "id_arrivo": [
+    "VA_loc",
+    "Veano_loc"
+   ],
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela"
+   ]
+  },
+  {
+   "id": "VA-trasferimento-C-Torrechiara_ev",
+   "evento": "Villa Alberoni viene ceduta all'autorità militare",
+   "data_inizio": "1940-09-01",
+   "data_fine": null,
+   "note_ev": "Villa Alberoni viene ceduta all'autorità militare quindi le opere vengono spostate al Castello Torrechiara.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "VA_loc",
+    "Veano_loc",
+    "C-Torrechiara_loc",
+    "TC_loc"
+   ],
+   "id_partenza": [
+    "VA_loc",
+    "Veano_loc"
+   ],
+   "id_arrivo": [
+    "C-Torrechiara_loc",
+    "TC_loc"
+   ],
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "rifugio"
+   ]
+  },
+  {
+   "id": "C-Torrechiara-occultamento_ev",
+   "evento": "Occultamento delle opere nel Castello di Torrechiara",
+   "data_inizio": "1943-09-10",
+   "data_fine": null,
+   "note_ev": "Le opere raccolte presso il Castello di Torrechiara vengono occultate nelle mura.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "C-Torrechiara_loc",
+    "TC_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "occultamento"
+   ]
+  },
+  {
+   "id": "sopralluoghi-tedeschi_ev",
+   "evento": "Sopralluoghi presso Torrechiara delle autorità tedesche",
+   "data_inizio": "1944-02-01",
+   "data_fine": "1944-03-01",
+   "note_ev": "L'operazione di occultamento va a buon fine e le opere sono in salvo dalle visite delle autorità tedesche.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "C-Torrechiara_loc",
+    "TC_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "occupazione-tedesca"
+   ]
+  },
+  {
+   "id": "Min-Ed-ordine-Borromeo_ev",
+   "evento": "Lettera di Carlo Anti",
+   "data_inizio": "1944-06-24",
+   "data_fine": null,
+   "note_ev": "Il Ministero ordina alle Soprintendenze di trasportare le opere conservate in rifugi verso le Isole Borromee.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "Borromeo_loc",
+    "Stresa_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "CAN"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela"
+   ]
+  },
+  {
+   "id": "C-Torrechiara-aperta_ev",
+   "evento": "Sollecitazioni ma mediaizone tedesco, poi arriva lettera",
+   "data_inizio": "1945-01-01",
+   "data_fine": "1945-03-30",
+   "note_ev": "Quintavalle viene sollecitato a spostare le opere che conserva ma grazie alla mediazione del tenente tedesco Albert Junker, ottenne da parte del Comando germanico la dichiarazione di “zona aperta”.",
+   "id_contesto": "AOQ",
+   "id_luoghi": [
+    "C-Torrechiara_loc",
+    "TC_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "AOQ"
+   ],
+   "id_temi": [
+    "logistica",
+    "tutela",
+    "occupazione-tedesca"
+   ]
+  },
+  {
+   "id": "liberazione-PR_ev",
+   "evento": "Parma liberata",
+   "data_inizio": "1945-04-26",
+   "data_fine": null,
+   "note_ev": "Parma viene liberata.",
+   "id_contesto": "guerra",
+   "id_luoghi": [
+    "PR_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": null,
+   "id_temi": [
+    "liberazione"
+   ]
+  },
+  {
+   "id": "CAN-direttore_ev",
+   "evento": "Nomina di Carlo Anti",
+   "data_inizio": "1943-12-19",
+   "data_fine": null,
+   "note_ev": "Carlo Anti viene nominato direttore della Direzione generale delle arti del Ministero dell'educazione nazionale.",
+   "id_contesto": "ente-pubblico",
+   "id_luoghi": [
+    "DG-Arti-PD_loc",
+    "Min-Ed-PD_loc",
+    "PD_loc"
+   ],
+   "id_partenza": null,
+   "id_arrivo": null,
+   "id_persone": [
+    "CAN"
+   ],
+   "id_temi": null
+  }
+ ],
+ "temi": [
+  {
+   "id": "tutela",
+   "etichetta_filtro": "Tutela",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=13796",
+   "descrizione": "Protezione e salvaguardia del patrimonio storico artistico durante la Seconda Guerra mondiale"
+  },
+  {
+   "id": "resistenza",
+   "etichetta_filtro": "Resistenza",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=9241",
+   "descrizione": "Attività antifascista, clandestina e partigiana"
+  },
+  {
+   "id": "guerra",
+   "etichetta_filtro": "Guerra",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=1117",
+   "descrizione": "Eventi bellici, bombardamenti e danni al patrimonio"
+  },
+  {
+   "id": "logistica",
+   "etichetta_filtro": "Logistica",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=32821",
+   "descrizione": "Trasporto, imballaggio e gestione dei rifugi"
+  },
+  {
+   "id": "valorizzazione",
+   "etichetta_filtro": "Valorizzazione",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=20289",
+   "descrizione": "Attività post-bellica di ricostruzione e riapertura dei musei"
+  },
+  {
+   "id": "liberazione",
+   "etichetta_filtro": "Liberazione",
+   "authority_control": "https://www.wikidata.org/wiki/Q3778681",
+   "descrizione": "Liberazione dalla dittatura nazi-fascista del territorio italiano"
+  },
+  {
+   "id": "soprintendenza",
+   "etichetta_filtro": "Soprintendenza",
+   "authority_control": "https://www.wikidata.org/wiki/Q3491114",
+   "descrizione": "Attività dei soprintendenti nella gestione patrimonio culturale durante la guerra"
+  },
+  {
+   "id": "direzione-museale",
+   "etichetta_filtro": "Direzione museale",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=16778",
+   "descrizione": "Attività dei direttori delle istituzioni museali nella gestione patrimonio culturale durante la guerra"
+  },
+  {
+   "id": "archivio",
+   "etichetta_filtro": "Archivio",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=2288",
+   "descrizione": "Documentazione archivistica, dossier, elenchi e fondi documentari"
+  },
+  {
+   "id": "occupazione-tedesca",
+   "etichetta_filtro": "Occupazione",
+   "authority_control": "https://www.wikidata.org/wiki/Q128781",
+   "descrizione": "Presenza di truppe nemiche e pericoli legati all'occupazione militare tedesca"
+  },
+  {
+   "id": "occultamento",
+   "etichetta_filtro": "Occultamento",
+   "authority_control": "https://www.wikidata.org/wiki/Q30301727",
+   "descrizione": "Nascondimento fisico delle opere nella muratura e nei sotterranei dei rifugi"
+  },
+  {
+   "id": "spoliazioni",
+   "etichetta_filtro": "Spoliazione",
+   "authority_control": "https://www.wikidata.org/wiki/Q328376",
+   "descrizione": "Rischio di furto, esportazione illegale o requisizione da parte delle truppe tedesche"
+  },
+  {
+   "id": "rifugio",
+   "etichetta_filtro": "Rifugio",
+   "authority_control": null,
+   "descrizione": "Luogo sicuro individuato per nascondere le opere d'arte"
+  },
+  {
+   "id": "comando-alleato",
+   "etichetta_filtro": "Comando alleato",
+   "authority_control": "https://www.wikidata.org/wiki/Q716342",
+   "descrizione": "Attività degli Alleati in seguito all'armistizio dell'8 settembre"
+  },
+  {
+   "id": "istituzioni",
+   "etichetta_filtro": "Istituzioni",
+   "authority_control": "https://thes.bncf.firenze.sbn.it/termine.php?id=1909",
+   "descrizione": "Musei, organizzazioni ed enti coinvolti nelle vicende"
+  }
+ ],
+ "sbarco": [
+  {
+   "id": "Licata_loc",
+   "nome_loc": "Licata",
+   "tipologia_loc": "città",
+   "lat": 37.10714,
+   "lng": 13.94607,
+   "comune": "Licata",
+   "authority_control": "https://www.geonames.org/6541340/licata.html",
+   "note_loc": "La 7ª Armata statunitense (guidata dal generale George Patton) sbarcò nella zona sud-occidentale e meridionale"
+  },
+  {
+   "id": "Gela_loc",
+   "nome_loc": "Gela",
+   "tipologia_loc": "città",
+   "lat": 37.08034,
+   "lng": 14.23067,
+   "comune": "Gela",
+   "authority_control": "https://www.geonames.org/6541964/gela.html",
+   "note_loc": "La 7ª Armata statunitense (guidata dal generale George Patton) sbarcò nella zona sud-occidentale e meridionale"
+  },
+  {
+   "id": "Scoglitti_loc",
+   "nome_loc": "Scoglitti",
+   "tipologia_loc": "città",
+   "lat": 36.89424,
+   "lng": 14.43355,
+   "comune": "Scoglitti",
+   "authority_control": "https://www.geonames.org/2523184/scoglitti.html",
+   "note_loc": "La 7ª Armata statunitense (guidata dal generale George Patton) sbarcò nella zona sud-occidentale e meridionale"
+  },
+  {
+   "id": "Pachino_loc",
+   "nome_loc": "Pachino",
+   "tipologia_loc": "città",
+   "lat": 36.71864,
+   "lng": 15.0907,
+   "comune": "Pachino",
+   "authority_control": "https://www.geonames.org/6539213/pachino.html",
+   "note_loc": "L'8ª Armata britannica (guidata dal generale Bernard Montgomery) sbarcò lungo la costa sud-orientale e orientale"
+  },
+  {
+   "id": "Marzamemi_loc",
+   "nome_loc": "Marzamemi",
+   "tipologia_loc": "città",
+   "lat": 36.74229,
+   "lng": 15.11805,
+   "comune": "Marzamemi",
+   "authority_control": "https://www.geonames.org/2524240/marzamemi.html",
+   "note_loc": "L'8ª Armata britannica (guidata dal generale Bernard Montgomery) sbarcò lungo la costa sud-orientale e orientale"
+  },
+  {
+   "id": "Avola_loc",
+   "nome_loc": "Avola",
+   "tipologia_loc": "città",
+   "lat": 36.91134,
+   "lng": 15.1395,
+   "comune": "Avola",
+   "authority_control": "https://www.geonames.org/6540854/avola.html",
+   "note_loc": "L'8ª Armata britannica (guidata dal generale Bernard Montgomery) sbarcò lungo la costa sud-orientale e orientale"
+  },
+  {
+   "id": "Siracusa_loc",
+   "nome_loc": "Siracusa",
+   "tipologia_loc": "città",
+   "lat": 37.07542,
+   "lng": 15.28664,
+   "comune": "Siracusa",
+   "authority_control": "https://www.geonames.org/2523083/siracusa.html",
+   "note_loc": "L'8ª Armata britannica (guidata dal generale Bernard Montgomery) sbarcò lungo la costa sud-orientale e orientale"
+  }
+ ],
+
+ "bombardamento": [
+  {
+    "id": "Palermo-porto-bomb_loc",
+    "nome_loc": "Porto di Palermo",
+    "tipologia_loc": null,
+    "lat": 38.127843,
+    "lng": 13.362151,
+    "comune": "Palermo",
+    "authority_control": "https://www.geonames.org/7506790/porto-di-palermo.html",
+    "note_loc": "Fu l'obiettivo principale dei bombardamenti della primavera del 1943."
+  },
+  {
+    "id": "Palermo-Salinas-bomb_loc",
+    "nome_loc": "Museo Archeologico Regionale 'Antonio Salinas'",
+    "tipologia_loc": null,
+    "lat": 38.120905,
+    "lng": 13.361145,
+    "comune": "Palermo",
+    "authority_control": "https://www.geonames.org/7828764/museo-archeologico-regionale-antonio-salinas.html",
+    "note_loc": "Il 5 aprile 1943 la chiesa di Sant’Ignazio e il lato meridionale del cortile del Museo furono colpiti da un bombardamento."
+  },
+  {
+    "id": "Messina-stazione-bomb_loc",
+    "nome_loc": "Stazione Centrale di Messina",
+    "tipologia_loc": null,
+    "lat": 38.184887,
+    "lng": 15.561359,
+    "comune": "Messina",
+    "authority_control": "https://www.geonames.org/2524167/stazione-messina-centrale.html",
+    "note_loc": "Punto centrale dello Stretto; venne bombardata dalle forze alleate per bloccare il transito di truppe, convogli ferroviari e rifornimenti tra la Calabria e la Sicilia."
+  },
+  {
+    "id": "Catania-aeroporto-bomb_loc",
+    "nome_loc": "Aeroporto di Catania-Fontanarossa",
+    "tipologia_loc": null,
+    "lat": 37.467240,
+    "lng": 15.067584,
+    "comune": "Catania",
+    "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=48069171&class=aeroway",
+    "note_loc": "Base aerea militare strategica, pesantemente colpita dagli Alleati."
+  },
+  {
+    "id": "Milano-Scala-bomb_loc",
+    "nome_loc": "Teatro alla Scala",
+    "tipologia_loc": null,
+    "lat": 45.467604,
+    "lng": 9.189113,
+    "comune": "Milano",
+    "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=R&osmid=6552704&class=amenity",
+    "note_loc": "Colpito nella notte tra il 15 e il 16 agosto 1943 durante i bombardamenti a tappeto che incendiarono il centro storico della città."
+  },
+  {
+    "id": "Milano-Brera-bomb_loc",
+    "nome_loc": "Pinacoteca di Brera",
+    "tipologia_loc": null,
+    "lat": 45.47192,
+    "lng": 9.18806,
+    "comune": "Milano",
+    "authority_control": "https://www.geonames.org/6949436/pinacoteca-di-brera.html",
+    "note_loc": "Colpita l'8 agosto 1943: il bombardamento distrusse 26 sale su 34."
+  },
+  {
+    "id": "Milano-SMG-bomb_loc",
+    "nome_loc": " Santa Maria delle Grazie",
+    "tipologia_loc": null,
+    "lat": 45.466714,
+    "lng": 9.169619,
+    "comune": "Milano",
+    "authority_control": "https://www.geonames.org/6949438/santa-maria-delle-grazie.html",
+    "note_loc": "Bombardata il 13 agosto 1943. Il refettorio fu quasi interamente distrutto, ma il muro del Cenacolo di Leonardo si salvò grazie alle protezioni di sacchi di sabbia."
+  },
+  {
+    "id": "Milano-Breda-bomb_loc",
+    "nome_loc": "Comparto Industriale Breda",
+    "tipologia_loc": null,
+    "lat": 45.534792,
+    "lng": 9.2371764,
+    "comune": "Sesto San Giovanni",
+    "authority_control": "https://nominatim.openstreetmap.org/ui/details.html?osmtype=R&osmid=45245&class=boundary",
+    "note_loc": "Uno dei complessi industriali metalmeccanici più importanti d'Italia. Fu bersaglio costante dei bombardamenti alleati per fermare la produzione di aeroplani, locomotive e armamenti."
+  },
+  {
+    "id": "Torino-Mirafiori-bomb_loc",
+    "nome_loc": "Stabilimento FIAT Mirafiori",
+    "tipologia_loc": null,
+    "lat": 45.028278,
+    "lng": 7.637105,
+    "comune": "Torino",
+    "authority_control": "https://nominatim.openstreetmap.org/ui/search.html?q=Stellantis+torino",
+    "note_loc": "Il fulcro della produzione industriale torinese, bersaglio ricorrente dei bombardieri britannici tra il 1940 e il 1943."
+  },
+  {
+    "id": "Torino-SanCarlo-bomb_loc",
+    "nome_loc": "Piazza San Carlo",
+    "tipologia_loc": null,
+    "lat": 45.067916,
+    "lng": 7.682719,
+    "comune": "Torino",
+    "authority_control": "https://nominatim.openstreetmap.org/ui/search.html?q=Piazza+San+Carlo+torino",
+    "note_loc": "L'area monumentale del centro subì gravissimi danni nell'incursione dell'8 dicembre 1942."
+  },
+  {
+    "id": "Torino-comune-bomb_loc",
+    "nome_loc": "Palazzo Civico",
+    "tipologia_loc": null,
+    "lat": 44.842234,
+    "lng": 7.494509,
+    "comune": "Torino",
+    "authority_control": "https://nominatim.openstreetmap.org/ui/search.html?q=Palazzo+Civico+torino",
+    "note_loc": "La sede del Comune venne colpita nella notte tra il 12 e il 13 luglio 1943. Il bombardamento distrusse interamente l'ala sinistra del palazzo e i registri dell'anagrafe storica."
+  }
+]
+}

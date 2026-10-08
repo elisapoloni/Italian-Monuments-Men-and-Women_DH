@@ -1,18 +1,62 @@
-<!-- container-fluid = occupa tutta la larghezza dello schermo
-     bg-dark = sfondo nero
-     text-white = testo bianco
-     py-4 = padding verticale (sopra e sotto) di livello 4 per dare spessore alla striscia -->
-<footer class="container-fluid bg-dark text-white py-4">
-    <!-- row = riga di bootstrap per contenere le colonne -->
-    <div class="row">
-        <!-- col-12 = la colonna occupa tutti i 12 spazi disponibili (tutta la larghezza)
-             text-center = allinea il testo al centro della colonna -->
-        <div class="col-12 text-center">
-            <!-- mb-0 = margin-bottom 0. Rimuove lo spazio vuoto che Bootstrap mette di default
-                 sotto i paragrafi, assicurando che il testo sia perfettamente centrato verticalmente -->
-            <p class="mb-0">
-                &copy; Elisa Poloni 2026 - Tesi di Laurea Magistrale in Digital Humanities e Patrimonio Culturale - Arti Visive
-            </p>
+<footer class="bg-dark text-white pt-5 pb-3 border-top border-secondary">
+    <div class="container-fluid px-4">
+        <div class="row g-4 mb-4">
+            <!-- Progetto -->
+            <div class="col-12 col-lg-5">
+                <h5 class="fw-bold mb-3">Il progetto</h5>
+                <p class="small" style="text-align: justify;">
+                    Questa web app è stata sviluppata nell'ambito della tesi di laurea magistrale in Arti Visive 
+                    (Digital Humanities e Patrimonio Culturale) presso l'Alma Mater Studiorum – Università di Bologna.
+                </p>
+            </div>
+            <!-- Risorse e Dati -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3">Risorse e Codice</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2">
+                        <a href="json/database.json" target="_blank" class="link text-white">
+                            <i class="bi bi-file-earmark-code me-2"></i>Database (JSON)
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="dataset.xlsx" target="_blank" class="link text-white">
+
+                            <i class="bi bi-file-earmark-excel me-2"></i>Dataset (Excel)
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://github.com/elisapoloni/Italian-Monuments-Men-and-Women_DH" target="_blank" class="link text-white">
+                            <i class="bi bi-github me-2"></i>Repository GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Informazioni e Crediti -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3">Informazioni</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2">
+                        <a href="credits.html" class="link text-white">
+                            <i class="bi bi-people me-2"></i>Crediti
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" class="link text-white">
+                            <i class="bi bi-c-circle me-2"></i>Licenza (CC BY-NC-ND 4.0)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="border-secondary my-3">
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0 small">
+                    &copy; Elisa Poloni 2026 - Tesi di Laurea Magistrale in Arti Visive presso Alma Mater Studiorum – Università di Bologna (Digital Humanities e Patrimonio Culturale)
+                </p>
+            </div>
         </div>
     </div>
 </footer>

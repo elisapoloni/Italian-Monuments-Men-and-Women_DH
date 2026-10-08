@@ -18,7 +18,7 @@
 
 /* Imposta il colore e la decorazione dei link al passaggio del mouse */
 .link:hover {
-    color: var(--color-tema); 
+    color: var(--color-tema) !important; 
     text-decoration: underline;
 } 
 

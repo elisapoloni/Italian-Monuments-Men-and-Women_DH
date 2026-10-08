@@ -36,10 +36,10 @@
 	<header id="navbar-placeholder"></header>
 	<main>
 		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
-        	<h2 class="page-title">LA LINEA DEL TEMPO</h2>
+        	<h2 class="page-title">LINEA DEL TEMPO</h2>
     	</section>
 
-		<section class="container-fluid mt-3">
+		<section class="container-fluid mt-3 mb-3">
 				<!--breadcrumbs-->
 				<nav aria-label="breadcrumb">
             		<ol class="breadcrumb" id="breadcrumb-placeholder"></ol>
@@ -68,6 +68,12 @@
 								Grazie a questa distinzione è possibile analizzare la cronologia degli interventi di tutela e la loro tempestività
 								rispetto all’avanzamento del conflitto.
 							</p>
+
+							<!-- modale di approfondimento -->
+                            <p class="card-text text-muted small mt-3 mb-0" style="text-align: justify;">
+                                <i class="bi bi-file-text me-1"></i> 
+                                Per approfondire l'argomento leggi l'<a href="#" data-bs-toggle="modal" data-bs-target="#modalAnalisiTempo" class="text-decoration-underline fw-semibold text-dark">analisi dei dati</a>.
+                            </p>
 							
 							<hr>
 							<!-- LEGENDA -->
@@ -113,6 +119,7 @@
                         			</button>
                         			<ul class="dropdown-menu dropdown-menu-filter w-100" id="filtro-protagonista"></ul>
 								</div>
+								<div id="filtri-attivi" class="filtri-attivi-container"></div>
 								<!-- Bottone Reset -->
                     			<button class="btn btn-outline-light text-dark btn-link btn-sm text-decoration-none text-muted w-100 mt-2" id="btn-reset">
                         			<i class="bi bi-arrow-counterclockwise"></i> Pulisci i filtri
@@ -132,10 +139,20 @@
 					<div class="col-12 col-lg-7">
 						<div class="card border-0 shadow-sm mb-4 position-relative" style="background-color: #fdfdfd;">
 							<!-- bottoni zoom e armistizio-->
-							<div class="d-flex justify-content-center gap-2 mb-3 mt-2">
-								<button class="btn btn-outline-dark btn-sm" id="zoom-in"><i class="bi bi-plus-lg"></i></button>
-								<button class="btn btn-outline-dark btn-sm" id="zoom-out"><i class="bi bi-dash-lg"></i></button>
-								<button class="btn btn-outline-dark btn-sm" id="focus-armistizio">Armistizio</button>
+							<div class="d-flex justify-content-between align-items-center px-3 mb-3 mt-2">
+								<div class="d-flex gap-2">
+									<button class="btn btn-outline-dark btn-sm" id="zoom-in"><i class="bi bi-plus-lg"></i></button>
+									<button class="btn btn-outline-dark btn-sm" id="zoom-out"><i class="bi bi-dash-lg"></i></button>
+								</div>
+								<div class="d-flex align-items-center gap-2">								
+									<button class="btn btn-outline-dark btn-sm" id="focus-armistizio">Armistizio</button>
+										<!-- contenitore per info bottone Armistizio-->
+										<div class="info-tooltip-container position-relative d-inline-flex align-items-center justify-content-center rounded-circle border border-dark text-dark fw-bold" 
+											style="width: 28px; height: 28px; cursor: help; font-size: 0.85rem;">
+											?
+											<span class="info-tooltip-text">Cliccando su Armistizio la linea del tempo si posizionerà sul periodo dell'8 settembre 1943.</span>
+										</div>
+								</div>
 							</div>
 
 							<!-- freccia sx -->
@@ -168,63 +185,68 @@
 						</div>
 					</div> <!-- chiusa colonna descrizione -->
 
-				</div> <!--chiusa row-->
-
-
-				<div class="row">
-					<div class="col-12">
-						<div class="card border-0 shadow-sm mt-4 mb-4">
-								<div class="card-body p-4">
-									<h5 class="card-title titolo-analisi">Risultati</h5>
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										L’analisi della linea del tempo permette di scandire le attività di tutela in quattro fasi distinte.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Nel giugno 1940, in seguito all’<b>entrata in guerra dell’Italia</b>, scattano simultaneamente 
-										operazioni in risposta alle direttive emanate dalla Direzione Generale delle Arti. In questa fase, le operazioni si 
-										concentrano sull’individuazione dei rifugi e sulla spedizione dei beni.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										L’<b>armistizio</b> dell’8 settembre 1943 rappresenta uno spartiacque fondamentale. La sua proclamazione avvia 
-										una fase di tutela più urgente e frammentata, 
-										caratterizzata dall’occultamento o spostamento delle opere e dallo sgombero di alcuni rifugi, non più 
-										sicuri dopo l’intervento del Comando Militare Germanico.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										In seguito allo <b>sbarco degli Alleati</b> e alla loro avanzata lungo la Penisola, seguiamo sulla 
-										linea del tempo la progressiva liberazione delle città.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Infine, l’ultima fase è caratterizzata dal rientro delle opere presso le istituzioni di origine, 
-										segnando l’inizio dalla <b>ricostruzione</b> post-bellica.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Se focalizziamo l’attenzione su alcuni casi d’uso notiamo che:
-									</p>
-
-									<ul class="card-text" style="text-align: justify;">
-										<li>L’attività di <b>Fernanda Wittgens</b> si interrompe con l’arresto nel 1944 a causa del 
-											suo impegno antifascista, per poi riprendere nel dopoguerra con la ricostruzione di Brera
-											e la collaborazione con il Comando Alleato.</li>
-										<li>L’attività di <b>Pasquale Rotondi</b> è più ordinata e sistematica nelle prime fasi del 
-											conflitto, quando coordina il trasferimento interregionale delle opere provenienti da varie 
-											istituzioni. Nella seconda parte del conflitto, dopo l’armistizio, le operazioni sono sempre 
-											più difficili, caratterizzate da occultamenti e trasferimenti repentini.</li>
-										<li>Le operazioni di <b>Jole Bovio Marconi</b> si concentrano nella fase iniziale del conflitto. 
-											Con l’arrivo degli Alleati comincia la collaborazione con i <em>monuments men</em> statunitensi.</li>
-									</ul>
-								</div>
-						</div>
-					</div>
-				</div>
-
+				</div> <!--chiusa row-->				
 		</section> <!--chiuso container-fluid-->
 	</main>
+
+	<!-- Modale Analisi Linea del Tempo -->
+<div class="modal fade" id="modalAnalisiTempo" tabindex="-1" aria-labelledby="modalAnalisiTempoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                <h5 class="modal-title fw-bold" id="modalAnalisiTempoLabel">Analisi dei dati</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+            </div>
+            <div class="modal-body p-4">
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    L’analisi della linea del tempo permette di scandire le attività di tutela in quattro fasi distinte.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Nel giugno 1940, in seguito all’<b>entrata in guerra dell’Italia</b>, scattano simultaneamente 
+                    operazioni in risposta alle direttive emanate dalla Direzione Generale delle Arti. In questa fase, le operazioni si 
+                    concentrano sull’individuazione dei rifugi e sulla spedizione dei beni.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    L’<b>armistizio</b> dell’8 settembre 1943 rappresenta uno spartiacque fondamentale. La sua proclamazione avvia 
+                    una fase di tutela più urgente e frammentata, 
+                    caratterizzata dall’occultamento o spostamento delle opere e dallo sgombero di alcuni rifugi, non più 
+                    sicuri dopo l’intervento del Comando Militare Germanico.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    In seguito allo <b>sbarco degli Alleati</b> e alla loro avanzata lungo la Penisola, seguiamo sulla 
+                    linea del tempo la progressiva liberazione delle città.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Infine, l’ultima fase è caratterizzata dal rientro delle opere presso le istituzioni di origine, 
+                    segnando l’inizio dalla <b>ricostruzione</b> post-bellica.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Se focalizziamo l’attenzione su alcuni casi d’uso notiamo che:
+                </p>
+
+                <ul class="card-text" style="text-align: justify;">
+                    <li>L’attività di <b>Fernanda Wittgens</b> si interrompe con l’arresto nel 1944 a causa del 
+                        suo impegno antifascista, per poi riprendere nel dopoguerra con la ricostruzione di Brera
+                        e la collaborazione con il Comando Alleato.</li>
+                    <li>L’attività di <b>Pasquale Rotondi</b> è più ordinata e sistematica nelle prime fasi del 
+                        conflitto, quando coordina il trasferimento interregionale delle opere provenienti da varie 
+                        istituzioni. Nella seconda parte del conflitto, dopo l’armistizio, le operazioni sono sempre 
+                        più difficili, caratterizzate da occultamenti e trasferimenti repentini.</li>
+                    <li>Le operazioni di <b>Jole Bovio Marconi</b> si concentrano nella fase iniziale del conflitto. 
+                        Con l’arrivo degli Alleati comincia la collaborazione con i <em>monuments men</em> statunitensi.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+        </div>
+    </div>
+</div>
 	<!--footer-->
 	<footer id="footer-placeholder"> <!--chiusura del sito-->
 		<!--footer è nella cartella components e viene richiamato con javascript perchè si ripete in tutte le pagine-->

@@ -37,7 +37,7 @@
 	</header>
 	<main>
 		<section class="container-fluid bg-secondary text-white py-4 shadow-sm">
-        	<h2 class="page-title text-center m-0">IL NETWORK</h2>
+        	<h2 class="page-title text-center m-0">NETWORK</h2>
     	</section>
 		<section>
 			<div class="container-fluid mt-3">
@@ -55,9 +55,15 @@
 									La visualizzazione permette di analizzare la dimensione relazionale del progetto, integrando i sei protagonisti con <b>figure di corredo</b> (collaboratori, familiari, funzionari). 
 									Il primo grafo mostra i legami sociali e professionali delle persone coinvolte, permettendo di ricostruirne le <b>collaborazioni</b>. 
 									Il secondo definisce le <b>responsabilità</b>, mostrando il collegamento tra le organizzazioni e il protagonista di riferimento. 
-									Il terzo ricostruisce il <b>flusso</b> dei beni culturali dalle istituzioni di origine ai luoghi di ricovero.
+									Il terzo ricostruisce il flusso dei beni culturali dalle istituzioni di origine ai luoghi di <b>ricovero</b>.
 								</p>
 								
+								<!-- modale di approfondimento -->
+								<p class="card-text text-muted small mt-3 mb-0" style="text-align: justify;">
+									<i class="bi bi-file-text me-1"></i> 
+									Per approfondire l'argomento leggi l'<a href="#" data-bs-toggle="modal" data-bs-target="#modalAnalisiNetwork" class="text-decoration-underline fw-semibold text-dark">analisi dei dati</a>.
+								</p>
+
 								<hr>
 								
 								<h6 class="fw-bold mb-3">Legenda dei nodi:</h6>
@@ -107,7 +113,7 @@
                                     <i class="bi bi-bank me-2"></i>GRAFO DELLE RESPONSABILITÀ
                                 </button>
                                 <button type="button" class="btn btn-outline-dark" id="btn-flusso">
-                                    <i class="bi bi-arrow-left-right me-2"></i>FLUSSO DELLE OPERE
+                                    <i class="bi bi-arrow-left-right me-2"></i>GRAFO DEI RIFUGI
                                 </button>
                             </div>
                         </div>
@@ -146,7 +152,9 @@
 								</div>
 								<div id="filtri-collaborazioni">
 									<p class="small text-muted italic">Nessun filtro disponibile per questo grafo.</p>
-								</div>
+								</div>								
+								<!-- box filtri attivi -->
+								<div id="filtri-attivi" class="filtri-attivi-container"></div>
 								<button class="btn btn-outline-light text-dark btn-link btn-sm text-decoration-none text-muted w-100 mt-2" id="btn-reset-network">
 									<i class="bi bi-arrow-counterclockwise"></i> Mostra tutto
 								</button>
@@ -179,56 +187,69 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-					<div class="row">
-					<div class="col-12">
-						<div class="card border-0 shadow-sm mt-4 mb-4">
-								<div class="card-body p-4">
-									<h5 class="card-title titolo-analisi">Risultati</h5>
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Nel primo grafo emergono cluster distinti che riflettono le collaborazioni e mostrano 
-										visivamente come alcuni protagonisti fungono da ponte.
-									</p>
-
-									<ul class="card-text" style="text-align: justify;">
-										<li><b>Pasquale Rotondi</b> si conferma il principale nodo delle relazioni interregionali;</li>
-										<li><b>Palma Bucarelli</b> e <b>Noemi Gabrielli</b> emergono invece come nodi di cluster locali, 
-											rispettivamente per la rete romana e quella piemontese.</li>
-									</ul>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Le <b>figure di corredo</b>, seppur ricoprano un ruolo marginale a livello ministeriale, 
-										sono comunque presenti nel network di conoscenze e sono fondamentali per ricostruire una rete di collaborazione completa.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Nel secondo grafo la <b>Direzione Generale delle Arti</b>, organo centrale del <b>Ministero 
-										dell’Educazione Nazionale</b> deputato alla tutela del patrimonio artistico del Paese, emerge 
-										come nodo di alta connessione, confermando la sua funzione di coordinamento.
-									
-										L’analisi attraverso i filtri ribadisce graficamente la collaborazione tra Pasquale Rotondi e 
-										Fernanda Wittgens, mentre si confermano isolati e locali i casi di Palma Bucarelli, Noemi Gabrielli e 
-										Jole Bovio Marconi.
-									</p>
-
-									<p class="card-text" style="text-align: justify; text-indent: 30px;">
-										Anche la terza visualizzazione rivela la formazione di alcuni cluster.
-							
-										La densità delle linee verso rifugi come la <b>Rocca di Sassocorvaro</b> e il <b>Palazzo 
-										dei Principi di Carpegna</b> conferma il loro ruolo di depositi interregionali. Altri rifugi 
-										invece mostrano una funzione strettamente locale, come i rifugi romani, piemontesi ed emiliani.
-				
-										Dall’analisi emerge come molte istituzioni siano collegate a diversi ricoveri: questo denota 
-										la difficoltà di individuare un unico luogo sicuro e la necessità di effettuare spostamenti durante 
-										il conflitto. Questa mobilità, già evidenziata nella dimensione temporale della linea del tempo, 
-										trova conferma anche nel network.
-									</p>
-								</div>
-						</div>
-					</div>
-				</div>
+			</div>
         </section>
     </main>
+
+	<div class="modal fade" id="modalAnalisiNetwork" tabindex="-1" aria-labelledby="modalAnalisiNetworkLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                <h5 class="modal-title fw-bold" id="modalAnalisiNetworkLabel">Analisi dei dati</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+            </div>
+            <div class="modal-body p-4">
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Nel primo grafo emergono cluster distinti che riflettono le collaborazioni e mostrano 
+                    visivamente come alcuni protagonisti fungono da ponte.
+                </p>
+
+                <ul class="card-text" style="text-align: justify;">
+                    <li><b>Pasquale Rotondi</b> si conferma il principale nodo delle relazioni interregionali;</li>
+                    <li><b>Palma Bucarelli</b> e <b>Noemi Gabrielli</b> emergono invece come nodi di cluster locali, 
+                        rispettivamente per la rete romana e quella piemontese.</li>
+                </ul>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Le <b>figure di corredo</b>, seppur ricoprano un ruolo marginale a livello ministeriale, 
+                    sono comunque presenti nel network di conoscenze e sono fondamentali per ricostruire una rete di collaborazione completa.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Nel secondo grafo la <b>Direzione Generale delle Arti</b>, organo centrale del <b>Ministero 
+                    dell’Educazione Nazionale</b> deputato alla tutela del patrimonio artistico del Paese, emerge 
+                    come nodo di alta connessione, confermando la sua funzione di coordinamento.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    L’analisi attraverso i filtri ribadisce graficamente la collaborazione tra Pasquale Rotondi e 
+                    Fernanda Wittgens, mentre si confermano isolati e locali i casi di Palma Bucarelli, Noemi Gabrielli e 
+                    Jole Bovio Marconi.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Anche la terza visualizzazione rivela la formazione di alcuni cluster.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    La densità delle linee verso rifugi come la <b>Rocca di Sassocorvaro</b> e il <b>Palazzo 
+                    dei Principi di Carpegna</b> conferma il loro ruolo di depositi interregionali. Altri rifugi 
+                    invece mostrano una funzione strettamente locale, come i rifugi romani, piemontesi ed emiliani.
+                </p>
+
+                <p class="card-text" style="text-align: justify; text-indent: 30px;">
+                    Dall’analisi emerge come molte istituzioni siano collegate a diversi ricoveri: questo denota 
+                    la difficoltà di individuare un unico luogo sicuro e la necessità di effettuare spostamenti durante 
+                    il conflitto. Questa mobilità, già evidenziata nella dimensione temporale della linea del tempo, 
+                    trova conferma anche nel network.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+        </div>
+    </div>
+	</div>
 	<!--footer-->
 	<footer id="footer-placeholder"> <!--chiusura del sito-->
 		<!--footer è nella cartella components e viene richiamato con javascript perchè si ripete in tutte le pagine-->

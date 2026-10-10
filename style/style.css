@@ -18,7 +18,7 @@
 
 /* Imposta il colore e la decorazione dei link al passaggio del mouse */
 .link:hover {
-    color: var(--color-tema) !important; 
+    color: var(--color-tema) !important;
     text-decoration: underline;
 } 
 
@@ -188,6 +188,26 @@
     object-fit: cover; /** riempie lo spazio senza deformare le foto */
     object-position: center; /** imposta la foto in modo che sia centrata */
     height: 85vh; /** altezza dell'immagine al 85% del contenitore**/
+}
+
+/* stile card non pronte */
+.card-protagonisti.scheda-non-pronta {
+    opacity: 0.6; /* Rende la card più trasparente */
+    filter: grayscale(100%); /* Trasforma l'immagine in bianco e nero */
+    transition: none; /* Rimuove le transizioni per queste card */
+}
+
+/* no effetto hover sulle card non pronte */
+.card-protagonisti.scheda-non-pronta:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/*  bottone disabilitato */
+.card-protagonisti.scheda-non-pronta .btn {
+    background-color: #6c757d !important; /* Grigio Bootstrap */
+    border-color: #6c757d !important;
+    cursor: not-allowed; /* Cambia l'icona del mouse in un segnale di divieto */
 }
 
 /* ======================
@@ -365,6 +385,32 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     transform: translateY(-50%) scale(1.1); /* si ingrandisce leggermente */
     border-color: var(--color-tema) !important;
+}
+
+/* tooltip al passaggio del mouse */
+.info-tooltip-container .info-tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    position: absolute;
+    z-index: 1050;
+    bottom: 125%; /* Posiziona il testo sopra il cerchio */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+/* tooltip quando si passa sopra con il mouse */
+.info-tooltip-container:hover .info-tooltip-text {
+    visibility: visible;
+    opacity: 1;
 }
 
 /* ===========
@@ -564,7 +610,6 @@
     padding-top: 20px;
 }
 
-
 .box-spiegazione-filtri {
     background-color: #f8f9fa !important; /* bg-light */
     border: 1px solid #dee2e6 !important; /* border */
@@ -586,4 +631,34 @@
     text-align: justify;       /* style="text-align: justify" */
     color: #6c757d !important; /* text-muted */
     margin-bottom: 0;          /* mb-0 */
+}
+
+/* box filtri selezionati */
+.filtri-attivi-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+    min-height: 20px; 
+}
+
+.badge-filtro {
+    background-color: var(--color-tema);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.badge-filtro i {
+    margin-left: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.badge-filtro i:hover {
+    transform: scale(1.3);
 }

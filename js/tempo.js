@@ -61,6 +61,9 @@ function disegnaTimeline() {
 function creaFiltroProtagonisti() {
     const filtroP = document.getElementById("filtro-protagonista");
     let html = "";
+
+    // Lista id cliccabili
+    const idCliccabili = ["PB", "NG", "JBM", "AOQ", "PR", "FW"];
     
     // lista in ordine alfabetico dei protagonisti 
     let listaOrdinataP = [];
@@ -76,8 +79,14 @@ function creaFiltroProtagonisti() {
     });
 
     for (let i = 0; i < listaOrdinataP.length; i++) {
-        html += `<li><label class="filter-item">
-                    <input type="checkbox" class="form-check-input scelta-p-tempo" value="${listaOrdinataP[i].id}"> 
+
+        let attivo = idCliccabili.includes(listaOrdinataP[i].id);
+        
+        let disabilitato = attivo ? "" : "disabled";
+        let stileTesto = attivo ? "" : "text-muted opacity-50";
+
+        html += `<li><label class="filter-item ${stileTesto}" ${attivo ? '' : 'style="cursor: not-allowed;"'}">
+                    <input type="checkbox" class="form-check-input scelta-p-tempo" value="${listaOrdinataP[i].id}" ${disabilitato}> 
                     ${listaOrdinataP[i].nome} ${listaOrdinataP[i].cognome}
                  </label></li>`;
     }
@@ -91,6 +100,9 @@ function creaFiltroProtagonisti() {
 }
 
 function applicaFiltroProtagonisti() {
+
+    aggiornaTagFiltri(".scelta-p-tempo", "filtri-attivi");
+
     let selezionati = []; // lista vuota -> ID dei protagonisti scelti
     let checkP = document.querySelectorAll(".scelta-p-tempo:checked"); // solo checkbox che hanno la spunta checked
 

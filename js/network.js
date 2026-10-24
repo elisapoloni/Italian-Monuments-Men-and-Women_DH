@@ -50,6 +50,12 @@ function attivaBottoni() {
         unBottone.onclick = function() {  // funzione anonima = non ha un nome proprio, viene assegnata direttamente alla proprietà onclick
             for (let j = 0; j < tuttiBottoni.length; j++) {
                 tuttiBottoni[j].classList.remove('active');
+
+                document.getElementById('filtri-attivi').innerHTML = "";
+
+                let tuttiCheck = document.querySelectorAll(".form-check-input");
+                for (let c = 0; c < tuttiCheck.length; c++) { tuttiCheck[c].checked = false; }
+            
             } // 1 avvio ciclo per togliere a tutti i bottoni la classe active 
 
             // 2 metto la classe active solo al bottone selezionato
@@ -87,6 +93,9 @@ function creaFiltriNetwork() {
     let htmlP = ""; 
     let htmlR = ""; 
 
+    // Lista id cliccabili
+    const idCliccabili = ["PB", "NG", "JBM", "AOQ", "PR", "FW"];
+
     // lista in ordine alfabetico dei protagonisti 
     let listaOrdinataP = [];
     for (let i = 0; i < tuttiIProtagonisti.length; i++){
@@ -102,9 +111,16 @@ function creaFiltriNetwork() {
 
     for (let i = 0; i < listaOrdinataP.length; i++) {
         let p = listaOrdinataP[i];
+
+        let attivo = idCliccabili.includes(p.id);
+
+        let disabilitato = attivo ? "" : "disabled";
+        let stileTesto = attivo ? "" : "text-muted opacity-50";
+
+
         if (p.ruolo_card === "protagonista") {
-            htmlP += `<li><label class="filter-item">
-                        <input type="checkbox" class="form-check-input scelta-p-net" value="${p.id}"> 
+            htmlP += `<li><label class="filter-item ${stileTesto}" ${attivo ? '' : 'style="cursor: not-allowed;"'}">
+                        <input type="checkbox" class="form-check-input scelta-p-net" value="${p.id}" ${disabilitato}> 
                         ${p.nome} ${p.cognome}
                       </label></li>`;
         }
@@ -154,12 +170,15 @@ function creaFiltriNetwork() {
 function gestisciCambiamentoFiltri() {
     if (document.getElementById("btn-resp").classList.contains("active")) {
         // Se siamo in responsabilità, raccogliamo i check di quel div
+        aggiornaTagFiltri("#filtro-protagonista-resp .scelta-p-net", "filtri-attivi");
+
         let selezionati = document.querySelectorAll("#filtro-protagonista-resp .scelta-p-net:checked");
         let listaId = [];
         for (let i = 0; i < selezionati.length; i++) { listaId.push(selezionati[i].value); }
         responsabilita(listaId);
     } else if (document.getElementById("btn-flusso").classList.contains("active")) {
         // Se siamo in flusso, raccogliamo check persone e check rifugi
+        aggiornaTagFiltri("#filtri-flusso .form-check-input", "filtri-attivi");
         let selezionatiP = document.querySelectorAll("#filtro-protagonista-flusso .scelta-p-net:checked");
         let selezionatiR = document.querySelectorAll("#filtro-rifugio-flusso .scelta-r-net:checked");
         let filtri = { persone: [], rifugi: [] };
@@ -462,7 +481,7 @@ function disegna(elementi, nameLayout) {
                 style: {
                     'label': 'data(label)', // apre l'oggetto data e va a guardare label
                     'text-valign': 'bottom', // mette il nome del nodo sotto al pallino
-                    'font-size': '10px', // grandezza della scritta
+                    'font-size': '20px', // grandezza della scritta
                     'width': 22, // larghezza e altezza del nodo
                     'height': 22,
                     'text-margin-y': '5px', // distanza del nome dal noto in verticale
@@ -595,7 +614,6 @@ function aggiornaSidebar(dataPerSidebar) {
         `;
     }
 
-    htmlDescrizione += `</div>`;
     sidebar.innerHTML = htmlDescrizione;
 
 }

@@ -25,6 +25,9 @@ async function caricaDatabase() {
 function mostraProtagonisti(protagonisti) {
  // variabile che contiene il codice che viene appena dopo = il ciclo e il contenuto delle card
   let cardProtagonisti = "";
+
+  const schedePronte = ['FW', 'PB', 'PR'];
+
   // ciclo che scorre tutti i protagonisti e prendere le info che servono
   // let i = 0 inizializza la variabile prima che parta il ciclo. i è la posizione 0 nell'array, il primo elemento
   // i < protagonisti.length definisce la condizione per cui il ciclo continua a girare
@@ -35,29 +38,36 @@ function mostraProtagonisti(protagonisti) {
     const p = protagonisti[i];
     
     if (p.ruolo_card === "protagonista" && p.img){
+
+        let classeScheda = "";
+        let attributoDisabilitato = "";
+        let testoBottone = "Scheda dettagliata";
+        let linkPagina = p.cognome.toLowerCase() + ".html";
+
+        // Se l'ID NON è presente nell'elenco delle schede pronte...
+            if (schedePronte.indexOf(p.id) === -1) {
+                classeScheda = "scheda-non-pronta"; // card grigia
+                attributoDisabilitato = "disabled"; // bottone disabilitato
+                testoBottone = "Work in progress..."; // Cambia il testo
+                linkPagina = "#"; // rimuovo link
+            }
     
         cardProtagonisti +=
         // cardProtagonisti += significa che deve aggiungere al contenuto della variabile cardProtagonisti (il risultato dei cicli) il codice che segue
         // ` = backtick, serve per scrivere il codice HTML
-            `<!--col-12 = su schermo piccolo le card occupano tutta la larghezza
-                col-sm-6 = su schermo medio occupano metà della larghezza
-                col-lg-4 = su schermo grande occupano 4 su 12 quindi 1/3 -->
-            <!--d-flex align-items-stretch = allinea le card in modo che siano tutte alte uguali-->
-            <div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch">
+            `<div class="col-12 col-sm-6 col-lg-4 d-flex align-items-stretch">
                 
-                <div class="card card-protagonisti w-100 mb-4 text-dark">
-                    <!-- va nella cartella immagini e per ogni ciclo a partire da i = 0,
-                    prende l'immagine relativa a quella persona grazie alla chiave img nel file JSON -->
+                <div class="card card-protagonisti ${classeScheda} w-100 mb-4 text-dark">
                     <img src="img/${protagonisti[i].img}" class="card-img-top" alt="${protagonisti[i].nome} ${protagonisti[i].cognome}">
                     
                     <div class="card-body d-flex flex-column text-center"> <!-- d-flex flex-column = dispone gli elementi in colonna uno sopra l'altro-->
                         <h4 class="card-title"><b>${protagonisti[i].nome} ${protagonisti[i].cognome}</b></h4>
                         <p class="card-text text-muted flex-grow-1" style="text-align:justify; font-size: 0.9rem;">
                             ${protagonisti[i].ruolo}
-                        </p> <!-- text-muted = testo grigio; flex-grow-1 = riepie lo spazio disponibile per spingere il bottone in basso in modo che siano tutti allineati-->
+                        </p>
                         
                         <div class="mt-3">
-                            <a href="${protagonisti[i].cognome.toLowerCase()}.html" class="btn btn-dark w-100"><i class="bi bi-file-person me-2"></i>Scheda dettagliata</a>
+                            <a href="${linkPagina}" class="btn btn-dark w-100 ${attributoDisabilitato}" ${attributoDisabilitato}"><i class="bi bi-file-person me-2"></i>Scheda dettagliata</a>
                         </div>
                     </div>
                 </div>
@@ -112,6 +122,10 @@ function creaMenuFiltri() {
 }
 
 function applicaFiltro() {
+
+    aggiornaTagFiltri(".sceltaruolo", "filtri-attivi");
+
+
     // variabile che recupera i checkbox selezionati
     let checkboxSelezionati = document.querySelectorAll(".sceltaruolo:checked");
     //arraty che chiamo ruoliSelezionati e che lascio vuoto perchè sarà riempito dal codice che segue
@@ -159,7 +173,7 @@ function resetFiltri() {
     }
 
     // richiamo la funzione
-    mostraProtagonisti(protagonisti);
+    applicaFiltro();
 }
 
 // dico al bottone Reset di ascoltare il click e applicare quello che ho definito nella funzione resetFiltri

@@ -164,6 +164,9 @@ function creaFiltroProtagonisti() {
     const filtroP = document.getElementById("filtro-protagonista");
     let htmlProtagonisti = "";
 
+    // Lista degli id consentiti per i protagonisti principali
+    const idCliccabili = ["PB", "NG", "JBM", "AOQ", "PR", "FW"];
+
     // lista in ordine alfabetico dei protagonisti 
     let listaOrdinata = [];
     for (let i = 0; i < tuttiIProtagonisti.length; i++){
@@ -179,12 +182,20 @@ function creaFiltroProtagonisti() {
 
     for (let i = 0; i < listaOrdinata.length; i++){
         let p = listaOrdinata[i];
+
+        // solo id cliccabili
+        let attivo = idCliccabili.includes(p.id);
+
+        // se non è attivo, checkbox disabilitato e testo sbiadito
+        let disabilitato = attivo ? "" : "disabled";
+        let stileTesto = attivo ? "" : "text-muted opacity-50";
+
         // prende solo chi ha ruolo_card = protagonista (uguale e dello stesso tipo)
         if (p.ruolo_card === "protagonista") {
             htmlProtagonisti += `
                 <li>
-                    <label class="filter-item">
-                        <input type="checkbox" class="form-check-input scelta-p-map" value="${p.id}"> 
+                    <label class="filter-item ${stileTesto}" ${attivo ? '' : 'style="cursor: not-allowed;"'}">
+                        <input type="checkbox" class="form-check-input scelta-p-map" value="${p.id}" ${disabilitato}> 
                         ${p.nome} ${p.cognome}
                     </label>
                 </li>`;
@@ -249,6 +260,8 @@ function applicaFiltri() {
         tipologieSelezionate.push(checkT[j].value); 
     }
 
+    aggiornaTagFiltri(".scelta-p-map, .scelta-t-map", "filtri-attivi");
+
     // se la lunghezza dei checkbox selezionati è uguale e dello stesso tipo di 0 -> non è stato selezionato niente
     if (protagonistiSelezionati.length === 0 && tipologieSelezionate.length === 0) {
         disegnaMappa(tuttiILuoghi);
@@ -305,8 +318,7 @@ function resetFiltri() {
         tuttiICheckbox[i].checked = false;
     }
 
-    // richiamo la funzione disegnaMappa passandogli tutti i luoghi
-    disegnaMappa(tuttiILuoghi);
+    applicaFiltri(); 
 }
 
 // dico al bottone Reset di ascoltare il click e applicare quello che ho definito nella funzione resetFiltri

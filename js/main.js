@@ -36,6 +36,7 @@ async function caricaComponenti() {
     //l'argomento (paginaAttuale) è il risultato del calcolo che avevo fatto nella variabile precedente 
     //lo inserisco nel richiamo della funzione in modo che abbia le info che gli servono
     //il parametro (pagina) invece è un'etichetta, un segnaposto che sarà poi occupato dal risultato del calcolo che gli chiedo di fare quando la funzione viene eseguita
+
 }
 
 //dichiaro la funzione che gestisce i breadcrumbs
@@ -48,7 +49,7 @@ function generaBreadcrumbs(pagina, persone) {
     const nomiPagine = {
         "index.html": "Home",
         "protagonisti.html": "Protagonisti",
-        "mappa.html": "Mappa interattiva",
+        "mappa.html": "Mappa",
         "tempo.html": "Linea del tempo",
         "network.html": "Network"
     };
@@ -142,3 +143,51 @@ function gestisciLinkAttivo(pagina) {
 
 // richiamo la funzione
 caricaComponenti();
+
+// Funzione per i filtri di tutte le visualizzazioni -> quindi main
+function aggiornaTagFiltri(selettoreBase, idContenitore) {
+    const contenitore = document.getElementById(idContenitore);
+    if (!contenitore) return;
+
+    contenitore.innerHTML = "";
+
+    const classi = selettoreBase.split(',');
+    let selettoreChecked = "";
+    for (let i = 0; i < classi.length; i++) {
+        selettoreChecked += classi[i].trim() + ":checked";
+        if (i < classi.length - 1) {
+            selettoreChecked += ", ";
+        }
+    }
+
+    const selezionati = document.querySelectorAll(selettoreChecked);
+
+    for (let i = 0; i < selezionati.length; i++) {
+        const checkboxCorrente = selezionati[i];
+        const etichetta = checkboxCorrente.closest('label').innerText.trim();
+        
+        const tag = document.createElement("span");
+        tag.className = "badge-filtro";
+
+        
+        tag.innerHTML = etichetta + ' <i class="bi bi-x-circle-fill" onclick="rimuoviFiltroSingolo(\'' + checkboxCorrente.value + '\', \'' + selettoreBase + '\')"></i>';
+        
+        contenitore.appendChild(tag);
+    }
+}
+
+
+// Funzione per deselezionare il filtro quando si clicca sulla X del tag
+function rimuoviFiltroSingolo(valoreId, selettoreBase) {
+    const listaCheckbox = document.querySelectorAll(selettoreBase);
+    
+    for (let j = 0; j < listaCheckbox.length; j++) {
+        if (listaCheckbox[j].value === valoreId) {
+            listaCheckbox[j].checked = false;
+
+            const evento = new Event('change');
+            listaCheckbox[j].dispatchEvent(evento);
+        }
+    }
+}
+
